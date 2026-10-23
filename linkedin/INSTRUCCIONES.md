@@ -22,6 +22,8 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
 - Mezcla semanal orientativa: 5 o 6 infografías, 2 o 3 textos técnicos, 2 debates.
 - Antes de cargar, revisar la cola (`list_posts` con status `scheduled`). Si quedan posts de la
   semana siguiente ya programados, completar solo los huecos y no pasar de 10.
+- **Si la semana siguiente ya tiene sus 10 posts programados, no armar nada:** terminar con un
+  resumen de una línea ("La semana del … ya estaba completa") y no adelantar la semana posterior.
 
 ## 3. Público, tono y lenguaje
 
