@@ -1,58 +1,57 @@
 import os, sys
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from piezas_semana_2026_10_26 import *  # helpers + paleta de Pana
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from PIL import Image, ImageDraw
+from pana_style import font, logo, tight, tracked, W, H, M, AMARILLO, BLANCO
 
+FOTO = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "fotos", "frente_apliques_noche.png")
+OUT = "pana_quienes_somos.jpg"
 
-def quienes():
-    img, d = canvas(NEGRO)
-    lg = logo("amarillo", 300)
-    img.paste(lg, (M, 80), lg)
-    tracked(d, (W - M, 112), "QUIÉNES SOMOS", font(20, 500), GRIS_CLARO, 0.22, anchor="right")
+# Foto a sangre, 1080 x 1350
+ph = Image.open(FOTO).convert("RGB")
+scale = max(W / ph.width, H / ph.height)
+ph = ph.resize((round(ph.width * scale), round(ph.height * scale)), Image.LANCZOS)
+x0 = (ph.width - W) // 2
+ph = ph.crop((x0, 0, x0 + W, H))
 
-    y = title(d, 250, ["Especialistas en", "iluminación LED."], BLANCO, 72)
-    d.rectangle([M, y + 18, M + 70, y + 22], fill=AMARILLO)
-    para(d, (M, y + 44), "Acompañamos proyectos de vivienda, comercio, obra y alumbrado público, desde la consulta hasta la entrega.",
-         font(27, 400), GRIS_CLARO, W - 2 * M, 1.35)
+# Velos: arriba para el logo, abajo para el texto
+veil = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+vd = ImageDraw.Draw(veil)
+for y in range(H):
+    a = 0
+    if y < 300:
+        a = int(140 * (1 - y / 300) ** 1.6)
+    if y > 560:
+        t = (y - 560) / (H - 560)
+        a = max(a, int(242 * min(1, t ** 1.15 * 1.25)))
+    vd.line([(0, y), (W, y)], fill=(10, 10, 10, a))
+img = Image.alpha_composite(ph.convert("RGBA"), veil)
+d = ImageDraw.Draw(img)
 
-    # Qué hacemos / Para quién
-    sy = y + 170
-    colw = (W - 2 * M - 40) // 2
-    blocks = [
-        ("QUÉ HACEMOS", ["Venta minorista y mayorista", "Cotizaciones para obras y proyectos",
-                         "Asesoramiento técnico", "Envíos a todo el país"]),
-        ("PARA QUIÉN", ["Casas de electricidad y distribuidores", "Constructoras y obra",
-                        "Estudios y comercios", "Municipios"]),
-    ]
-    for i, (lab, items) in enumerate(blocks):
-        bx = M + i * (colw + 40)
-        tracked(d, (bx, sy), lab, font(20, 600), AMARILLO, 0.22)
-        yy = sy + 40
-        for it in items:
-            d.line([(bx, yy), (bx + colw, yy)], fill=GRIS_OSC, width=2)
-            yy = para(d, (bx, yy + 14), it, font(24, 500), BLANCO, colw, 1.25) + 12
-        d.line([(bx, yy), (bx + colw, yy)], fill=GRIS_OSC, width=2)
+# Logo
+lg = logo("blanco", 250)
+img.paste(lg, (M, 76), lg)
 
-    # Marcas
-    my = sy + 40 + 4 * 66 + 46
-    d.rectangle([0, my, W, H], fill=HUESO)
-    tracked(d, (M, my + 40), "MARCAS QUE TRABAJAMOS", font(20, 600), (176, 140, 0), 0.22)
-    brands = [("Tenaruz", "Línea LED"), ("TREFI", "Lámparas LED"), ("TBCIN", "Tubos LED T8"),
-              ("Vonderk", "Spots empotrables"), ("MAXILED", "Alumbrado público")]
-    cw = (W - 2 * M) / 5
-    for k, (b, sub) in enumerate(brands):
-        bx = M + k * cw
-        tight(d, (bx, my + 82), b, font(30, 700), NEGRO, -0.02)
-        para(d, (bx, my + 124), sub, font(20, 400), GRIS, cw - 12, 1.25)
+# Puntos del logo como recurso: 8 puntos, el último amarillo
+dy = 872
+for i in range(8):
+    cx = M + 7 + i * 26
+    col = AMARILLO if i == 7 else (255, 255, 255, 150)
+    d.ellipse([cx - 6, dy - 6, cx + 6, dy + 6], fill=col)
 
-    # Destacado + contacto
-    hy = my + 236
-    d.rectangle([M, hy, M + 12, hy + 12], fill=AMARILLO)
-    d.text((M + 26, hy - 8), "Comercios: compra sin mínimo en toda la línea Tenaruz.", font=font(26, 600), fill=NEGRO)
-    d.line([(M, H - 104), (W - M, H - 104)], fill=GRIS_CLARO, width=2)
-    d.text((M, H - 70), "11 6288-3659", font=font(28, 700), fill=NEGRO)
-    tracked(d, (W - M, H - 66), "CONSULTANOS →", font(22, 600), NEGRO, 0.18, anchor="right")
-    save(img, "pana_quienes_somos.png")
+d.text((M, 904), "Especialistas en iluminación LED", font=font(26, 500), fill=AMARILLO)
+hf = font(76, 700)
+tight(d, (M, 948), "Luz bien elegida,", hf, BLANCO, -0.035)
+tight(d, (M, 1032), "obra bien terminada.", hf, BLANCO, -0.035)
+d.text((M, 1140), "Venta minorista y mayorista, cotizaciones para obra", font=font(26, 400), fill=(225, 223, 219))
+d.text((M, 1176), "y envíos a todo el país.", font=font(26, 400), fill=(225, 223, 219))
 
+# Marcas y contacto
+d.line([(M, 1240), (W - M, 1240)], fill=(78, 76, 73), width=1)
+tracked(d, (M, 1270), "TENARUZ  ·  TREFI  ·  TBCIN  ·  VONDERK  ·  MAXILED", font(18, 500),
+        (200, 198, 194), tracking=0.16)
+num = "11 6288-3659"
+nf = font(24, 700)
+d.text((W - M - d.textlength(num, font=nf), 1265), num, font=nf, fill=BLANCO)
 
-if __name__ == "__main__":
-    quienes()
+img.convert("RGB").save(OUT, "JPEG", quality=90, optimize=True, progressive=True)
+print("ok", OUT, os.path.getsize(OUT))

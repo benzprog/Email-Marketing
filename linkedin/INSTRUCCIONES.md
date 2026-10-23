@@ -85,7 +85,20 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
 - **Revisar cada imagen mirándola** (abrir el PNG) antes de subirla: nada superpuesto, nada
   cortado, nada de cuadraditos por caracteres que la tipografía no tiene (✓ ✕ se dibujan a mano).
 - Exportar: `img.quantize(colors=96, method=Image.Quantize.MEDIANCUT, dither=Image.Dither.NONE)`
-  y guardar PNG con `optimize=True` (queda en ~40 KB).
+  y guardar PNG con `optimize=True` (queda en ~40 KB). Las piezas con foto van en JPEG calidad 90.
+
+### Que no parezca hecho por IA (pedido de Nicolás)
+
+Nicolás marcó que una pieza "se sentía muy de IA". Lo que delata eso: listas con rayitas
+divisorias en todas las piezas, etiquetas en mayúsculas espaciadas por todos lados, dos columnas
+iguales, demasiado texto y ninguna imagen. Para que parezca de diseño:
+- Una idea por pieza y poco texto. Si hay que explicar mucho, va en el texto del post.
+- Variar la composición de semana a semana: foto a sangre con frase grande, número gigante,
+  diagrama protagonista, comparación lado a lado. No repetir la misma grilla en todas.
+- Usar las fotos de ambientes de `kit/fotos/` cuando el tema lo permita (siempre con un velo
+  oscuro para que el texto se lea). Ejemplo: `kit/ejemplos/pieza_quienes_somos.py`.
+- Usar los 8 puntos del logo como recurso gráfico (con el último en amarillo) en vez de la raya.
+- Etiquetas en mayúsculas espaciadas: como mucho una por pieza.
 
 ## 8. Paso a paso de cada sábado
 
