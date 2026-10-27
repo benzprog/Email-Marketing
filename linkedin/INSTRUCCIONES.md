@@ -17,8 +17,8 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
 
 ## 2. Calendario
 
-- Lunes a viernes, **2 posts por día: 9:00 y 18:00** (hora de Argentina, `-03:00`).
-- 9:00: infografía (imagen 1080 × 1350). 18:00: texto de valor o debate; a veces otra infografía.
+- Lunes a viernes, **2 posts por día: 8:00 y 15:30** (hora de Argentina, `-03:00`). Horario cambiado por Nicolás el 27/10/2026 (antes 9:00 y 18:00).
+- 8:00: infografía (imagen 1080 × 1350). 15:30: texto de valor o debate; a veces otra infografía.
 - Mezcla semanal orientativa: 5 o 6 infografías, 2 o 3 textos técnicos, 2 debates.
 - Antes de cargar, revisar la cola (`list_posts` con status `scheduled`). Si quedan posts de la
   semana siguiente ya programados, completar solo los huecos y no pasar de 10.
@@ -104,13 +104,13 @@ iguales, demasiado texto y ninguna imagen. Para que parezca de diseño:
 
 1. Leer este archivo y `linkedin/temas.md`.
 2. Revisar la cola de Buffer y calcular las 10 fechas de la semana siguiente (lunes a viernes,
-   9:00 y 18:00).
+   8:00 y 15:30).
 3. Elegir los temas, investigar y verificar los datos.
 4. Escribir los textos y diseñar las infografías con el kit. Revisar cada imagen.
 5. Subir las imágenes al repo: `add_repo benzprog/Email-Marketing` con acceso push, clonar,
    copiar a `linkedin/semana-AAAA-MM-DD/`, commit y push a `main`.
 6. Programar en Buffer con `create_post`: `mode: customScheduled`, `schedulingType: automatic`,
-   `dueAt` como `AAAA-MM-DDT09:00:00-03:00`, y la imagen en `assets` con su `altText`.
+   `dueAt` como `AAAA-MM-DDT08:00:00-03:00` (o `T15:30:00-03:00`), y la imagen en `assets` con su `altText`.
    Confirmar en la respuesta que la imagen figura con `width: 1080` y `height: 1350`.
    Si la imagen no se lee, no programar ese post sin imagen: reintentar o reemplazarlo.
 7. Anotar la semana en `linkedin/temas.md` (fecha, hora, tema, formato, id de Buffer) y hacer push.

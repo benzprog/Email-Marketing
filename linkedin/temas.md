@@ -12,12 +12,12 @@ Sirve para no repetir temas. Cada semana se agrega al final.
 | 2026-10-26 | 18:00 | Debate: tiras LED de 12 V o de 24 V en obra | Debate | 6adb98ff3d5b27036b443508 |
 | 2026-10-27 | 09:00 | Dicroica LED de 12 V que titila: carga mínima del transformador electrónico | Infografía | 6adba85c0b5343d0704613c6 |
 | 2026-10-27 | 18:00 | PstLM y SVM: dos datos que casi nadie pide en la ficha técnica | Infografía | 6adba85d8b3d437ddc7f0d23 |
-| 2026-10-28 | 09:00 | Dimmer y LED: 3 chequeos (dimerizable, tipo de dimmer, carga mínima) | Infografía | 6adba85dbd33ce99c3e61774 |
-| 2026-10-28 | 18:00 | Debate: el error de iluminación que más ven en obra | Debate | 6adb98ff0b5343d070415b06 |
-| 2026-10-29 | 09:00 | Vida útil: qué significa L70 50.000 h (y B50/B10) | Infografía | 6adba870e4be8a4d861e93b9 |
-| 2026-10-29 | 18:00 | Cómo calcular la fuente de una tira LED (ejemplo TZ-FSLIM24-5A) | Texto | 6adb9900e4be8a4d8619dc35 |
-| 2026-10-30 | 09:00 | Ángulo de apertura: 24°, 36° y 60° a 2,5 m | Infografía | 6adba8708b3d437ddc7f15e7 |
-| 2026-10-30 | 18:00 | Debate: tira en buña o perfil, ¿con difusor o sin? | Debate | 6adb99008b3d437ddc7a8033 |
+| 2026-10-28 | 08:00 | Dimmer y LED: 3 chequeos (dimerizable, tipo de dimmer, carga mínima) | Infografía | 6adba85dbd33ce99c3e61774 |
+| 2026-10-28 | 15:30 | Debate: el error de iluminación que más ven en obra | Debate | 6adb98ff0b5343d070415b06 |
+| 2026-10-29 | 08:00 | Vida útil: qué significa L70 50.000 h (y B50/B10) | Infografía | 6adba870e4be8a4d861e93b9 |
+| 2026-10-29 | 15:30 | Cómo calcular la fuente de una tira LED (ejemplo TZ-FSLIM24-5A) | Texto | 6adb9900e4be8a4d8619dc35 |
+| 2026-10-30 | 08:00 | Ángulo de apertura: 24°, 36° y 60° a 2,5 m | Infografía | 6adba8708b3d437ddc7f15e7 |
+| 2026-10-30 | 15:30 | Debate: tira en buña o perfil, ¿con difusor o sin? | Debate | 6adb99008b3d437ddc7a8033 |
 
 ## Pendiente de la semana del 26/10
 
