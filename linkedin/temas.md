@@ -18,28 +18,36 @@ Sirve para no repetir temas. Cada semana se agrega al final.
 | 2026-10-29 | 15:30 | Cómo calcular la fuente de una tira LED (ejemplo TZ-FSLIM24-5A) | Texto | 6adb9900e4be8a4d8619dc35 |
 | 2026-10-30 | 08:00 | Ángulo de apertura: 24°, 36° y 60° a 2,5 m | Infografía | 6adba8708b3d437ddc7f15e7 |
 | 2026-10-30 | 15:30 | Debate: tira en buña o perfil, ¿con difusor o sin? | Debate | 6adb99008b3d437ddc7a8033 |
+| 2026-11-02 | 08:00 | Sección del cable entre fuente y tira: caída de tensión a 12 V y 24 V | Infografía | 6ae5e4c6b84259308bd8d7c8 |
+| 2026-11-02 | 15:30 | Fuente de tensión constante vs. corriente constante | Texto | 6ae5e4d0b84259308bd8d98a |
+| 2026-11-03 | 08:00 | Consistencia de color: pasos MacAdam (SDCM) | Infografía | 6ae5e4daa114574349a67d9b |
+| 2026-11-03 | 15:30 | Debate: quién define la iluminación en una obra chica | Debate | 6ae5e4e7406ab8a018bb6bbe |
+| 2026-11-04 | 08:00 | Eficacia en lm/W y clases de la etiqueta UE 2019/2015 | Infografía | 6ae5e4e8b84259308bd8de6d |
+| 2026-11-04 | 15:30 | Tubos LED T8: con balasto, directo a red o con fuente externa | Texto | 6ae5e4f8ceb491e585f9066b |
+| 2026-11-05 | 08:00 | Método de los lúmenes: cuántas luminarias lleva una oficina | Infografía | 6ae5e4f9406ab8a018bb73f6 |
+| 2026-11-05 | 15:30 | Debate: dónde dejar la fuente de la tira LED en un cielorraso de durlock | Debate | 6ae5e505eaa24d6f9a76006f |
+| 2026-11-06 | 08:00 | Luz de acento: relación de contraste 10:1 (foto) | Infografía | 6ae5e506ceb491e585f91235 |
+| 2026-11-06 | 15:30 | Checklist para casas de electricidad + compra sin mínimo en Tenaruz | Texto | 6ae5e510b84259308bd8e6c5 |
 
 ## Pendiente de la semana del 26/10
 
 - El debate del miércoles 28 promete desarrollar "el error que más se repita" en un próximo post.
   Si Nicolás comparte qué comentaron, armarlo en la semana siguiente.
 
+## Notas de la semana del 02/11
+
+- Factor de potencia verificado (Reglamento UE 2019/2020: sin exigencia hasta 5 W; 0,5 hasta 10 W; 0,7 hasta 25 W; 0,9 por encima), pero falta confirmar si y cómo penalizan las distribuidoras argentinas a comercios: no se usó.
+- Para góndolas y vidrieras se puede retomar el contraste (ya publicado 10:1 en vivienda) con foco en comercio, sin repetir la escala.
+
 ## Banco de ideas (no publicadas todavía)
 
 Verificar cada dato antes de usarla.
 
-- Eficacia en lm/W: por qué comparar lámparas por lúmenes y no por watts.
 - Factor de potencia en LED: qué es y por qué importa en comercios e industria.
 - Deslumbramiento (UGR) en oficinas y cómo elegir luminarias que no encandilen.
-- Cálculo rápido de cuántas luminarias necesita un local (método de lúmenes).
 - Niveles de iluminación recomendados por tarea (en Argentina, la referencia es la Ley 19.587 y su Decreto 351/79: verificar valores).
-- Consistencia de color entre lámparas del mismo pedido (pasos MacAdam / SDCM).
-- Tubos LED T8: tipos de conexión (con balasto o directo a red) y qué revisar antes de cambiar.
-- Fuente de tensión constante vs. corriente constante: cuál lleva cada producto.
 - Tiras LED y calor: por qué el perfil de aluminio alarga la vida útil.
 - G9 y apliques cerrados: temperatura dentro del artefacto.
 - Spots empotrables: altura de embutido y corte del cielorraso antes de comprar.
 - Alumbrado público: qué mirar en un recambio a LED municipal (óptica, uniformidad, IP, protección contra sobretensiones). Necesita fichas de MAXILED para la parte de producto.
 - Iluminación de góndolas y vidrieras: contraste entre luz general y de acento.
-- Luz general vs. luz de acento en vivienda: cómo combinarlas sin que encandile.
-- Checklist para casas de electricidad: qué preguntarle al cliente antes de venderle una lámpara.
