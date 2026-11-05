@@ -13,6 +13,12 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   (fecha del lunes). Buffer toma cada imagen desde
   `https://raw.githubusercontent.com/benzprog/Email-Marketing/main/linkedin/<carpeta>/<archivo>.png`.
   El conector de Google Drive NO sirve para subir imágenes (son demasiado grandes para pasarlas por el conector).
+- **Fotos reales de obras de clientes:** carpeta de Google Drive de Nicolás
+  `14dcXGVUDvBmxAv_H66VJiVuu7jEBM7FL` (se lista con `search_files` y `parentId`, y se baja con
+  `download_file_content`). Antes de publicar una: **tapar números de casa, apellidos, patentes y
+  caras de particulares**, no inventar qué productos se usaron (describir solo lo que se ve) y
+  guardar la pieza en `linkedin/obras/`. Anotar en `temas.md` qué fotos ya se usaron.
+  Usadas: "Casa cliente de noche" (5/11/2026).
 - **Kit visual:** `linkedin/kit/` (pana_style.py, logos, tipografía Archivo, piezas de ejemplo).
 
 ## 2. Calendario

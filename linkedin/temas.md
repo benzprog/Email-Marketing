@@ -25,7 +25,7 @@ Sirve para no repetir temas. Cada semana se agrega al final.
 | 2026-11-04 | 08:00 | Eficacia en lm/W y clases de la etiqueta UE 2019/2015 | Infografía | 6ae5e4e8b84259308bd8de6d |
 | 2026-11-04 | 15:30 | Tubos LED T8: con balasto, directo a red o con fuente externa | Texto | 6ae5e4f8ceb491e585f9066b |
 | 2026-11-05 | 08:00 | Método de los lúmenes: cuántas luminarias lleva una oficina | Infografía | 6ae5e4f9406ab8a018bb73f6 |
-| 2026-11-05 | 15:30 | Debate: dónde dejar la fuente de la tira LED en un cielorraso de durlock | Debate | 6ae5e505eaa24d6f9a76006f |
+| 2026-11-05 | 15:30 | Obra de cliente: casa de noche, entrada con apliques de luz indirecta (foto real del Drive) | Foto | 6aec978dbd4c535e5159ef6e |
 | 2026-11-06 | 08:00 | Luz de acento: relación de contraste 10:1 (foto) | Infografía | 6ae5e506ceb491e585f91235 |
 | 2026-11-06 | 15:30 | Checklist para casas de electricidad + compra sin mínimo en Tenaruz | Texto | 6ae5e510b84259308bd8e6c5 |
 
@@ -90,6 +90,9 @@ o de seguidores nuevos: averiguar con Nicolás); con dos posts por día casi tod
 - Para góndolas y vidrieras se puede retomar el contraste (ya publicado 10:1 en vivienda) con foco en comercio, sin repetir la escala.
 
 ## Banco de ideas (no publicadas todavía)
+
+- Debate: dónde dejar la fuente de la tira LED en un cielorraso de durlock. Quedó como borrador en
+  Buffer (id 6ae5e505eaa24d6f9a76006f) el 5/11 para darle lugar a la foto de obra; se puede reprogramar.
 
 Verificar cada dato antes de usarla.
 
