@@ -29,6 +29,56 @@ Sirve para no repetir temas. Cada semana se agrega al final.
 | 2026-11-06 | 08:00 | Luz de acento: relación de contraste 10:1 (foto) | Infografía | 6ae5e506ceb491e585f91235 |
 | 2026-11-06 | 15:30 | Checklist para casas de electricidad + compra sin mínimo en Tenaruz | Texto | 6ae5e510b84259308bd8e6c5 |
 
+## Resultados (métricas de Buffer)
+
+Datos al 4/11/2026. Los posts de los últimos dos días todavía suman impresiones.
+
+| Fecha | Post | Formato | Impresiones | Alcance | Reacciones | Compartidos |
+|---|---|---|---|---|---|---|
+| 2026-08-31 | Qué hacemos (presentación) | Texto | 33 | 11 | 0 | 0 |
+| 2026-09-04 | Aviso a clientes por fletes | Texto | 52 | 23 | 0 | 0 |
+| 2026-10-11 | Depósito: detrás de cada entrega (foto real) | Foto | 91 | 43 | 1 | 2 |
+| 2026-10-23 | Luz cálida, neutra o fría | Texto | 16 | 7 | 0 | 0 |
+| 2026-10-23 | IRC y R9 | Infografía | 10 | 2 | 0 | 0 |
+| 2026-10-26 | Código IP | Infografía | 6 | 2 | 0 | 0 |
+| 2026-10-26 | Debate 12 V o 24 V | Debate | 5 | 2 | 0 | 0 |
+| 2026-10-27 | Dicroica 12 V que titila | Infografía | 7 | 2 | 0 | 0 |
+| 2026-10-27 | PstLM y SVM | Infografía | 7 | 2 | 0 | 0 |
+| 2026-10-28 | Dimmer y LED | Infografía | 8 | 2 | 0 | 0 |
+| 2026-10-28 | Debate: error más visto en obra | Debate | 2 | 1 | 0 | 0 |
+| 2026-10-29 | L70 / B50 | Infografía | 3 | 2 | 0 | 0 |
+| 2026-10-29 | Cálculo de fuente para tira | Texto | 2 | 1 | 0 | 0 |
+| 2026-10-30 | Ángulo de apertura | Infografía | 7 | 1 | 0 | 0 |
+| 2026-10-30 | Debate: buña o perfil | Debate | 6 | 1 | 0 | 0 |
+| 2026-11-02 | Caída de tensión en el cable | Infografía | 62 | 52 | 0 | 0 |
+| 2026-11-02 | Tensión constante vs. corriente constante | Texto | 104 | 78 | 0 | 0 |
+| 2026-11-03 | Pasos MacAdam | Infografía | 10 | 6 | 0 | 0 |
+| 2026-11-03 | Debate: quién define la iluminación | Debate | 10 | 9 | 0 | 0 |
+
+Lectura al 5/11: los números son muy chicos para comparar formatos. Lo que se ve: la foto real del
+depósito es lo único que tuvo interacción (1 reacción, 2 compartidos); el lunes 2/11 los dos posts
+llegaron a 50–80 personas, contra 1–2 de la semana anterior (posible efecto de alguien que compartió
+o de seguidores nuevos: averiguar con Nicolás); con dos posts por día casi todos quedaron en 1–2 personas.
+
+### Qué dicen los estudios (consultado el 5/11/2026)
+
+- Formatos en páginas de empresa, tasa de interacción: documento/carrusel PDF 7,0 %, varias imágenes
+  6,45 %, video 6,0 %, una imagen 5,3 %, texto 4,5 %, encuesta 4,2 %, link 3,25 %. En páginas de 1000 a
+  5000 seguidores, el carrusel también es el que más impresiones junta.
+  https://www.socialinsider.io/blog/linkedin-study/
+- Frecuencia: posts a menos de 12 h de distancia rinden ~17 % menos; para páginas, 3 a 5 por semana.
+  https://www.tryordinal.com/blog/linkedin-posting-frequency · https://authoredup.com/blog/how-often-to-post-on-linkedin
+- Horario: martes a jueves, franja de 9 a 12 (Metricool 2026) y de 11 a 17 (Sprout 2026).
+  https://metricool.com/es/mejor-hora-para-publicar-en-linkedin/ · https://sproutsocial.com/insights/best-times-to-post-on-linkedin/
+- Tiempo de lectura: LinkedIn mide cuánto tiempo queda el post en pantalla y baja los que se pasan de
+  largo. https://engineering.linkedin.com/blog/2020/understanding-feed-dwell-time
+- Guardados: los documentos tienen más del doble de guardados que el promedio, y lo que enseña o
+  desarma un tema es lo que más se guarda. https://authoredup.com/newsletter/uplogic-issue-2-saved-not-seen
+- Links en el cuerpo: pierden ~25 a 40 % de alcance en páginas. https://www.tryordinal.com/blog/linkedin-link-penalty-study
+- Comentarios de varias personas en la primera hora y que los empleados compartan el post son lo que
+  más empuja una página (datos de Richard van der Blom 2025, citados por terceros).
+  https://business.linkedin.com/marketing-solutions/company-pages/best-practices
+
 ## Pendiente de la semana del 26/10
 
 - El debate del miércoles 28 promete desarrollar "el error que más se repita" en un próximo post.
