@@ -19,7 +19,13 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   caras de particulares**, no inventar qué productos se usaron (describir solo lo que se ve) y
   guardar la pieza en `linkedin/obras/`. Anotar en `temas.md` qué fotos ya se usaron.
   Usadas: "Casa cliente de noche" (5/11/2026).
-- **Kit visual:** `linkedin/kit/` (pana_style.py, logos, tipografía Archivo, piezas de ejemplo).
+- **Fotos de productos Tenaruz:** carpeta de Google Drive de Nicolás `1ftdxxme5BlmFje06BQVHOMcohV5OSUS4`
+  (subcarpetas "Lamparas Led", "Fuentes Switching TZ", "Apliques y Estacas", "Proyectos Clientes").
+  Las ya recortadas y listas para usar están en `linkedin/kit/productos/` (GU10 7 W, MR16 5 W en
+  tarjeta blanca, fuente TZ-FSLIM24-5A). Si se usa un producto nuevo, bajar la foto del Drive,
+  recortarla (fondo transparente, o tarjeta blanca si el fondo es blanco y el producto también) y
+  sumarla a `kit/productos/`. No usar fotos de menos de 1000 px.
+- **Kit visual:** `linkedin/kit/` (`html_kit.py`, logos, tipografía Archivo, fotos y piezas de ejemplo).
 
 ## 2. Calendario
 
@@ -95,10 +101,21 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
 
 ## 7. Diseño de las infografías
 
+### Cómo se arman (kit HTML, máxima calidad)
+
+- **Desde el 5/11/2026 todas las piezas se arman con `kit/html_kit.py`.** Cada lámina es HTML de
+  1080 × 1350 y Chromium la imprime a PDF con el **texto vectorial** (nítido a cualquier zoom; con el
+  kit viejo de PIL el texto se veía "mordido"). También saca cada lámina en PNG a 2160 × 2700 y la
+  portada en JPG. Ejemplo completo: `kit/ejemplos/carrusel_margenes_tenaruz.py`.
+- `pana_style.py` y `carrusel.py` quedan solo como referencia de las piezas viejas: no usarlos.
+- Tipografía Archivo en pesos fijos (`kit/fonts/Archivo-400.ttf` a `Archivo-800.ttf`); no usar la
+  variable, porque Chrome la embebe como Type 3 y algunos visores la muestran mal.
+- Revisar el resultado mirando el PDF (por ejemplo `pdftoppm -r 72`) y un recorte ampliado a 300 ppp.
+
 ### Carruseles PDF (formato principal)
 
-- Láminas de 1080 × 1350 armadas con `kit/pana_style.py` y exportadas con `kit/carrusel.py`
-  (`exportar([láminas], "semana-AAAA-MM-DD/01_tema.pdf")`), que además guarda la portada en JPG.
+- `render([láminas], "semana-AAAA-MM-DD/01_tema")` genera `01_tema.pdf`, los PNG y `01_tema_portada.jpg`.
+  Subir al repo solo el PDF y la portada.
 - 6 a 9 láminas, **una idea por lámina** y letra grande (se leen en el celular).
   · Lámina 1: el gancho, una frase grande y una imagen o número. Tiene que dar ganas de deslizar.
   · Láminas del medio: un paso, un dato o un error por lámina. Numeradas ("2/7") en una esquina.
@@ -114,17 +131,15 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
 
 ### Infografías de una imagen
 
-- 1080 × 1350 px. Usar `kit/pana_style.py` (paleta, Archivo, logo, helpers) y copiar el estilo de
-  `kit/ejemplos/`: logo arriba a la izquierda, etiqueta en mayúsculas espaciadas arriba a la
-  derecha, antetítulo, título de 64–72 px, raya amarilla, contenido, pie con "Pana Iluminación" y
+- Misma lámina de `html_kit.py`, subida como el PNG de 2160 × 2700 (formato 4:5, doble resolución).
+- Estilo: logo arriba a la izquierda, número o etiqueta arriba a la derecha, antetítulo, título de
+  64–72 px, los 8 puntos del logo como recurso, contenido, pie con "Pana Iluminación" y
   "CONSULTANOS →".
 - Alternar fondo hueso y fondo negro. Amarillo solo como acento.
-- Colores planos (sin degradés grandes): después se comprime a 96 colores.
 - Gráficos y diagramas a escala real (si hay números, la ilustración tiene que respetarlos).
-- **Revisar cada imagen mirándola** (abrir el PNG) antes de subirla: nada superpuesto, nada
-  cortado, nada de cuadraditos por caracteres que la tipografía no tiene (✓ ✕ se dibujan a mano).
-- Exportar: `img.quantize(colors=96, method=Image.Quantize.MEDIANCUT, dither=Image.Dither.NONE)`
-  y guardar PNG con `optimize=True` (queda en ~40 KB). Las piezas con foto van en JPEG calidad 90.
+- **Revisar cada imagen mirándola** antes de subirla: nada superpuesto, nada cortado.
+- Productos: usar las fotos de `kit/productos/` (ver sección 1). Ambientes: `kit/fotos/` con un velo
+  oscuro para que el texto se lea.
 
 ### Que no parezca hecho por IA (pedido de Nicolás)
 
@@ -170,8 +185,8 @@ Lo que dicen los estudios (resumen del 5/11/2026, ver detalle en `temas.md`):
    copiar a `linkedin/semana-AAAA-MM-DD/`, commit y push a `main`.
 6. Programar en Buffer con `create_post`: `mode: customScheduled`, `schedulingType: automatic`,
    `dueAt` como `AAAA-MM-DDT11:00:00-03:00`, y la imagen en `assets` con su `altText` (o el carrusel
-   como `document`, ver sección 7). Confirmar en la respuesta que la imagen figura con `width: 1080`
-   y `height: 1350`, o que el carrusel figura como `carousel` con `application/pdf`.
+   como `document`, ver sección 7). Confirmar en la respuesta que la imagen figura en formato 4:5
+   (`width: 2160` y `height: 2700`, o 1080 × 1350 en piezas viejas), o que el carrusel figura como `carousel` con `application/pdf`.
    Si la imagen no se lee, no programar ese post sin imagen: reintentar o reemplazarlo.
 7. Anotar la semana en `linkedin/temas.md` (fecha, hora, tema, formato, id de Buffer) y hacer push.
 8. Terminar con un resumen corto: tabla de la semana (día, hora, tema, formato), qué rindió mejor la
