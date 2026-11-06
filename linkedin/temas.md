@@ -27,7 +27,7 @@ Sirve para no repetir temas. Cada semana se agrega al final.
 | 2026-11-05 | 08:00 | Método de los lúmenes: cuántas luminarias lleva una oficina | Infografía | 6ae5e4f9406ab8a018bb73f6 |
 | 2026-11-05 | 15:30 | Obra de cliente: casa de noche, entrada con apliques de luz indirecta (foto real del Drive) | Foto | 6aec978dbd4c535e5159ef6e |
 | 2026-11-06 | 08:00 | Luz de acento: relación de contraste 10:1 (foto) | Infografía | 6ae5e506ceb491e585f91235 |
-| 2026-11-06 | 15:30 | Checklist para casas de electricidad + compra sin mínimo en Tenaruz | Texto | 6ae5e510b84259308bd8e6c5 |
+| 2026-11-06 | 15:30 | Checklist para casas de electricidad + stock Tenaruz y palabra LINKEDIN (editado el 6/11: se sacó "sin mínimo") | Texto | 6ae5e510b84259308bd8e6c5 |
 
 ## Rotación de productos Tenaruz
 
