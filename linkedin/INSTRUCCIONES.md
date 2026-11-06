@@ -25,6 +25,16 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   tarjeta blanca, fuente TZ-FSLIM24-5A). Si se usa un producto nuevo, bajar la foto del Drive,
   recortarla (fondo transparente, o tarjeta blanca si el fondo es blanco y el producto también) y
   sumarla a `kit/productos/`. No usar fotos de menos de 1000 px.
+- **Carpetas autorizadas por Nicolás (6/11/2026):** "Fotos TENARUZ" con todas sus subcarpetas (Lamparas
+  Led, Fuentes Switching TZ, Apliques y Estacas, Catalogo Tenaruz Diseño, Proyectos Clientes) y
+  "Proyectos clientes" (`14dcXGVUDvBmxAv_H66VJiVuu7jEBM7FL`). Los clientes van siempre como "obra de un
+  cliente" hasta que Nicolás autorice nombrar alguno.
+- **Nunca usar** las planillas internas que se ven en el Drive (saldos de clientes, costos de envíos,
+  cálculo de publicaciones de Mercado Libre) ni la lista mayorista en el repo.
+- **Fichas técnicas de Tenaruz:** las láminas de "Catalogo Tenaruz Diseño" tienen las especificaciones
+  de cada producto y Nicolás confirmó que son correctas (6/11/2026). Son la fuente de datos para los
+  posts de producto, junto con la descripción y el código de la lista mayorista vigente. Si una lámina
+  y la lista no coinciden, gana la lista y se anota la diferencia en el resumen.
 - **Kit visual:** `linkedin/kit/` (`html_kit.py`, logos, tipografía Archivo, fotos y piezas de ejemplo).
 
 ## 2. Calendario
@@ -65,7 +75,22 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   ángulo de apertura, código IP, cálculo de fuentes, caída de tensión en tiras.
 - Mirar `linkedin/temas.md`: **no repetir** temas ya publicados y tomar ideas del banco de temas.
 - Pilares para variar: educación técnica, producto (solo con datos reales), obra y proyecto,
-  venta a comercios y obra (cotizaciones, compra sin mínimo para minoristas en Tenaruz).
+  venta a comercios y obra (cotizaciones). Ojo: la lista mayorista de Tenaruz dice **venta por bulto
+  cerrado** ("para fraccionar, consultar"); no escribir "sin mínimo" hasta que Nicolás lo aclare.
+
+### Productos Tenaruz (pedido de Nicolás, 6/11/2026)
+
+- **Mostrar con el tiempo todos los productos Tenaruz.** Al menos 1 post de producto por semana, y
+  2 si la semana anterior el de producto rindió igual o mejor que el resto.
+- Formato a criterio: un carrusel de una familia y lo que resuelve (por ejemplo, todas las fuentes
+  switching y cuál va con cada tira), o una sola pieza de un producto puntual.
+- Estructura que funciona: el problema de obra que resuelve → el producto con su foto (de
+  `kit/productos/` o del Drive) → 2 o 3 datos de la ficha que importan → dónde se usa → error común
+  que evita → cierre "Escribinos por WhatsApp al 11 6288-3659 con la palabra LINKEDIN y te mandamos
+  la lista" (la palabra sirve para que Pana cuente cuántas consultas llegan desde LinkedIn).
+- **No publicar precios mayoristas** hasta que Nicolás lo autorice por escrito (el repo es público).
+- Llevar la cuenta en la tabla "Rotación de productos Tenaruz" de `temas.md`: elegir primero las
+  familias que nunca salieron.
 
 ## 5. Exactitud (lo más importante)
 
@@ -173,6 +198,17 @@ Lo que dicen los estudios (resumen del 5/11/2026, ver detalle en `temas.md`):
   ahora fue una foto real del depósito (91 impresiones, 2 compartidos).
 - Los comentarios en la primera hora y que el equipo de Pana comparta el post desde su perfil
   personal multiplican el alcance: una página de empresa sola llega a muy poca gente.
+
+## 8 bis. Lista semanal de prospectos
+
+- Cada sábado, armar una lista de 15 a 20 casas de electricidad, distribuidores o instaladores de
+  **una provincia o zona por semana** (rotar: CABA, GBA norte, GBA sur, GBA oeste, Córdoba, Santa Fe,
+  Mendoza, Tucumán, etc.), sacada solo de datos públicos de la web (sitio propio, Google Maps,
+  página de empresa en LinkedIn). Para cada uno: nombre, ciudad, rubro, web o página de LinkedIn y un
+  primer mensaje sugerido, corto y sin vender (ver la sección "Prospección" del plan comercial).
+- Guardarla como planilla de Google en el Drive de la cuenta ("Prospectos LinkedIn AAAA-MM-DD") con
+  `create_file` y poner el link en el resumen. **No va al repo** (es público).
+- El contacto lo hacen Nicolás o el equipo a mano desde su perfil: la tarea no escribe ni invita a nadie.
 
 ## 9. Paso a paso de cada sábado
 

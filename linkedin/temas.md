@@ -29,6 +29,30 @@ Sirve para no repetir temas. Cada semana se agrega al final.
 | 2026-11-06 | 08:00 | Luz de acento: relación de contraste 10:1 (foto) | Infografía | 6ae5e506ceb491e585f91235 |
 | 2026-11-06 | 15:30 | Checklist para casas de electricidad + compra sin mínimo en Tenaruz | Texto | 6ae5e510b84259308bd8e6c5 |
 
+## Rotación de productos Tenaruz
+
+Familias de la lista mayorista de noviembre de 2026. Marcar la fecha cuando salgan en un post.
+
+| Familia | Productos | Foto / ficha en Drive | Publicado |
+|---|---|---|---|
+| Dicroicas GU10 7 W | 3000/4000/6000 K y 3000 K dimerizable | Sí / Sí | Carrusel de márgenes (pendiente de aprobación) |
+| Minidicroicas MR11 GU10 3 W | 3000 K y 2700 K dimerizable | Sí / Sí | |
+| Dicroicas MR16 12 V | 5 W (3000/4000/6000 K) y 7 W | Sí / Sí | Carrusel de márgenes (pendiente de aprobación) |
+| AR70 y AR111 GU10 | AR70 7 W dimerizable, AR111 15 W (y dimerizable) | Sí / Sí | |
+| PLL 2G11 18 W y PLD G24D 9 W | Reemplazo de compactas en artefactos de embutir | Sí / Sí | |
+| Stick T45 E27 12 W | 6000 K | Sí / Sí | |
+| Bipin G4 12 V | COB 2 W y SMD 4 W, "no flicker" AC/DC | Sí / Sí | |
+| Bipin G9 220 V | COB 3 W y SMD 6 W | Revisar foto / Sí | |
+| Gota E27 y bulbo A60 | Gota 5 W (y dimerizable), A60 12 W dimerizable, A60 12/24 V 9 W | Sí / Sí | |
+| Tubo T5 18 W | Liquidación | Revisar / Sí | |
+| Minispots COB 220 V | Fijo Ø38 y móvil Ø52, blanco y negro | Sí / Sí | |
+| Spot de embutir para minidicroica | Antideslumbrante Ø64 | Sí / Revisar | |
+| Apliques de aluminio GU10 | Curvo y recto, 1 y 2 luces, negro | Sí (con fotos de ambiente) / Sí | |
+| Estacas | Aluminio GU10, para minidicroica, solar | Sí / Sí | |
+| Reflectores 12 V | 10, 30 y 50 W | Sí / Sí | |
+| Spots cabezal y plafones 12 V | Cabezal 2,5–3 W, plafón Ø60, paneles Ø70 y Ø83, minispot 1 W | Sí / Sí | |
+| Fuentes switching slim 12 V y 24 V | De 1 A a 16,6 A | Sí / Sí | Ejemplo de fuente en el post del 29/10 |
+
 ## Resultados (métricas de Buffer)
 
 Datos al 4/11/2026. Los posts de los últimos dos días todavía suman impresiones.
