@@ -138,6 +138,14 @@ todavía no tiene métricas: comparar el sábado 14/11.
   fabricantes de perfiles, sin mediciones independientes. Hace falta una nota de aplicación de un fabricante
   de LED (ams OSRAM, Signify, Nichia) con el límite de temperatura.
 
+## Prospectos (rotación de zonas)
+
+| Fecha | Zona | Planilla en Drive |
+|---|---|---|
+| 2026-11-07 | CABA (20 empresas) | Prospectos LinkedIn 2026-11-07 |
+
+Próxima zona: GBA norte.
+
 ## Banco de ideas (no publicadas todavía)
 
 - Debate: dónde dejar la fuente de la tira LED en un cielorraso de durlock. Quedó como borrador en
