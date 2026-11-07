@@ -18,7 +18,7 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   `download_file_content`). Antes de publicar una: **tapar números de casa, apellidos, patentes y
   caras de particulares**, no inventar qué productos se usaron (describir solo lo que se ve) y
   guardar la pieza en `linkedin/obras/`. Anotar en `temas.md` qué fotos ya se usaron.
-  Usadas: "Casa cliente de noche" (5/11/2026).
+  Usadas: "Casa cliente de noche" (5/11/2026), "AER Av Cordoba" (hall con listones, 12/11/2026).
 - **Fotos de productos Tenaruz:** carpeta de Google Drive de Nicolás `1ftdxxme5BlmFje06BQVHOMcohV5OSUS4`
   (subcarpetas "Lamparas Led", "Fuentes Switching TZ", "Apliques y Estacas", "Proyectos Clientes").
   Las ya recortadas y listas para usar están en `linkedin/kit/productos/` (GU10 7 W, MR16 5 W en

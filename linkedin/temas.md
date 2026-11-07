@@ -28,6 +28,11 @@ Sirve para no repetir temas. Cada semana se agrega al final.
 | 2026-11-05 | 15:30 | Obra de cliente: casa de noche, entrada con apliques de luz indirecta (foto real del Drive) | Foto | 6aec978dbd4c535e5159ef6e |
 | 2026-11-06 | 08:00 | Luz de acento: relación de contraste 10:1 (foto) | Infografía | 6ae5e506ceb491e585f91235 |
 | 2026-11-06 | 15:30 | Checklist para casas de electricidad + stock Tenaruz y palabra LINKEDIN (editado el 6/11: se sacó "sin mínimo") | Texto | 6ae5e510b84259308bd8e6c5 |
+| 2026-11-09 | 11:00 | Corriente de arranque de las fuentes LED: por qué salta la térmica (curvas B y C, ensayos ABB y Mean Well) | Carrusel PDF | 6aef1f66a7751de7c9ea752c |
+| 2026-11-10 | 11:00 | UGR: deslumbramiento molesto, escala 16–28 y valores por tarea (EN 12464-1) | Carrusel PDF | 6aef1f7e229bf05daf4dbc31 |
+| 2026-11-11 | 11:00 | Producto Tenaruz: apliques de exterior curvo y recto GU10 (IP65, clase I, 7 W máx., medidas, bulto) | Carrusel PDF | 6aef1f7fa7751de7c9ea7ce5 |
+| 2026-11-12 | 11:00 | Obra de un cliente: hall con listones de madera y luz rasante (foto real del Drive, "AER Av Cordoba") | Foto | 6aef1f7fa7751de7c9ea7d25 |
+| 2026-11-13 | 11:00 | Código IK (IEC 62262): resistencia a golpes, IK06 a IK10 | Infografía | 6aef1f80229bf05daf4dbcc0 |
 
 ## Rotación de productos Tenaruz
 
@@ -47,7 +52,7 @@ Familias de la lista mayorista de noviembre de 2026. Marcar la fecha cuando salg
 | Tubo T5 18 W | Liquidación | Revisar / Sí | |
 | Minispots COB 220 V | Fijo Ø38 y móvil Ø52, blanco y negro | Sí / Sí | |
 | Spot de embutir para minidicroica | Antideslumbrante Ø64 | Sí / Revisar | |
-| Apliques de aluminio GU10 | Curvo y recto, 1 y 2 luces, negro | Sí (con fotos de ambiente) / Sí | |
+| Apliques de aluminio GU10 | Curvo y recto, 1 y 2 luces, negro | Sí (con fotos de ambiente) / Sí | 2026-11-11 (carrusel: IP65, clase I, 7 W máx., medidas, bulto) |
 | Estacas | Aluminio GU10, para minidicroica, solar | Sí / Sí | |
 | Reflectores 12 V | 10, 30 y 50 W | Sí / Sí | |
 | Spots cabezal y plafones 12 V | Cabezal 2,5–3 W, plafón Ø60, paneles Ø70 y Ø83, minispot 1 W | Sí / Sí | |
@@ -55,34 +60,43 @@ Familias de la lista mayorista de noviembre de 2026. Marcar la fecha cuando salg
 
 ## Resultados (métricas de Buffer)
 
-Datos al 4/11/2026. Los posts de los últimos dos días todavía suman impresiones.
+Datos al 7/11/2026 (Buffer actualiza una vez por día). Los posts de los últimos dos días todavía suman impresiones.
 
-| Fecha | Post | Formato | Impresiones | Alcance | Reacciones | Compartidos |
-|---|---|---|---|---|---|---|
-| 2026-08-31 | Qué hacemos (presentación) | Texto | 33 | 11 | 0 | 0 |
-| 2026-09-04 | Aviso a clientes por fletes | Texto | 52 | 23 | 0 | 0 |
-| 2026-10-11 | Depósito: detrás de cada entrega (foto real) | Foto | 91 | 43 | 1 | 2 |
-| 2026-10-23 | Luz cálida, neutra o fría | Texto | 16 | 7 | 0 | 0 |
-| 2026-10-23 | IRC y R9 | Infografía | 10 | 2 | 0 | 0 |
-| 2026-10-26 | Código IP | Infografía | 6 | 2 | 0 | 0 |
-| 2026-10-26 | Debate 12 V o 24 V | Debate | 5 | 2 | 0 | 0 |
-| 2026-10-27 | Dicroica 12 V que titila | Infografía | 7 | 2 | 0 | 0 |
-| 2026-10-27 | PstLM y SVM | Infografía | 7 | 2 | 0 | 0 |
-| 2026-10-28 | Dimmer y LED | Infografía | 8 | 2 | 0 | 0 |
-| 2026-10-28 | Debate: error más visto en obra | Debate | 2 | 1 | 0 | 0 |
-| 2026-10-29 | L70 / B50 | Infografía | 3 | 2 | 0 | 0 |
-| 2026-10-29 | Cálculo de fuente para tira | Texto | 2 | 1 | 0 | 0 |
-| 2026-10-30 | Ángulo de apertura | Infografía | 7 | 1 | 0 | 0 |
-| 2026-10-30 | Debate: buña o perfil | Debate | 6 | 1 | 0 | 0 |
-| 2026-11-02 | Caída de tensión en el cable | Infografía | 62 | 52 | 0 | 0 |
-| 2026-11-02 | Tensión constante vs. corriente constante | Texto | 104 | 78 | 0 | 0 |
-| 2026-11-03 | Pasos MacAdam | Infografía | 10 | 6 | 0 | 0 |
-| 2026-11-03 | Debate: quién define la iluminación | Debate | 10 | 9 | 0 | 0 |
+| Fecha | Post | Formato | Impresiones | Alcance | Reacciones | Comentarios | Compartidos |
+|---|---|---|---|---|---|---|---|
+| 2026-08-31 | Qué hacemos (presentación) | Texto | 33 | 11 | 0 | 0 | 0 |
+| 2026-09-04 | Aviso a clientes por fletes | Texto | 52 | 23 | 0 | 0 | 0 |
+| 2026-10-11 | Depósito: detrás de cada entrega (foto real) | Foto | 103 | 43 | 1 | 0 | 2 |
+| 2026-10-23 | Luz cálida, neutra o fría | Texto | 16 | 7 | 0 | 0 | 0 |
+| 2026-10-23 | IRC y R9 | Infografía | 10 | 2 | 0 | 0 | 0 |
+| 2026-10-26 | Código IP | Infografía | 7 | 2 | 0 | 0 | 0 |
+| 2026-10-26 | Debate 12 V o 24 V | Debate | 8 | 2 | 0 | 0 | 0 |
+| 2026-10-27 | Dicroica 12 V que titila | Infografía | 8 | 2 | 0 | 0 | 0 |
+| 2026-10-27 | PstLM y SVM | Infografía | 9 | 2 | 0 | 0 | 0 |
+| 2026-10-28 | Dimmer y LED | Infografía | 9 | 2 | 0 | 0 | 0 |
+| 2026-10-28 | Debate: error más visto en obra | Debate | 4 | 1 | 0 | 0 | 0 |
+| 2026-10-29 | L70 / B50 | Infografía | 5 | 2 | 0 | 0 | 0 |
+| 2026-10-29 | Cálculo de fuente para tira | Texto | 4 | 1 | 0 | 0 | 0 |
+| 2026-10-30 | Ángulo de apertura | Infografía | 8 | 1 | 0 | 0 | 0 |
+| 2026-10-30 | Debate: buña o perfil | Debate | 9 | 1 | 0 | 0 | 0 |
+| 2026-11-02 | Caída de tensión en el cable | Infografía | 66 | 54 | 0 | 0 | 0 |
+| 2026-11-02 | Tensión constante vs. corriente constante | Texto | 106 | 80 | 0 | 0 | 0 |
+| 2026-11-03 | Pasos MacAdam | Infografía | 11 | 7 | 0 | 0 | 0 |
+| 2026-11-03 | Debate: quién define la iluminación | Debate | 12 | 10 | 0 | 0 | 0 |
+| 2026-11-04 | Eficacia lm/W y etiqueta UE | Infografía | 7 | 1 | 0 | 0 | 0 |
+| 2026-11-04 | Tubos LED T8: tres formas de conectar | Texto | 8 | 1 | 0 | 0 | 0 |
+| 2026-11-05 | Método de los lúmenes | Infografía | 3 | 1 | 0 | 0 | 0 |
+| 2026-11-05 | Obra de cliente: casa de noche | Foto | 12 | 1 | 0 | 0 | 0 |
+| 2026-11-06 | Luz de acento 10:1 (foto) | Infografía | 20 | 1 | 0 | 0 | 0 |
+| 2026-11-06 | Checklist casas de electricidad + Tenaruz | Texto | sin datos | sin datos | | | |
 
-Lectura al 5/11: los números son muy chicos para comparar formatos. Lo que se ve: la foto real del
-depósito es lo único que tuvo interacción (1 reacción, 2 compartidos); el lunes 2/11 los dos posts
-llegaron a 50–80 personas, contra 1–2 de la semana anterior (posible efecto de alguien que compartió
-o de seguidores nuevos: averiguar con Nicolás); con dos posts por día casi todos quedaron en 1–2 personas.
+Lectura al 7/11: la semana del 2/11 tuvo un solo día bueno, el lunes 2/11 (66 y 106 impresiones, 54 y 80
+personas); del martes al viernes casi todos los posts quedaron en 1 persona de alcance. Los dos posts
+del lunes eran de tiras y fuentes (caída de tensión y tensión constante vs. corriente constante): por eso
+la semana del 9/11 arranca el lunes con un tema de fuentes. Entre las piezas con imagen, las fotos
+(acento 10:1 y obra de cliente) juntaron más impresiones que las infografías puras. Sigue sin haber
+reacciones ni comentarios: los números son chicos y hay que mirar tendencia. El post de producto del 6/11
+todavía no tiene métricas: comparar el sábado 14/11.
 
 ### Qué dicen los estudios (consultado el 5/11/2026)
 
@@ -112,6 +126,17 @@ o de seguidores nuevos: averiguar con Nicolás); con dos posts por día casi tod
 
 - Factor de potencia verificado (Reglamento UE 2019/2020: sin exigencia hasta 5 W; 0,5 hasta 10 W; 0,7 hasta 25 W; 0,9 por encima), pero falta confirmar si y cómo penalizan las distribuidoras argentinas a comercios: no se usó.
 - Para góndolas y vidrieras se puede retomar el contraste (ya publicado 10:1 en vivienda) con foco en comercio, sin repetir la escala.
+
+## Notas de la semana del 09/11
+
+- Primera semana con 5 posts a las 11:00 y con carruseles PDF (3). Revisar el lunes 9/11 a la tarde que el
+  carrusel haya quedado `sent` y sin error.
+- Apliques Tenaruz: la ficha dice "Dicroled, no incluida", pero las fotos del Drive se llaman "Completo" y
+  una muestra dos dicroicas al lado del aplique. Se publicó según la ficha (lámpara no incluida); confirmar
+  con Nicolás si se vende también con lámparas.
+- Tiras LED y calor (banco de ideas): se descartó esta semana porque las fuentes encontradas son de
+  fabricantes de perfiles, sin mediciones independientes. Hace falta una nota de aplicación de un fabricante
+  de LED (ams OSRAM, Signify, Nichia) con el límite de temperatura.
 
 ## Banco de ideas (no publicadas todavía)
 
