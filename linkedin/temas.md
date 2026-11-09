@@ -33,6 +33,7 @@ Sirve para no repetir temas. Cada semana se agrega al final.
 | 2026-11-11 | 11:00 | Producto Tenaruz: apliques de exterior curvo y recto GU10 (IP65, clase I, 7 W máx., medidas, bulto) | Carrusel PDF | 6aef1f7fa7751de7c9ea7ce5 |
 | 2026-11-12 | 11:00 | Obra de un cliente: hall con listones de madera y luz rasante (foto real del Drive, "AER Av Cordoba") | Foto | 6aef1f7fa7751de7c9ea7d25 |
 | 2026-11-13 | 11:00 | Código IK (IEC 62262): resistencia a golpes, IK06 a IK10 | Infografía | 6aef1f80229bf05daf4dbcc0 |
+| 2026-11-09 | 17:30 | Video "Acompáñanos al depósito" (stock Tenaruz; pedido de Nicolás de publicar uno el mismo día) | Video | 6af1d25b37d8d906e7c19996 |
 
 ## Rotación de productos Tenaruz
 
@@ -57,6 +58,21 @@ Familias de la lista mayorista de noviembre de 2026. Marcar la fecha cuando salg
 | Reflectores 12 V | 10, 30 y 50 W | Sí / Sí | |
 | Spots cabezal y plafones 12 V | Cabezal 2,5–3 W, plafón Ø60, paneles Ø70 y Ø83, minispot 1 W | Sí / Sí | |
 | Fuentes switching slim 12 V y 24 V | De 1 A a 16,6 A | Sí / Sí | Ejemplo de fuente en el post del 29/10 |
+
+## Videos (carpeta de Drive 1liY7xWxTytcmyQZ-hR2rYvwPTUAtoN6L)
+
+Subidos por el equipo de Pana el 8/11/2026. Ninguno tiene descripción todavía; la tarea no puede verlos.
+
+| Archivo | Id de Drive | Peso | Publicado |
+|---|---|---|---|
+| Acompáñanos al depósito | 1GTdf1VFMfetxJntzYQ2WR0Ep_at7Odia | 37 MB (26 s) | 2026-11-09 17:30 (6af1d25b37d8d906e7c19996) |
+| Depósito2 | 1IFmxo0FrFHRVifGnPtqGEdx27JaGtlPf | 34 MB | |
+| ¿Y todo esto? | 1pkjvvUUcomxq_t618-OCXOcfjmNGq2pP | 34 MB | |
+| Producto nuevo | 1yMGUfEwItT_RqJEyPUIW0wradeeovzmY | 27 MB | |
+| Casa de iluminación | 1y7avuXdjLmr5bO9jss0TLPjBApnj89th | 23 MB | |
+| Pin pong | 120mDSUR_P2FAQQFIz-vnSgpF682rwuQ_ | 35 MB | |
+| Descargas | 1ljy1YtAZI_9cU1DO6DTjzvqm4J3znjEX | 28 MB | |
+| Plantilla | 1dlQxYJQp7F5YEcbW_Q62UTxQEzgRzXFn | 23 MB | |
 
 ## Resultados (métricas de Buffer)
 

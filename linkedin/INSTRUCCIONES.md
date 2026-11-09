@@ -35,6 +35,8 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   de cada producto y Nicolás confirmó que son correctas (6/11/2026). Son la fuente de datos para los
   posts de producto, junto con la descripción y el código de la lista mayorista vigente. Si una lámina
   y la lista no coinciden, gana la lista y se anota la diferencia en el resumen.
+- **Videos de Pana:** carpeta compartida de Google Drive `1liY7xWxTytcmyQZ-hR2rYvwPTUAtoN6L` (la arma el
+  equipo de Pana; acceso de editor desde el 9/11/2026). Ver la sección 7 bis.
 - **Kit visual:** `linkedin/kit/` (`html_kit.py`, logos, tipografía Archivo, fotos y piezas de ejemplo).
 
 ## 2. Calendario
@@ -49,6 +51,8 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   · 1 **foto real de Pana** (depósito, equipo, entregas, obras de clientes) si Nicolás mandó material;
     si no, una infografía de una sola imagen o una pieza con foto del kit.
   · 1 infografía de una imagen o un debate corto.
+  · **1 video por semana** (desde el 9/11/2026) mientras haya videos sin usar en la carpeta de la sección 7 bis.
+    Reemplaza a la foto real o a la infografía de ese día, para seguir en 5 posts por semana.
 - Antes de cargar, revisar la cola (`list_posts` con status `scheduled`). Si quedan posts de la
   semana siguiente ya programados, completar solo los huecos y no pasar de 5.
 - **Si la semana siguiente ya tiene sus 5 posts programados, no armar nada:** terminar con un
@@ -180,6 +184,29 @@ iguales, demasiado texto y ninguna imagen. Para que parezca de diseño:
 - Usar los 8 puntos del logo como recurso gráfico (con el último en amarillo) en vez de la raya.
 - Etiquetas en mayúsculas espaciadas: como mucho una por pieza.
 
+## 7 bis. Videos (pedido de Nicolás, 9/11/2026)
+
+- **De dónde salen:** carpeta de Drive "videos de Pana" `1liY7xWxTytcmyQZ-hR2rYvwPTUAtoN6L`. Se lista con
+  `search_files` y `parentId`. Son videos hechos por el equipo para LinkedIn (.mov de 20 a 40 MB). Se pueden
+  publicar tal cual; no hace falta tapar nada que el equipo haya filmado a propósito.
+- **Cómo se suben a Buffer:** el conector de Drive no baja archivos de más de 10 MB y este entorno no llega a
+  los servidores de descarga de Drive, así que los videos **no pasan por el repo**. Buffer los toma directo
+  del Drive con este link (el archivo tiene que estar compartido como "cualquier persona con el link"):
+  `https://drive.usercontent.google.com/download?id=<ID>&export=download&confirm=t`
+  En `create_post`: `assets: [{video: {url, metadata: {title}}}]`. Confirmar en la respuesta que el asset
+  figura como `video` con `durationMs` mayor que 0; si no, Buffer no pudo leerlo y no se programa.
+- **No mover, renombrar ni borrar** un video de la carpeta hasta que su post figure `sent`: Buffer lo baja al
+  publicar. Después de la hora de publicación, revisar con `get_post` que haya quedado `sent` y sin `error`.
+- **Texto:** como la tarea no puede ver el video, el texto se basa en el nombre del archivo y en datos ya
+  confirmados de Pana; no describir escenas, personas ni productos que no consten. Si el equipo deja en la
+  carpeta un documento con una línea por video (qué se ve y qué producto aparece), usarlo para el texto.
+  Si además deja una copia comprimida de menos de 10 MB, bajarla, mirar algunos cuadros (`ffmpeg`) y recién
+  ahí escribir un texto más preciso.
+- Formato del texto: corto (300 a 700 caracteres), gancho en la primera línea, sin links, 3 hashtags y cierre
+  con la palabra LINKEDIN por WhatsApp cuando haya producto o stock.
+- Llevar la cuenta en la tabla "Videos" de `temas.md` (cuál se usó, fecha e id de Buffer). Elegir primero los
+  que se relacionan con lo que mejor rindió (el depósito fue el mejor post de la página).
+
 ## 8. Medición: qué funciona en la página de Pana
 
 Cada sábado, antes de elegir temas:
@@ -218,6 +245,7 @@ Lo que dicen los estudios (resumen del 5/11/2026, ver detalle en `temas.md`):
    11:00).
 3. Elegir los temas, investigar y verificar los datos.
 4. Escribir los textos y diseñar las infografías con el kit. Revisar cada imagen.
+4 bis. Elegir el video de la semana (sección 7 bis) y armar su texto.
 5. Subir las imágenes al repo: `add_repo benzprog/Email-Marketing` con acceso push, clonar,
    copiar a `linkedin/semana-AAAA-MM-DD/`, commit y push a `main`.
 6. Programar en Buffer con `create_post`: `mode: customScheduled`, `schedulingType: automatic`,
