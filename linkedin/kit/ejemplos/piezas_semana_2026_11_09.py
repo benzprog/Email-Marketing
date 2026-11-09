@@ -223,7 +223,7 @@ def apliques():
         + barra(825, 50 * sc, "#ffffff")
         + '<div class="lbl" style="top:840px;left:850px;color:#ffce1f">No va</div>'
         + '<div class="cota" style="top:910px">Barras a escala.</div>'
-        + '<p class="texto" style="top:990px">Según la ficha, la lámpara no viene incluida: va una dicroica LED GU10 de hasta 7 W.</p>'
+        + '<p class="texto" style="top:990px">Se venden solos o con lámparas, como prefiera el cliente. Va una dicroica LED GU10 de hasta 7 W.</p>'
         + ppie(True), True))
     # medidas a escala: 1 mm = 3,4 px
     k = 3.4

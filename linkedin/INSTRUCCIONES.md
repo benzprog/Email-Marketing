@@ -15,8 +15,8 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   El conector de Google Drive NO sirve para subir imágenes (son demasiado grandes para pasarlas por el conector).
 - **Fotos reales de obras de clientes:** carpeta de Google Drive de Nicolás
   `14dcXGVUDvBmxAv_H66VJiVuu7jEBM7FL` (se lista con `search_files` y `parentId`, y se baja con
-  `download_file_content`). Antes de publicar una: **tapar números de casa, apellidos, patentes y
-  caras de particulares**, no inventar qué productos se usaron (describir solo lo que se ve) y
+  `download_file_content`). Antes de publicar una: **tapar direcciones (calle y altura), apellidos, patentes y
+  caras de particulares** (Nicolás, 9/11/2026: el número de departamento solo, sin dirección, se puede dejar), no inventar qué productos se usaron (describir solo lo que se ve) y
   guardar la pieza en `linkedin/obras/`. Anotar en `temas.md` qué fotos ya se usaron.
   Usadas: "Casa cliente de noche" (5/11/2026), "AER Av Cordoba" (hall con listones, 12/11/2026).
 - **Fotos de productos Tenaruz:** carpeta de Google Drive de Nicolás `1ftdxxme5BlmFje06BQVHOMcohV5OSUS4`
@@ -100,7 +100,8 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
 - **No inventar especificaciones de productos.** Datos confirmados de Pana:
   - Tenaruz: Bipin LED G9 6 W (3000/4000/6000 K); MR16 LED 12 V 5 W; dicroica GU10 dimerizable;
     Stick LED T45 E27; fuentes switching 12 V y 24 V; fuente TZ-FSLIM24-5A (entrada 175–250 V,
-    salida 24 Vcc 5 A); amplificador para tiras DC 5–24 V con salida pico 12 A; estaca de aluminio GU10.
+    salida 24 Vcc 5 A); amplificador para tiras DC 5–24 V con salida pico 12 A; estaca de aluminio GU10; apliques de exterior curvo y recto GU10 (IP65, clase I, hasta 7 W por lámpara),
+    que se venden solos o con lámparas, como prefiera el cliente (Nicolás, 9/11/2026).
   - TREFI (lámparas LED), TBCIN (tubos LED T8), Vonderk (spots empotrables, ej. SCL210 con fuente
     incluida), MAXILED (alumbrado público, líneas Eco 3 Flex y Eco Flex Pro).
   - Contacto de Pana para cierres de venta: 11 6288-3659 (usar con moderación).

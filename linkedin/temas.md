@@ -131,9 +131,10 @@ todavía no tiene métricas: comparar el sábado 14/11.
 
 - Primera semana con 5 posts a las 11:00 y con carruseles PDF (3). Revisar el lunes 9/11 a la tarde que el
   carrusel haya quedado `sent` y sin error.
-- Apliques Tenaruz: la ficha dice "Dicroled, no incluida", pero las fotos del Drive se llaman "Completo" y
-  una muestra dos dicroicas al lado del aplique. Se publicó según la ficha (lámpara no incluida); confirmar
-  con Nicolás si se vende también con lámparas.
+- Apliques Tenaruz: Nicolás confirmó el 9/11 que se venden solos o con lámparas, como quiera el cliente.
+  Se corrigió la lámina 5 y el texto del post del 11/11 (carrusel nuevo: 03_apliques_tenaruz_v2.pdf).
+- Fotos de obra: el número de departamento (sin dirección) se puede mostrar. "AER Julian Alvarez" (palier con
+  jardín, deptos 101 y 104) queda disponible tal cual para una próxima semana.
 - Tiras LED y calor (banco de ideas): se descartó esta semana porque las fuentes encontradas son de
   fabricantes de perfiles, sin mediciones independientes. Hace falta una nota de aplicación de un fabricante
   de LED (ams OSRAM, Signify, Nichia) con el límite de temperatura.
