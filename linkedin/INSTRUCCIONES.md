@@ -25,6 +25,17 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   tarjeta blanca, fuente TZ-FSLIM24-5A). Si se usa un producto nuevo, bajar la foto del Drive,
   recortarla (fondo transparente, o tarjeta blanca si el fondo es blanco y el producto también) y
   sumarla a `kit/productos/`. No usar fotos de menos de 1000 px.
+- **Fotos de producto en sus temperaturas de color (Nicolás, 9/11/2026):** en la raíz de "Fotos TENARUZ" hay
+  fotos de cada lámpara en 3000, 4000 y 6000 K, más fichas nuevas. Ya están copiadas en `kit/productos/`:
+  `TZ-G45E27-5W_3_temperaturas`, `TZ-MR11-3W-DIM_3_temperaturas`, `TZ-G412V-2W_3_temperaturas`,
+  `TZ-APLRECN-2GU10_3000K / 4000K / 6000K` (aplique recto de dos luces con sus dicroicas),
+  `TZ-GU10-7W-4K_caja`, `TZ-GU10-7W-6K_caja`, `TZ-AR-GU10_dimerizable_revisar_modelo` (confirmar si es AR70 o
+  AR111) y las fichas `TZ-GU10-7W-4K_ficha` y `TZ-SPOTFN-COB-3W-3K_ficha`. Sirven para los carruseles de
+  producto y como imagen en los técnicos. Ojo: el tema "luz cálida, neutra o fría" básico sigue prohibido; las
+  fotos de tres temperaturas se usan para mostrar la línea o para temas de nicho (consistencia de color,
+  qué temperatura pide cada uso según una norma, cómo se ve el mismo aplique en cada una), no para explicar
+  qué es cálido o frío. Algunas imágenes del Drive están generadas con IA (nombre "Imagen de ChatGPT"):
+  revisar que el producto y los rótulos coincidan con la ficha antes de usarlas.
 - **Carpetas autorizadas por Nicolás (6/11/2026):** "Fotos TENARUZ" con todas sus subcarpetas (Lamparas
   Led, Fuentes Switching TZ, Apliques y Estacas, Catalogo Tenaruz Diseño, Proyectos Clientes) y
   "Proyectos clientes" (`14dcXGVUDvBmxAv_H66VJiVuu7jEBM7FL`). Los clientes van siempre como "obra de un
@@ -106,6 +117,12 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
     Stick LED T45 E27; fuentes switching 12 V y 24 V; fuente TZ-FSLIM24-5A (entrada 175–250 V,
     salida 24 Vcc 5 A); amplificador para tiras DC 5–24 V con salida pico 12 A; estaca de aluminio GU10; apliques de exterior curvo y recto GU10 (IP65, clase I, hasta 7 W por lámpara),
     que se venden solos o con lámparas, como prefiera el cliente (Nicolás, 9/11/2026).
+  - Dicroica LED GU10 7 W 4000 K (ficha del 9/11/2026): reemplaza halógena de 50 W, 100–240 V, 50/60 Hz,
+    IRC 80, 38°, 25.000 h, LED SMD 2835, trabaja de -20 a +45 °C, Ø 50 × 54 mm, no dimerizable, IP20 (rótulo),
+    garantía 6 meses.
+  - Minispot fijo LED COB redondo negro 3 W 3000 K (TZ-SPOTFN-COB-3W-3K): 250 lm, 32 mA, 220–240 V, clase II,
+    IP20, aluminio, 38°, 30.000 h, Ø 38 × 30 mm, hueco de 28 mm, incluye driver de 4,2 × 2,7 × 1,9 cm,
+    garantía 6 meses.
   - TREFI (lámparas LED), TBCIN (tubos LED T8), Vonderk (spots empotrables, ej. SCL210 con fuente
     incluida), MAXILED (alumbrado público, líneas Eco 3 Flex y Eco Flex Pro).
   - Contacto de Pana para cierres de venta: 11 6288-3659 (usar con moderación).

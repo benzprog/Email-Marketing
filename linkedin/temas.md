@@ -42,16 +42,16 @@ Familias de la lista mayorista de noviembre de 2026. Marcar la fecha cuando salg
 | Familia | Productos | Foto / ficha en Drive | Publicado |
 |---|---|---|---|
 | Dicroicas GU10 7 W | 3000/4000/6000 K y 3000 K dimerizable | Sí / Sí | Carrusel de márgenes (pendiente de aprobación) |
-| Minidicroicas MR11 GU10 3 W | 3000 K y 2700 K dimerizable | Sí / Sí | |
+| Minidicroicas MR11 GU10 3 W | 3000 K y 2700 K dimerizable (foto nueva: 3000/4000/6000 K DIM, confirmar modelos) | Sí, 3 temperaturas / Sí | |
 | Dicroicas MR16 12 V | 5 W (3000/4000/6000 K) y 7 W | Sí / Sí | Carrusel de márgenes (pendiente de aprobación) |
 | AR70 y AR111 GU10 | AR70 7 W dimerizable, AR111 15 W (y dimerizable) | Sí / Sí | |
 | PLL 2G11 18 W y PLD G24D 9 W | Reemplazo de compactas en artefactos de embutir | Sí / Sí | |
 | Stick T45 E27 12 W | 6000 K | Sí / Sí | |
-| Bipin G4 12 V | COB 2 W y SMD 4 W, "no flicker" AC/DC | Sí / Sí | |
+| Bipin G4 12 V | COB 2 W y SMD 4 W, "no flicker" AC/DC | Sí, COB 2 W en 3 temperaturas / Sí | |
 | Bipin G9 220 V | COB 3 W y SMD 6 W | Revisar foto / Sí | |
-| Gota E27 y bulbo A60 | Gota 5 W (y dimerizable), A60 12 W dimerizable, A60 12/24 V 9 W | Sí / Sí | |
+| Gota E27 y bulbo A60 | Gota 5 W (y dimerizable), A60 12 W dimerizable, A60 12/24 V 9 W | Sí, gota G45 5 W en 3 temperaturas / Sí | |
 | Tubo T5 18 W | Liquidación | Revisar / Sí | |
-| Minispots COB 220 V | Fijo Ø38 y móvil Ø52, blanco y negro | Sí / Sí | |
+| Minispots COB 220 V | Fijo Ø38 y móvil Ø52, blanco y negro | Sí / Sí (ficha nueva del fijo negro 3 W 3000 K) | |
 | Spot de embutir para minidicroica | Antideslumbrante Ø64 | Sí / Revisar | |
 | Apliques de aluminio GU10 | Curvo y recto, 1 y 2 luces, negro | Sí (con fotos de ambiente) / Sí | 2026-11-11 (carrusel: IP65, clase I, 7 W máx., medidas, bulto) |
 | Estacas | Aluminio GU10, para minidicroica, solar | Sí / Sí | |
@@ -164,6 +164,13 @@ todavía no tiene métricas: comparar el sábado 14/11.
 Próxima zona: GBA norte.
 
 ## Banco de ideas (no publicadas todavía)
+
+- Producto: la línea completa en tres temperaturas (gota G45 5 W, MR11 3 W dimerizable, G4 COB 2 W, dicroica
+  GU10 7 W) con las fotos nuevas de `kit/productos/`. Enfoque de nicho: qué dato de la ficha cambia entre una
+  y otra (si cambia el flujo o el IRC) o cómo mantener la misma temperatura en toda una obra.
+- Producto: minispot fijo COB 3 W con driver incluido (hueco de 28 mm, clase II): dónde va y qué revisar antes
+  de cortar el cielorraso.
+- Dicroica IP20 dentro de un aplique IP65: la protección la da el artefacto, no la lámpara.
 
 - Debate: dónde dejar la fuente de la tira LED en un cielorraso de durlock. Quedó como borrador en
   Buffer (id 6ae5e505eaa24d6f9a76006f) el 5/11 para darle lugar a la foto de obra; se puede reprogramar.
