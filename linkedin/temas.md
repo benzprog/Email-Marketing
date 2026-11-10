@@ -74,6 +74,42 @@ Subidos por el equipo de Pana el 8/11/2026. Ninguno tiene descripción todavía;
 | Descargas | 1ljy1YtAZI_9cU1DO6DTjzvqm4J3znjEX | 28 MB | |
 | Plantilla | 1dlQxYJQp7F5YEcbW_Q62UTxQEzgRzXFn | 23 MB | |
 
+## Fotos de producto por SKU (carpeta 1F5i03qSXerH_Tu96_MIc8ITXot9XBLV2, revisadas el 10/11/2026)
+
+Archivo en `kit/productos/` = SKU + descripción. "No usar" = la imagen tiene un error y hay que pedir otra.
+
+| Producto | SKU que figura en la imagen | Temperaturas | Archivo en kit | Estado |
+|---|---|---|---|---|
+| Bipin G9 SMD 6 W | TZ-G9SMD-6W-3K / 4K / 6K | 3000, 4000, 6000 K | TZ-G9SMD-6W_3_temperaturas.jpg | Usar |
+| Bipin G9 COB 3 W | TZ-G9COB-3W-3K / 4K / 6K | 3000, 4000, 6000 K | — | **No usar**: la lámpara dice "TEKAMEX" |
+| Bipin G4 12 V SMD 4 W | TZ-G412V-4W-3K / 4K / 6K | 3000, 4000, 6000 K | TZ-G412V-4W_3_temperaturas.jpg | Usar |
+| Bipin G4 12 V COB 2 W | TZ-G412V-2W-3K / 4K / 6K | 3000, 4000, 6000 K | TZ-G412V-2W_3_temperaturas.jpg | Usar con cuidado (la de 6000 K suelta brilla amarilla) |
+| Dicroica GU10 7 W dimerizable | TZ-GU10-7W-DIM-3K / 4K / 6K | 3000, 4000, 6000 K | — | **No usar**: sello "LENOR" que no es real |
+| Dicroica GU10 7 W | TZ-GU10-7W-4K, TZ-GU10-7W-6K | 4000, 6000 K | TZ-GU10-7W-4K_caja.jpg, TZ-GU10-7W-6K_caja.jpg, TZ-GU10-7W-4K_ficha.jpg | Usar |
+| Dicroica MR16 12 V 5 W | TZ-MR16-5W-3K / 4K / 6K | 3000, 4000, 6000 K | TZ-MR16-5W_3_temperaturas.jpg | Usar |
+| Minidicroica MR11 3 W dimerizable | TZ-MR11-3W-3K / 4K / 6K DIM | 3000, 4000, 6000 K | TZ-MR11-3W-DIM_3_temperaturas.jpg | Usar |
+| AR70 GU10 7 W dimerizable | TZ-AR70-7W-DIM-3K / 4K / 6K | 3000, 4000, 6000 K | TZ-AR70-7W-DIM_3_temperaturas.jpg | Usar |
+| AR111 GU10 15 W dimerizable | TZ-AR111-15W-DIM-3K / 4K / 6K | 3000, 4000, 6000 K | TZ-AR111-15W-DIM_3_temperaturas.jpg | Usar |
+| AR111 GU10 15 W | TZ-AR111-15W-3K / 4K / 6K | 3000, 4000, 6000 K | — | **No usar**: dice "TERRAZE" y sello "LETRON" |
+| Gota G45 E27 5 W | TZ-G45E27-5W-3K / 4K / 6K | 3000, 4000, 6000 K | TZ-G45E27-5W_3_temperaturas.jpg | Usar |
+| Gota G45 E27 5 W dimerizable | TZ-G45E27-5W-DIM-3K / 4K / 6K | 3000, 4000, 6000 K | TZ-G45E27-5W-DIM_3_temperaturas.jpg | Usar |
+| Bulbo A60 E27 12 W dimerizable | TZ-A60E27-12W-DIM-3K / 4K / 6K | 3000, 4000, 6000 K | TZ-A60E27-12W-DIM_3_temperaturas.jpg | Usar |
+| Stick T45 E27 12 W | TZ-STICKE27-12W-3K / 4K / 6K | 3000, 4000, 6000 K | TZ-STICKE27-12W_3_temperaturas.jpg | Usar (la tabla de rotación decía solo 6000 K: confirmar) |
+| PL-D G24D 9 W | TZ-PLDG24D-9W-3K / 4K / 6K | 3000, 4000, 6000 K | TZ-PLDG24D-9W_3_temperaturas.jpg | Usar |
+| PLL 2G11 18 W | TZ-PLL-18W-3K / 4K / 6K | 3000, 4000, 6000 K | — | **No usar**: sello "LENOR" que no es real |
+| Spot empotrable fijo COB 3 W | TZ-SPOTFB-COB-3W-3K (blanco), TZ-SPOTFN-COB-3W-3K (negro) | 3000 K | TZ-SPOTF-COB-3W_blanco_negro.jpg, TZ-SPOTFN-COB-3W-3K_ficha.jpg | Usar |
+| Spot movible COB 3 W | TZ-MOVB-COB-3W-3K (blanco), TZ-MOVN-COB-3W-3K (negro) | 3000 K | TZ-MOV-COB-3W_blanco_negro.jpg | Usar |
+| Reflector 12 V 10 W IP65 | TZ-FL12-10W-3K / 6K | 3000, 6000 K | TZ-FL12-10W_3K_6K.jpg | Usar |
+| Reflector 12 V 30 W IP65 | TZ-FL12-30W-3K / 6K | 3000, 6000 K | TZ-FL12-30W_3K_6K.jpg | Usar |
+| Reflector 12 V 50 W IP65 | TZ-FL12-50W-3K / 6K | 3000, 6000 K | TZ-FL12-50W_3K_6K.jpg | Usar |
+| Aplique recto 1 luz GU10 | TZ-APLRECN-1GU10 | — | TZ-APLRECN-1GU10_fondo_negro.jpg | Usar |
+| Aplique recto 2 luces GU10 | TZ-APLRECN-2GU10 | — | TZ-APLRECN-2GU10_pared.jpg, TZ-APLRECN-2GU10_3000K/4000K/6000K.jpg | Usar |
+| Aplique curvo 1 luz GU10 | TZ-APLCURVN-1GU10 | — | TZ-APLCURVN-1GU10_fondo_negro.jpg | Usar |
+| Aplique curvo 2 luces GU10 | TZ-K2CURVN-2GU10 | — | TZ-K2CURVN-2GU10_fondo_negro.jpg, TZ-K2CURVN-2GU10_pared.jpg | Usar |
+
+Las imágenes muestran sellos (S de seguridad eléctrica, Bureau Veritas). No mencionar certificaciones en el
+texto hasta que Nicolás confirme cuáles tiene cada producto.
+
 ## Resultados (métricas de Buffer)
 
 Datos al 7/11/2026 (Buffer actualiza una vez por día). Los posts de los últimos dos días todavía suman impresiones.

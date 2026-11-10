@@ -29,13 +29,20 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   fotos de cada lámpara en 3000, 4000 y 6000 K, más fichas nuevas. Ya están copiadas en `kit/productos/`:
   `TZ-G45E27-5W_3_temperaturas`, `TZ-MR11-3W-DIM_3_temperaturas`, `TZ-G412V-2W_3_temperaturas`,
   `TZ-APLRECN-2GU10_3000K / 4000K / 6000K` (aplique recto de dos luces con sus dicroicas),
-  `TZ-GU10-7W-4K_caja`, `TZ-GU10-7W-6K_caja`, `TZ-AR-GU10_dimerizable_revisar_modelo` (confirmar si es AR70 o
-  AR111) y las fichas `TZ-GU10-7W-4K_ficha` y `TZ-SPOTFN-COB-3W-3K_ficha`. Sirven para los carruseles de
+  `TZ-GU10-7W-4K_caja`, `TZ-GU10-7W-6K_caja` y las fichas `TZ-GU10-7W-4K_ficha` y `TZ-SPOTFN-COB-3W-3K_ficha`. Sirven para los carruseles de
   producto y como imagen en los técnicos. Ojo: el tema "luz cálida, neutra o fría" básico sigue prohibido; las
   fotos de tres temperaturas se usan para mostrar la línea o para temas de nicho (consistencia de color,
   qué temperatura pide cada uso según una norma, cómo se ve el mismo aplique en cada una), no para explicar
   qué es cálido o frío. Algunas imágenes del Drive están generadas con IA (nombre "Imagen de ChatGPT"):
   revisar que el producto y los rótulos coincidan con la ficha antes de usarlas.
+- **Artefactos y lámparas Tenaruz con SKU (Nicolás, 10/11/2026):** carpeta de Drive
+  `1F5i03qSXerH_Tu96_MIc8ITXot9XBLV2`, una imagen por producto con sus temperaturas de color y el modelo o
+  SKU escrito. Es la fuente preferida de fotos de producto. Las ya revisadas están en `kit/productos/` con el
+  SKU en el nombre; la lista completa, con las que **no** se pueden usar, está en la tabla "Fotos de producto
+  por SKU" de `temas.md`. Son imágenes generadas: antes de usar una nueva, ampliar el rótulo de la lámpara y
+  los sellos. Si la marca no dice TENARUZ (aparecieron "TEKAMEX" y "TERRAZE") o hay un sello de certificación
+  que no es real (aparecieron "LENOR" y "LETRON"), no se usa y se avisa en el resumen. Los SKU que se leen en
+  las imágenes sirven para nombrar el producto, pero los datos técnicos salen solo de las fichas.
 - **Carpetas autorizadas por Nicolás (6/11/2026):** "Fotos TENARUZ" con todas sus subcarpetas (Lamparas
   Led, Fuentes Switching TZ, Apliques y Estacas, Catalogo Tenaruz Diseño, Proyectos Clientes) y
   "Proyectos clientes" (`14dcXGVUDvBmxAv_H66VJiVuu7jEBM7FL`). Los clientes van siempre como "obra de un
