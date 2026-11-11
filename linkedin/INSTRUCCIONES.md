@@ -64,13 +64,23 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   publicar dos veces por día en una página de empresa le resta alcance a cada post (lo recomendado
   son 3 a 5 por semana con 24 h de diferencia) y la franja de 9 a 12 es la que mejor rinde en LinkedIn.
   Historial: 9:00 y 18:00 hasta el 27/10; 8:00 y 15:30 hasta el 6/11.
-- Mezcla semanal (cada semana se ajusta con la medición de la sección 8):
-  · 2 o 3 **carruseles PDF** (el formato de mejor rendimiento en páginas de empresa).
-  · 1 **foto real de Pana** (depósito, equipo, entregas, obras de clientes) si Nicolás mandó material;
-    si no, una infografía de una sola imagen o una pieza con foto del kit.
-  · 1 infografía de una imagen o un debate corto.
-  · **1 video por semana** (desde el 9/11/2026) mientras haya videos sin usar en la carpeta de la sección 7 bis.
-    Reemplaza a la foto real o a la infografía de ese día, para seguir en 5 posts por semana.
+- **Mezcla semanal desde la semana del 16/11/2026 (pedido de Nicolás, 11/11/2026): la mayoría, videos.**
+  · **3 videos** (lunes, miércoles y viernes) mientras haya videos sin usar en la carpeta de la
+    sección 7 bis. **Cada video se publica una sola vez**: antes de elegir, mirar la tabla "Videos" de
+    `temas.md` y descartar los que ya tienen fecha. Si quedan 1 o 2, se usan esos y el resto se completa.
+  · Los otros 2 días (martes y jueves), y los días de video que no se puedan cubrir, en este orden:
+    1. **Foto real** de una obra de cliente o de un producto Tenaruz (carpetas de la sección 1), sin
+       repetir fotos ya usadas (columna "Publicado" de las tablas de `temas.md`).
+    2. **Carrusel informativo de productos Tenaruz** (familia o producto puntual, ver sección 4).
+    3. Carrusel técnico o infografía (solo si no queda nada de lo anterior).
+  · Al menos 1 post por semana tiene que ser de producto Tenaruz (puede ser un video donde se vea stock
+    o producto, una foto o un carrusel).
+  · Por qué: el primer video ("Acompáñanos al depósito", 9/11) tuvo la tasa de interacción más alta de
+    la página (26 %, 2 reacciones y 1 compartido con muy poco alcance) y los estudios de páginas de
+    empresa ponen al video entre los formatos de más interacción. Revisar cada sábado con la sección 8:
+    si los videos quedan abajo dos semanas seguidas, volver a 1 o 2 por semana y avisarle a Nicolás.
+  · **Avisar en el resumen cuántos videos sin usar quedan.** Si quedan menos de 3, pedirle al equipo
+    más videos en "Datos que necesito" (al ritmo de 3 por semana se gastan rápido).
 - Antes de cargar, revisar la cola (`list_posts` con status `scheduled`). Si quedan posts de la
   semana siguiente ya programados, completar solo los huecos y no pasar de 5.
 - **Si la semana siguiente ya tiene sus 5 posts programados, no armar nada:** terminar con un
@@ -228,6 +238,12 @@ iguales, demasiado texto y ninguna imagen. Para que parezca de diseño:
   ahí escribir un texto más preciso.
 - Formato del texto: corto (300 a 700 caracteres), gancho en la primera línea, sin links, 3 hashtags y cierre
   con la palabra LINKEDIN por WhatsApp cuando haya producto o stock.
+- **Variar el ángulo del texto** entre videos aunque se parezcan (dos del depósito, por ejemplo): uno sobre
+  stock y entregas, otro sobre el equipo, otro sobre un producto. Nunca copiar el texto de un video anterior.
+- **Pedidos al equipo para que los videos rindan más** (repetirlos en el resumen mientras falten):
+  · Una línea por video en un documento dentro de la carpeta: qué se ve y qué producto aparece.
+  · Videos verticales u horizontales de 15 a 60 s, con lo más llamativo en los primeros 3 s.
+  · Subtítulos o texto en pantalla si hablan: en LinkedIn casi todos los videos se ven sin sonido.
 - Llevar la cuenta en la tabla "Videos" de `temas.md` (cuál se usó, fecha e id de Buffer). Elegir primero los
   que se relacionan con lo que mejor rindió (el depósito fue el mejor post de la página).
 

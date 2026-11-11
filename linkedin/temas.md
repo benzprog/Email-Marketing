@@ -62,6 +62,8 @@ Familias de la lista mayorista de noviembre de 2026. Marcar la fecha cuando salg
 ## Videos (carpeta de Drive 1liY7xWxTytcmyQZ-hR2rYvwPTUAtoN6L)
 
 Subidos por el equipo de Pana el 8/11/2026. Ninguno tiene descripción todavía; la tarea no puede verlos.
+Cada video se usa una sola vez. Al ritmo de 3 por semana (desde el 16/11), los 7 que quedan alcanzan hasta la semana del 30/11.
+Resultado del primero (al 11/11): 23 impresiones, 2 reacciones, 1 compartido, 26 % de interacción, 4 reproducciones.
 
 | Archivo | Id de Drive | Peso | Publicado |
 |---|---|---|---|
