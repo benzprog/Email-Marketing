@@ -97,6 +97,17 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   No: tecnicismos en inglés cuando hay palabra de acá ("flicker", "trailing edge", "wall washer",
   "downlight" sin explicar), ni nombres raros como "aplique bidireccional que lava hacia arriba".
   Si una métrica solo existe en inglés o con sigla (IRC, PstLM, SVM, L70), se explica en castellano.
+- **Textos concretos, nada librado a interpretación (pedido de Nicolás, 12/11/2026).** Nicolás rechazó
+  "Se ve la luz, casi no se ven las luces" y "baña la pared": son frases poéticas que el mercado no usa.
+  · Títulos que digan qué es, con datos: "Un hall, 4 luces", "IP65 no es sumergible", "Fuente 24 V 5 A:
+    para qué tiras sirve". No metáforas, no juegos de palabras, no frases que haya que pensar.
+  · Nombrar el producto con el término de mostrador: tira LED, buña, perfil de aluminio, baliza (de
+    escalera o de pared), spot embutido, aplique, plafón, dicroica, reflector, estaca, fuente switching.
+  · **Prohibido:** "baña / lava la pared", "luz rasante", "rozando la superficie", "capas de luz",
+    "la luz acompaña", "se lee como textura", "luz que dibuja", "wall washer", "downlight", "grazing".
+    En su lugar: "ilumina la pared de arriba hacia abajo", "marca el relieve", "luz general", "luz de acento".
+  · En fotos de obra: numerar en la imagen cada luz que se ve (círculos amarillos) y explicar cada una en
+    una línea con el nombre del producto. Ejemplo: `kit/ejemplos/` y la pieza `semana-2026-11-09/04_obra_hall_v2.png`.
 
 ## 4. Qué temas sí y qué temas no
 
