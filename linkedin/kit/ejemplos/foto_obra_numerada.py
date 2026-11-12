@@ -1,5 +1,5 @@
-"""Foto de obra con las luces numeradas, estética limpia (Inter). Uso: python3 foto_obra_numerada.py <salida> <foto.png>
-Las posiciones de los círculos (mk) y la lista se ajustan mirando la foto."""
+"""Foto de obra con las luces numeradas, estética limpia (Inter) con acentos amarillos de Pana.
+Uso: python3 foto_obra_numerada.py <salida> <foto.png>. Ajustar posiciones (mk) y lista mirando la foto."""
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from html_kit import lamina, cabecera, render
@@ -14,14 +14,14 @@ section, section * { font-family: Inter, sans-serif; }
 .mk { width:40px; height:40px; border-radius:50%; background:rgba(255,255,255,.92); color:#1d1d1f;
       font-size:20px; font-weight:500; display:flex; align-items:center; justify-content:center;
       box-shadow:0 2px 10px rgba(0,0,0,.35); }
-.eyebrow { top:900px; font-size:24px; font-weight:500; color:#a1a1a6; letter-spacing:0; }
+.eyebrow { top:900px; font-size:24px; font-weight:500; color:#ffce1f; letter-spacing:0; }
 .tit { top:940px; font-family:InterD, Inter, sans-serif; font-size:64px; line-height:72px; font-weight:600; letter-spacing:-0.02em; color:#f5f5f7; }
 .lst { top:1050px; width:920px; display:grid; grid-template-columns:1fr 1fr; column-gap:48px; row-gap:22px; }
 .lst div { display:flex; gap:14px; align-items:flex-start; font-size:26px; line-height:34px; font-weight:400; color:#f5f5f7; }
 .lst i { flex:0 0 30px; height:30px; border-radius:50%; border:1.5px solid #a1a1a6; color:#f5f5f7; font-style:normal;
          font-size:16px; font-weight:500; display:flex; align-items:center; justify-content:center; margin-top:2px; }
 .pie2 { top:1262px; width:920px; display:flex; justify-content:space-between; border-top:1px solid #333336; padding-top:26px; font-size:20px; color:#a1a1a6; }
-.pie2 b { font-weight:500; color:#f5f5f7; }
+.pie2 b { font-weight:500; color:#ffce1f; }
 section.oscuro { background:#000; }
 """
 mk = lambda n, x, y: f'<div class="mk" style="left:{x - 20}px;top:{y - 20}px">{n}</div>'

@@ -109,12 +109,12 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
     En su lugar: "ilumina la pared de arriba hacia abajo", "marca el relieve", "luz general", "luz de acento".
   · En fotos de obra: numerar en la imagen cada luz que se ve (círculos amarillos) y explicar cada una en
     una línea con el nombre del producto. Ejemplo: `kit/ejemplos/foto_obra_numerada.py` y la pieza
-    `semana-2026-11-09/04_obra_hall_v3.png`.
+    `semana-2026-11-09/04_obra_hall_v4.png` (aprobada por Nicolás: "mucho mejor").
   · **Estética "tipo Apple" para números y marcadores (Nicolás, 12/11/2026):** los círculos numerados van
     chicos y finos (40 px, blanco al 92 %, número en Inter 500 de 20 px, sombra suave), no amarillos
     gruesos; en la lista, el número dentro de un círculo de línea fina gris. Tipografía Inter / Inter
     Display (instaladas en `/usr/share/fonts/opentype/inter`), fondo negro puro y grises de Apple
-    (#f5f5f7, #a1a1a6). Hasta que Nicolás diga lo contrario, aplicarlo a las fotos de obra y a las
+    (#f5f5f7, #a1a1a6), con amarillo Pana (#ffce1f) en el antetítulo y en "Consultanos". Hasta que Nicolás diga lo contrario, aplicarlo a las fotos de obra y a las
     piezas con números; el resto del kit sigue con Archivo.
 
 ## 4. Qué temas sí y qué temas no
