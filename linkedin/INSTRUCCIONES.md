@@ -101,13 +101,21 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   "Se ve la luz, casi no se ven las luces" y "baña la pared": son frases poéticas que el mercado no usa.
   · Títulos que digan qué es, con datos: "Un hall, 4 luces", "IP65 no es sumergible", "Fuente 24 V 5 A:
     para qué tiras sirve". No metáforas, no juegos de palabras, no frases que haya que pensar.
-  · Nombrar el producto con el término de mostrador: tira LED, buña, perfil de aluminio, baliza (de
-    escalera o de pared), spot embutido, aplique, plafón, dicroica, reflector, estaca, fuente switching.
-  · **Prohibido:** "baña / lava la pared", "luz rasante", "rozando la superficie", "capas de luz",
+  · Nombrar el producto con el término de mostrador: tira LED (oculta), perfil de aluminio, mini spot,
+    spot embutido, aplique, plafón, dicroica, reflector, estaca, fuente switching.
+  · **Prohibido:** "en buña" y "balizas embutidas" (Nicolás, 12/11: las luces chicas de pared o escalera son
+    "mini spots"), "baña / lava la pared", "luz rasante", "rozando la superficie", "capas de luz",
     "la luz acompaña", "se lee como textura", "luz que dibuja", "wall washer", "downlight", "grazing".
     En su lugar: "ilumina la pared de arriba hacia abajo", "marca el relieve", "luz general", "luz de acento".
   · En fotos de obra: numerar en la imagen cada luz que se ve (círculos amarillos) y explicar cada una en
-    una línea con el nombre del producto. Ejemplo: `kit/ejemplos/` y la pieza `semana-2026-11-09/04_obra_hall_v2.png`.
+    una línea con el nombre del producto. Ejemplo: `kit/ejemplos/foto_obra_numerada.py` y la pieza
+    `semana-2026-11-09/04_obra_hall_v3.png`.
+  · **Estética "tipo Apple" para números y marcadores (Nicolás, 12/11/2026):** los círculos numerados van
+    chicos y finos (40 px, blanco al 92 %, número en Inter 500 de 20 px, sombra suave), no amarillos
+    gruesos; en la lista, el número dentro de un círculo de línea fina gris. Tipografía Inter / Inter
+    Display (instaladas en `/usr/share/fonts/opentype/inter`), fondo negro puro y grises de Apple
+    (#f5f5f7, #a1a1a6). Hasta que Nicolás diga lo contrario, aplicarlo a las fotos de obra y a las
+    piezas con números; el resto del kit sigue con Archivo.
 
 ## 4. Qué temas sí y qué temas no
 
