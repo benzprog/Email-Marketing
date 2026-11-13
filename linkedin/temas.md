@@ -34,6 +34,7 @@ Sirve para no repetir temas. Cada semana se agrega al final.
 | 2026-11-12 | 11:00 | Obra de un cliente: hall con listones de madera y luz rasante (foto real del Drive, "AER Av Cordoba") | Foto | 6aef1f7fa7751de7c9ea7d25 |
 | 2026-11-13 | 11:00 | Código IK (IEC 62262): resistencia a golpes, IK06 a IK10 | Infografía | 6aef1f80229bf05daf4dbcc0 |
 | 2026-11-09 | 17:30 | Video "Acompáñanos al depósito" (stock Tenaruz; pedido de Nicolás de publicar uno el mismo día) | Video | 6af1d25b37d8d906e7c19996 |
+| 2026-11-17 | 11:00 | Obra de Pana: Teatro San Martín, Buenos Aires (carrusel de 5 fotos de la sala, estilo limpio; armado a pedido de Nicolás el 13/11, ya ocupa el martes) | Carrusel PDF | 6af707bd9a21933ffad6dedb |
 
 ## Rotación de productos Tenaruz
 

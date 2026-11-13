@@ -47,6 +47,10 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   Led, Fuentes Switching TZ, Apliques y Estacas, Catalogo Tenaruz Diseño, Proyectos Clientes) y
   "Proyectos clientes" (`14dcXGVUDvBmxAv_H66VJiVuu7jEBM7FL`). Los clientes van siempre como "obra de un
   cliente" hasta que Nicolás autorice nombrar alguno.
+  Autorizados a nombrar: **Teatro San Martín (Buenos Aires), obra de Pana** (13/11/2026; sus 4 fotos de la
+  sala ya se usaron en el carrusel del 17/11, `semana-2026-11-16/02_obra_teatro_san_martin.pdf`).
+  Formato de referencia para obras con varias fotos: ese carrusel (portada con nombre y ciudad, una foto por
+  lámina con una línea concreta en franja negra, cierre "Mandanos tus planos").
 - **Nunca usar** las planillas internas que se ven en el Drive (saldos de clientes, costos de envíos,
   cálculo de publicaciones de Mercado Libre) ni la lista mayorista en el repo.
 - **Fichas técnicas de Tenaruz:** las láminas de "Catalogo Tenaruz Diseño" tienen las especificaciones
