@@ -35,6 +35,10 @@ Sirve para no repetir temas. Cada semana se agrega al final.
 | 2026-11-13 | 11:00 | Código IK (IEC 62262): resistencia a golpes, IK06 a IK10 | Infografía | 6aef1f80229bf05daf4dbcc0 |
 | 2026-11-09 | 17:30 | Video "Acompáñanos al depósito" (stock Tenaruz; pedido de Nicolás de publicar uno el mismo día) | Video | 6af1d25b37d8d906e7c19996 |
 | 2026-11-17 | 11:00 | Obra de Pana: Teatro San Martín, Buenos Aires (carrusel de 5 fotos de la sala, estilo limpio; armado a pedido de Nicolás el 13/11, ya ocupa el martes) | Carrusel PDF | 6af707bd9a21933ffad6dedb |
+| 2026-11-16 | 11:00 | Video "Depósito2": stock Tenaruz para que la obra no se frene (ángulo stock y entregas) | Video | 6af85747c5b364e062eee140 |
+| 2026-11-18 | 11:00 | Video "Producto nuevo": 5 datos de la ficha que hay que pedir de un producto nuevo | Video | 6af8575f918fe79d2e7b5893 |
+| 2026-11-19 | 11:00 | Producto Tenaruz: mini spot fijo COB 3 W (hueco de 28 mm, 250 lm, 38°, driver incluido, clase II, IP20) | Imagen (producto) | 6af85760e5a113497a81b57e |
+| 2026-11-20 | 11:00 | Video "¿Y todo esto?": qué conviene saber antes de la primera compra (marcas, bulto cerrado, fichas) | Video | 6af85766918fe79d2e7b5a52 |
 
 ## Rotación de productos Tenaruz
 
@@ -52,7 +56,7 @@ Familias de la lista mayorista de noviembre de 2026. Marcar la fecha cuando salg
 | Bipin G9 220 V | COB 3 W y SMD 6 W | Revisar foto / Sí | |
 | Gota E27 y bulbo A60 | Gota 5 W (y dimerizable), A60 12 W dimerizable, A60 12/24 V 9 W | Sí, gota G45 5 W en 3 temperaturas / Sí | |
 | Tubo T5 18 W | Liquidación | Revisar / Sí | |
-| Minispots COB 220 V | Fijo Ø38 y móvil Ø52, blanco y negro | Sí / Sí (ficha nueva del fijo negro 3 W 3000 K) | |
+| Minispots COB 220 V | Fijo Ø38 y móvil Ø52, blanco y negro | Sí / Sí (ficha nueva del fijo negro 3 W 3000 K) | 2026-11-19 (fijo COB 3 W, pieza de una imagen; falta el móvil Ø52) |
 | Spot de embutir para minidicroica | Antideslumbrante Ø64 | Sí / Revisar | |
 | Apliques de aluminio GU10 | Curvo y recto, 1 y 2 luces, negro | Sí (con fotos de ambiente) / Sí | 2026-11-11 (carrusel: IP65, clase I, 7 W máx., medidas, bulto) |
 | Estacas | Aluminio GU10, para minidicroica, solar | Sí / Sí | |
@@ -63,15 +67,15 @@ Familias de la lista mayorista de noviembre de 2026. Marcar la fecha cuando salg
 ## Videos (carpeta de Drive 1liY7xWxTytcmyQZ-hR2rYvwPTUAtoN6L)
 
 Subidos por el equipo de Pana el 8/11/2026. Ninguno tiene descripción todavía; la tarea no puede verlos.
-Cada video se usa una sola vez. Al ritmo de 3 por semana (desde el 16/11), los 7 que quedan alcanzan hasta la semana del 30/11.
-Resultado del primero (al 11/11): 23 impresiones, 2 reacciones, 1 compartido, 26 % de interacción, 4 reproducciones.
+Cada video se usa una sola vez. Después de la semana del 16/11 quedan 4 sin usar: alcanzan para la semana del 23/11 (3) y uno más.
+Resultado del primero (al 14/11): 40 impresiones, 3 reacciones, 1 compartido, 20 % de interacción, 11 reproducciones (4 personas). Fue el mejor post de la semana del 9/11.
 
 | Archivo | Id de Drive | Peso | Publicado |
 |---|---|---|---|
 | Acompáñanos al depósito | 1GTdf1VFMfetxJntzYQ2WR0Ep_at7Odia | 37 MB (26 s) | 2026-11-09 17:30 (6af1d25b37d8d906e7c19996) |
-| Depósito2 | 1IFmxo0FrFHRVifGnPtqGEdx27JaGtlPf | 34 MB | |
-| ¿Y todo esto? | 1pkjvvUUcomxq_t618-OCXOcfjmNGq2pP | 34 MB | |
-| Producto nuevo | 1yMGUfEwItT_RqJEyPUIW0wradeeovzmY | 27 MB | |
+| Depósito2 | 1IFmxo0FrFHRVifGnPtqGEdx27JaGtlPf | 34 MB (23 s) | 2026-11-16 11:00 (6af85747c5b364e062eee140) |
+| ¿Y todo esto? | 1pkjvvUUcomxq_t618-OCXOcfjmNGq2pP | 34 MB (27 s) | 2026-11-20 11:00 (6af85766918fe79d2e7b5a52) |
+| Producto nuevo | 1yMGUfEwItT_RqJEyPUIW0wradeeovzmY | 27 MB (19 s) | 2026-11-18 11:00 (6af8575f918fe79d2e7b5893) |
 | Casa de iluminación | 1y7avuXdjLmr5bO9jss0TLPjBApnj89th | 23 MB | |
 | Pin pong | 120mDSUR_P2FAQQFIz-vnSgpF682rwuQ_ | 35 MB | |
 | Descargas | 1ljy1YtAZI_9cU1DO6DTjzvqm4J3znjEX | 28 MB | |
@@ -115,7 +119,7 @@ texto hasta que Nicolás confirme cuáles tiene cada producto.
 
 ## Resultados (métricas de Buffer)
 
-Datos al 7/11/2026 (Buffer actualiza una vez por día). Los posts de los últimos dos días todavía suman impresiones.
+Datos al 7/11/2026 para los posts hasta el 6/11, actualizados al 14/11/2026 para la semana del 2/11 en adelante (Buffer actualiza una vez por día). Los posts de los últimos dos días todavía suman impresiones.
 
 | Fecha | Post | Formato | Impresiones | Alcance | Reacciones | Comentarios | Compartidos |
 |---|---|---|---|---|---|---|---|
@@ -134,16 +138,22 @@ Datos al 7/11/2026 (Buffer actualiza una vez por día). Los posts de los último
 | 2026-10-29 | Cálculo de fuente para tira | Texto | 4 | 1 | 0 | 0 | 0 |
 | 2026-10-30 | Ángulo de apertura | Infografía | 8 | 1 | 0 | 0 | 0 |
 | 2026-10-30 | Debate: buña o perfil | Debate | 9 | 1 | 0 | 0 | 0 |
-| 2026-11-02 | Caída de tensión en el cable | Infografía | 66 | 54 | 0 | 0 | 0 |
-| 2026-11-02 | Tensión constante vs. corriente constante | Texto | 106 | 80 | 0 | 0 | 0 |
-| 2026-11-03 | Pasos MacAdam | Infografía | 11 | 7 | 0 | 0 | 0 |
-| 2026-11-03 | Debate: quién define la iluminación | Debate | 12 | 10 | 0 | 0 | 0 |
-| 2026-11-04 | Eficacia lm/W y etiqueta UE | Infografía | 7 | 1 | 0 | 0 | 0 |
-| 2026-11-04 | Tubos LED T8: tres formas de conectar | Texto | 8 | 1 | 0 | 0 | 0 |
-| 2026-11-05 | Método de los lúmenes | Infografía | 3 | 1 | 0 | 0 | 0 |
-| 2026-11-05 | Obra de cliente: casa de noche | Foto | 12 | 1 | 0 | 0 | 0 |
-| 2026-11-06 | Luz de acento 10:1 (foto) | Infografía | 20 | 1 | 0 | 0 | 0 |
-| 2026-11-06 | Checklist casas de electricidad + Tenaruz | Texto | sin datos | sin datos | | | |
+| 2026-11-02 | Caída de tensión en el cable | Infografía | 71 | 54 | 0 | 0 | 0 |
+| 2026-11-02 | Tensión constante vs. corriente constante | Texto | 109 | 81 | 0 | 0 | 0 |
+| 2026-11-03 | Pasos MacAdam | Infografía | 15 | 7 | 0 | 0 | 0 |
+| 2026-11-03 | Debate: quién define la iluminación | Debate | 15 | 11 | 0 | 0 | 0 |
+| 2026-11-04 | Eficacia lm/W y etiqueta UE | Infografía | 11 | 2 | 0 | 0 | 0 |
+| 2026-11-04 | Tubos LED T8: tres formas de conectar | Texto | 13 | 2 | 0 | 0 | 0 |
+| 2026-11-05 | Método de los lúmenes | Infografía | 8 | 2 | 1 | 0 | 0 |
+| 2026-11-05 | Obra de cliente: casa de noche | Foto | 22 | 2 | 1 | 0 | 0 |
+| 2026-11-06 | Luz de acento 10:1 (foto) | Infografía | 29 | 2 | 1 | 0 | 0 |
+| 2026-11-06 | Checklist casas de electricidad + Tenaruz | Texto | 10 | 1 | 0 | 0 | 0 |
+| 2026-11-09 | Corriente de arranque: por qué salta la térmica | Carrusel PDF | 24 | 2 | 1 | 0 | 0 |
+| 2026-11-09 | Video "Acompáñanos al depósito" (11 reproducciones) | Video | 40 | 4 | 3 | 0 | 1 |
+| 2026-11-10 | UGR: deslumbramiento | Carrusel PDF | 19 | 3 | 0 | 0 | 0 |
+| 2026-11-11 | Producto Tenaruz: apliques de exterior GU10 | Carrusel PDF | 22 | 2 | 0 | 0 | 0 |
+| 2026-11-12 | Obra de un cliente: hall, 4 luces | Foto | 38 | 4 | 0 | 0 | 0 |
+| 2026-11-13 | Código IK | Infografía | 17 | 7 | 0 | 0 | 0 |
 
 Lectura al 7/11: la semana del 2/11 tuvo un solo día bueno, el lunes 2/11 (66 y 106 impresiones, 54 y 80
 personas); del martes al viernes casi todos los posts quedaron en 1 persona de alcance. Los dos posts
@@ -152,6 +162,12 @@ la semana del 9/11 arranca el lunes con un tema de fuentes. Entre las piezas con
 (acento 10:1 y obra de cliente) juntaron más impresiones que las infografías puras. Sigue sin haber
 reacciones ni comentarios: los números son chicos y hay que mirar tendencia. El post de producto del 6/11
 todavía no tiene métricas: comparar el sábado 14/11.
+
+Lectura al 14/11: en la semana del 9/11 ganaron el video del depósito (40 impresiones, 3 reacciones,
+1 compartido, 11 reproducciones) y la foto de obra del hall (38). Los tres carruseles quedaron en 19 a 24 y la
+infografía IK en 17. El post de producto (apliques, 22) rindió parecido al promedio, así que la semana del 16/11
+lleva 2 de producto (video "Producto nuevo" y mini spot). Se mantiene la mezcla de 3 videos. Alcance sigue
+muy bajo (2 a 7 personas por post): sin que el equipo comparta desde sus perfiles, la página casi no llega a nadie.
 
 ### Qué dicen los estudios (consultado el 5/11/2026)
 
@@ -194,13 +210,24 @@ todavía no tiene métricas: comparar el sábado 14/11.
   fabricantes de perfiles, sin mediciones independientes. Hace falta una nota de aplicación de un fabricante
   de LED (ams OSRAM, Signify, Nichia) con el límite de temperatura.
 
+## Notas de la semana del 16/11
+
+- Martes 17/11 ya estaba ocupado por el carrusel del Teatro San Martín (armado el 13/11).
+- Jueves: foto de producto Tenaruz (mini spot COB 3 W) en vez de foto de obra, para cumplir 2 posts de
+  producto. La foto de obra "AER Julian Alvarez" (palier con jardín, deptos 101 y 104) sigue sin usar: luces
+  que se ven: luminaria lineal negra aplicada al techo, línea de luz LED vertical junto a cada puerta y spots
+  chicos entre las plantas. Tema propuesto: "Un palier, 3 luces".
+- Los textos de los videos se escribieron solo con el nombre del archivo y datos confirmados (no hay
+  descripción de los videos en la carpeta).
+
 ## Prospectos (rotación de zonas)
 
 | Fecha | Zona | Planilla en Drive |
 |---|---|---|
 | 2026-11-07 | CABA (20 empresas) | Prospectos LinkedIn 2026-11-07 |
+| 2026-11-14 | GBA norte (20 empresas: Vicente López, San Isidro, San Fernando, Tigre, Escobar, Pilar, San Martín, Malvinas Argentinas, José C. Paz, San Miguel) | Prospectos LinkedIn 2026-11-14 |
 
-Próxima zona: GBA norte.
+Próxima zona: GBA oeste.
 
 ## Banco de ideas (no publicadas todavía)
 
