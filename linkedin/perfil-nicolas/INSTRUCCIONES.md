@@ -59,6 +59,8 @@ Cada 2 semanas, el post del miércoles o del jueves puede ser un **carrusel PDF*
   alcanza. Fecha, nombre exacto del producto y qué incluye. Si no se puede confirmar, no se publica.
 - No afirmar precios, planes ni disponibilidad en Argentina sin confirmarlo en la fuente.
 - El link de la fuente va en el **primer comentario** (`metadata.linkedin.firstComment`), no en el cuerpo.
+  En el plan gratis de Buffer el primer comentario está bloqueado (14/11/2026): crear el borrador sin él y
+  pasarle el link a Nicolás en el aviso para que lo pegue a mano al publicar.
 - Los casos de Pana se cuentan solo con lo que consta en este repo o lo que Nicolás haya dicho.
 
 ## 5. Voz y formato
