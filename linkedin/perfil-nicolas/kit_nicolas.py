@@ -14,6 +14,7 @@ Reglas de diseño (ver INSTRUCCIONES.md, sección 5 bis):
 - Una idea por lámina. Texto de cuerpo nunca menor a 30 px. Máximo ~35 palabras por lámina.
 - Portada: el dolor del lector en letra gigante + una maqueta reconocible. Sin logo.
 - Alternar láminas oscuras y claras. El acento solo para lo importante.
+- El lector casi no usa IA: decir siempre en qué IA (Claude o ChatGPT), dónde se pega cada cosa y qué botón se toca.
 - Última lámina: pregunta para comentar + "Guardalo".
 """
 import os
@@ -107,6 +108,10 @@ h2.m { font-size:64px; }
 .sem div.ok { background:var(--ac); color:%(TINTA)s; font-weight:800; }
 .pill { font-size:22px; font-weight:700; padding:8px 16px; border-radius:99px; border:2px solid var(--linea); }
 .ok .pill { border-color:%(TINTA)s; }
+.ruta { display:flex; flex-wrap:wrap; gap:14px; align-items:center; font-size:34px; font-weight:700; }
+.ruta span { background:var(--tarjeta); border:2px solid var(--linea); border-radius:14px; padding:16px 22px; }
+.cla .ruta span { box-shadow:0 2px 0 var(--linea); }
+.ruta b { color:var(--ac); font-size:38px; }
 .xl { font-family:'Inter Display','Inter',sans-serif; font-size:92px; line-height:1.04; font-weight:800; letter-spacing:-0.04em; }
 """ % dict(TINTA=TINTA, CREMA=CREMA)
 
@@ -156,6 +161,11 @@ def lista(items):
 
 def chat(texto, rotulo="COPIÁ ESTE PEDIDO"):
     return f'<div class="copia">{rotulo}</div><div class="chat">{texto}</div>'
+
+
+def ruta(*pasos):
+    """Camino de clics: ruta("Extensiones", "Apps Script") -> [Extensiones] → [Apps Script]."""
+    return '<div class="ruta">' + " <b>→</b> ".join(f"<span>{p}</span>" for p in pasos) + "</div>"
 
 
 def hoja(columnas, filas, anchos, resaltar=()):

@@ -5,7 +5,7 @@
 | Fecha sugerida | Tema | Formato | Id Buffer | Fuente | Estado |
 |---|---|---|---|---|---|
 | 2026-11-17 09:00 | Planillas: pedirle a la IA la fórmula de Excel describiendo el resultado (vencimiento de facturas con =A2+B2 y SI/HOY, cómo probarla) | Carrusel PDF, 7 láminas (01_formulas_excel_con_ia) | 6af862aae86a5789a6ac4f06 | — (rehecho el 16/11; antes: Claude Fable 5.2) | Borrador |
-| 2026-11-18 09:00 | Automatizar: recordatorio automático por mail a clientes con pago atrasado (planilla de Google de 4 columnas, el pedido para copiar, probarlo con tu mail) | Carrusel PDF, 6 láminas (02_recordatorio_de_pagos_automatico) | 6af862abe86a5789a6ac4f23 | — (rehecho el 16/11 a pedido de Nicolás: ejemplo general y más corto; antes: caso de la página de Pana) | Borrador |
+| 2026-11-18 09:00 | Automatizar: recordatorio automático por mail a clientes con pago atrasado (planilla de Google de 4 columnas, el pedido para copiar, probarlo con tu mail) | Carrusel PDF, 7 láminas en 5 pasos (02_recordatorio_de_pagos_automatico) | 6af862abe86a5789a6ac4f23 | — (rehecho el 16/11 a pedido de Nicolás: ejemplo general y más corto; antes: caso de la página de Pana) | Borrador |
 | 2026-11-19 09:00 | Plantilla para guardar: el pedido para responder un mail difícil (proveedor atrasado) y cómo revisarlo | Carrusel PDF, 7 láminas (03_mail_dificil_con_ia) | 6af862abe5a113497a860acb | — (rehecho el 16/11; antes: pedido en 5 partes con ejemplo del rubro) | Borrador |
 
 ## Casos reales de IA en Pana ya contados
@@ -15,6 +15,8 @@
 - (El caso de la página de LinkedIn de Pana se armó para el 18/11 pero no salió: Nicolás prefirió un ejemplo general. Sigue disponible.) Sin contar: relevamiento de precios, presentación comercial y plan de expansión, flyers y estados de WhatsApp, lista de prospectos.
 
 ## Notas
+
+- 2026-11-16: Nicolás pidió más precisión para gente que casi no usa IA: decir en qué IA, dónde se pega y qué se toca. El 02 quedó en 5 pasos numerados (Sheets, pedido en Claude o ChatGPT, Extensiones → Apps Script, Ejecutar, activador diario) y en el 01 y el 03 se agregó dónde pegar el pedido. El procedimiento del 02 no se pudo ejecutar desde la tarea: pedirle a Nicolás que lo pruebe.
 
 - 2026-11-16 (pedido de Nicolás sobre el carrusel del miércoles): ejemplos generales que le sirvan a cualquiera (por ejemplo, un mail automático a clientes con pago atrasado) antes que el caso propio, y todo más corto: que se lea y se entienda rápido.
 

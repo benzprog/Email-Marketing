@@ -28,8 +28,9 @@ excel = [
          + '<div class="baj">Querés que la <b>C</b> calcule el vencimiento y la <b>D</b> avise si está vencida.</div>', oscuro=True, chico=True),
     paso(T, 4, N, "", "", chat('Tengo una planilla de <mark>Excel en español</mark>. En la <mark>columna A</mark> está la fecha de la factura y en la '
          '<mark>B</mark> los días de plazo. Quiero en la C la fecha de vencimiento y en la D que diga “Vencida” o “Al día” según la fecha de hoy. '
-         'Dame las fórmulas para la fila 2 y <mark>explicame qué hace cada una.</mark>')),
-    paso(T, 5, N, "LO QUE TE DEVUELVE", "Dos fórmulas listas para pegar",
+         'Dame las fórmulas para la fila 2 y <mark>explicame qué hace cada una.</mark>', "PEGÁ ESTO EN CLAUDE O CHATGPT")
+         + '<div class="baj">Las dos tienen versión gratis: <b>claude.ai</b> y <b>chatgpt.com</b></div>'),
+    paso(T, 5, N, "LO QUE TE DEVUELVE", "Dos fórmulas: copialas y pegalas en tu planilla",
          '<div class="formula"><small>En C2</small>=A2+B2</div>'
          '<div class="formula"><small>En D2</small>=SI(C2&lt;HOY();"Vencida";"Al día")</div>'
          + hoja("ABCD", filas, ["1fr", "1fr", "1fr", "1.2fr"]), oscuro=True, chico=True),
@@ -44,32 +45,38 @@ render(excel, f"{OUT}/01_formulas_excel_con_ia", png=PNG)
 
 # ---------- 2. Recordatorio automático a clientes con pago atrasado ----------
 T = TEMAS["auto"]
-N = 6
+N = 7
+IA = "PEGÁ ESTO EN CLAUDE O CHATGPT"
 sem = ('<div class="sem"><div>Recordatorio a cliente 1 <span class="pill">a mano</span></div>'
        '<div>Recordatorio a cliente 2 <span class="pill">a mano</span></div>'
        '<div class="ok">Todos los demás <span class="pill">salen solos</span></div></div>')
 auto = [
     portada(T, '¿Seguís reclamando pagos <span class="ac">mail por mail?</span>',
-            "Que el recordatorio salga solo. Te muestro cómo.", sem),
-    paso(T, 2, N, "LO QUE NECESITÁS", "Una planilla con 4 columnas",
+            "Que el recordatorio salga solo, en 5 pasos. No hace falta saber programar.", sem),
+    paso(T, 2, N, "PASO 1", "Armá esta planilla en Google Sheets",
          hoja("ABCD", [["Cliente", "Mail", "Vence", "Pagó"], ["Cliente 1", "mail 1", "05/11", '<span class="mal">No</span>'],
                        ["Cliente 2", "mail 2", "10/11", '<span class="bien">Sí</span>'], ["Cliente 3", "mail 3", "12/11", '<span class="mal">No</span>']],
               ["1.3fr", "1.1fr", "1fr", "0.8fr"])
-         + '<div class="baj">Con eso alcanza.</div>', chico=True),
-    paso(T, 3, N, "", "", chat('Tengo una <mark>planilla de Google</mark> con cliente, mail, fecha de vencimiento y si pagó. Quiero que '
-         '<mark>cada mañana se mande solo</mark> un mail de recordatorio a los que están vencidos y no pagaron. '
-         '<mark>Armame el paso a paso. No sé programar.</mark>'), oscuro=True),
-    paso(T, 4, N, "QUÉ PASA DESPUÉS", "3 pasos, una sola vez", lista([
-        ("La IA te da las instrucciones", "Y un texto listo para pegar."),
-        ("Lo pegás en tu planilla", "Te dice dónde, clic por clic."),
-        ("Cada mañana, el mail sale solo", "Desde tu propio Gmail."),
-    ]), chico=True),
-    paso(T, 5, N, "ANTES DE ACTIVARLO", "Probalo con vos", lista([
-        ("Poné tu mail como cliente de prueba", ""),
-        ("Leé el recordatorio como si te llegara", ""),
-        ("Marcá “Sí” apenas alguien paga", ""),
-    ]), oscuro=True, chico=True),
-    cierre(T, 6, N, '¿Qué tarea repetís <span class="ac">todas las semanas?</span>', "Contala y vemos cómo hacer que salga sola."),
+         + '<div class="baj">Los títulos en la fila 1. Un cliente por fila.</div>', chico=True),
+    paso(T, 3, N, "PASO 2", "Pedile el código a la IA",
+         chat('Tengo una planilla de Google. Columna A: cliente. B: mail. C: fecha de vencimiento. D: “Sí” si pagó. '
+              'Haceme el <mark>código de Apps Script</mark> que mande un mail de recordatorio a los vencidos que no pagaron. '
+              '<mark>Explicame dónde pegarlo, paso a paso.</mark>', IA)
+         + '<div class="baj">Las dos tienen versión gratis: <b>claude.ai</b> y <b>chatgpt.com</b></div>', oscuro=True, chico=True),
+    paso(T, 4, N, "PASO 3", "Pegá el código en tu planilla",
+         '<div class="baj">La IA te devuelve un bloque de código. <b>Copialo entero.</b> Después, en la planilla:</div>'
+         + ruta("Extensiones", "Apps Script")
+         + '<div class="baj">Se abre una pestaña. <b>Borrá lo que hay, pegá el código y tocá Guardar.</b></div>', chico=True),
+    paso(T, 5, N, "PASO 4", "Probalo con vos",
+         lista([("En la fila 2 poné tu propio mail", "Con una fecha de ayer y “No” en Pagó."),
+                ("Tocá el botón Ejecutar", "La primera vez Google te pide permiso: aceptá."),
+                ("Fijate si te llegó el mail", "Si no llega, contale a la IA qué pasó.")]), oscuro=True, chico=True),
+    paso(T, 6, N, "PASO 5", "Que salga solo todos los días",
+         '<div class="baj">En esa misma pestaña, a la izquierda:</div>'
+         + ruta("Ícono del reloj", "Añadir activador")
+         + '<div class="baj">Elegí que se ejecute <b>una vez por día</b>, a la mañana, y guardá.</div>'
+         '<div class="baj">Listo. Cuando alguien paga, escribí <b>“Sí”</b> y deja de recibirlo.</div>', chico=True),
+    cierre(T, 7, N, '¿Qué tarea repetís <span class="ac">todas las semanas?</span>', "Contala y vemos cómo hacer que salga sola."),
 ]
 render(auto, f"{OUT}/02_recordatorio_de_pagos_automatico", png=PNG)
 
@@ -87,7 +94,8 @@ mail = [
          '<div class="baj">No sabe qué querés lograr ni qué no puede decir.</div>'),
     paso(T, 3, N, "", "", chat('Te pego un <mark>hilo de mails</mark> con un proveedor que se atrasó con una entrega. Quiero responderle para '
          '<mark>conseguir una fecha concreta sin romper la relación.</mark> Tono cordial y firme. <mark>Máximo 6 líneas.</mark> '
-         'No prometas nada de nuestro lado. <mark>Si falta información, preguntame antes de escribir.</mark>'), oscuro=True),
+         'No prometas nada de nuestro lado. <mark>Si falta información, preguntame antes de escribir.</mark>', "PEGÁ ESTO EN CLAUDE O CHATGPT")
+         + '<div class="baj">Debajo del pedido, <b>pegá el hilo de mails</b> copiado de tu correo.</div>', oscuro=True),
     paso(T, 4, N, "POR QUÉ FUNCIONA", "Tiene 4 partes", lista([
         ("El contexto completo", "El hilo entero, no un resumen tuyo."),
         ("Lo que querés lograr", "No solo “respondé”."),

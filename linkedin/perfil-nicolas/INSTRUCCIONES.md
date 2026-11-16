@@ -111,6 +111,14 @@ Ver la sección 5 bis.
   3 a 6. La solución, una idea por lámina: el ejemplo, **el pedido para copiar** (burbuja de chat), lo que
      devuelve, las claves o chequeos (lista numerada de 3 o 4), un cuidado.
   7. Cierre oscuro: una pregunta para comentar + "Guardalo".
+- **Específico, para gente que casi no usa IA** (Nicolás, 16/11/2026: "no dice dónde, no dice en qué IA"). El
+  lector, si usa IA, es para preguntas simples. Por eso cada carrusel dice:
+  · **En qué IA:** "Pegá esto en Claude o ChatGPT" y las direcciones (claude.ai, chatgpt.com) en la lámina.
+  · **Dónde se pega o se toca cada cosa:** el camino de clics con `ruta("Extensiones", "Apps Script")`, la
+    celda ("En C2"), el botón ("Tocá Ejecutar"). Nunca "pegalo" o "configuralo" a secas.
+  · **Pasos numerados** ("PASO 1" … "PASO 5"), una acción por lámina, y cómo comprobar que funcionó.
+  · Solo nombres de menús y botones de los que haya certeza (en español, como los ve el usuario). Si no se
+    puede confirmar un nombre, describir el lugar ("el ícono del reloj, a la izquierda").
 - **Sin tecnicismos:** "pedido" (no "prompt"), "tarea programada" (no "agente" ni "workflow"), "planilla",
   "mail". Si hace falta una palabra técnica, se explica en la misma lámina. Frases cortas, como se habla.
 - Poco texto: como mucho unas 35 palabras por lámina y cuerpo de 30 px o más (se lee en el celular).
