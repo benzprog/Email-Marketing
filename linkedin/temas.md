@@ -37,7 +37,7 @@ Sirve para no repetir temas. Cada semana se agrega al final.
 | 2026-11-17 | 11:00 | Obra de Pana: Teatro San Martín, Buenos Aires (carrusel de 5 fotos de la sala, estilo limpio; armado a pedido de Nicolás el 13/11, ya ocupa el martes) | Carrusel PDF | 6af707bd9a21933ffad6dedb |
 | 2026-11-16 | 11:00 | Video "Depósito2": stock Tenaruz para que la obra no se frene (ángulo stock y entregas) | Video | 6af85747c5b364e062eee140 |
 | 2026-11-18 | 11:00 | Video "Producto nuevo": 5 datos de la ficha que hay que pedir de un producto nuevo | Video | 6af8575f918fe79d2e7b5893 |
-| 2026-11-19 | 11:00 | Producto Tenaruz: mini spot fijo COB 3 W (hueco de 28 mm, 250 lm, 38°, driver incluido, clase II, IP20) | Imagen (producto) | 6af85760e5a113497a81b57e |
+| 2026-11-19 | 11:00 | Video "Estaca solar" (producto Tenaruz: estaca solar sin instalación y estaca de aluminio GU10). Reemplazó el 16/11 a la imagen del mini spot, a pedido de Nicolás (video primero) | Video | 6af85760e5a113497a81b57e |
 | 2026-11-20 | 11:00 | Video "¿Y todo esto?": qué conviene saber antes de la primera compra (marcas, bulto cerrado, fichas) | Video | 6af85766918fe79d2e7b5a52 |
 
 ## Rotación de productos Tenaruz
@@ -56,18 +56,20 @@ Familias de la lista mayorista de noviembre de 2026. Marcar la fecha cuando salg
 | Bipin G9 220 V | COB 3 W y SMD 6 W | Revisar foto / Sí | |
 | Gota E27 y bulbo A60 | Gota 5 W (y dimerizable), A60 12 W dimerizable, A60 12/24 V 9 W | Sí, gota G45 5 W en 3 temperaturas / Sí | |
 | Tubo T5 18 W | Liquidación | Revisar / Sí | |
-| Minispots COB 220 V | Fijo Ø38 y móvil Ø52, blanco y negro | Sí / Sí (ficha nueva del fijo negro 3 W 3000 K) | 2026-11-19 (fijo COB 3 W, pieza de una imagen; falta el móvil Ø52) |
+| Minispots COB 220 V | Fijo Ø38 y móvil Ø52, blanco y negro | Sí / Sí (ficha nueva del fijo negro 3 W 3000 K) | Pieza lista sin publicar: `semana-2026-11-16/04_minispot_cob_3w.png` (texto en las notas del 16/11); usar cuando no queden videos |
 | Spot de embutir para minidicroica | Antideslumbrante Ø64 | Sí / Revisar | |
 | Apliques de aluminio GU10 | Curvo y recto, 1 y 2 luces, negro | Sí (con fotos de ambiente) / Sí | 2026-11-11 (carrusel: IP65, clase I, 7 W máx., medidas, bulto) |
-| Estacas | Aluminio GU10, para minidicroica, solar | Sí / Sí | |
+| Estacas | Aluminio GU10, para minidicroica, solar | Sí / Sí | 2026-11-19 (video "Estaca solar"; sin datos técnicos) |
 | Reflectores 12 V | 10, 30 y 50 W | Sí / Sí | |
 | Spots cabezal y plafones 12 V | Cabezal 2,5–3 W, plafón Ø60, paneles Ø70 y Ø83, minispot 1 W | Sí / Sí | |
 | Fuentes switching slim 12 V y 24 V | De 1 A a 16,6 A | Sí / Sí | Ejemplo de fuente en el post del 29/10 |
 
-## Videos (carpeta de Drive 1liY7xWxTytcmyQZ-hR2rYvwPTUAtoN6L)
+## Videos (carpetas de Drive "videos de Pana" y "Producción septiembre")
 
-Subidos por el equipo de Pana el 8/11/2026. Ninguno tiene descripción todavía; la tarea no puede verlos.
-Cada video se usa una sola vez. Después de la semana del 16/11 quedan 4 sin usar: alcanzan para la semana del 23/11 (3) y uno más.
+Regla desde el 16/11/2026: video todos los días que se pueda, hasta usar todos los de las dos carpetas.
+Ninguno tiene descripción todavía; la tarea no puede verlos. Cada video se usa una sola vez.
+Después de la semana del 16/11 quedan 8 sin usar (sin contar la versión larga de TENARUZ): alcanzan para
+la semana del 23/11 (5) y 3 días de la del 30/11.
 Resultado del primero (al 14/11): 40 impresiones, 3 reacciones, 1 compartido, 20 % de interacción, 11 reproducciones (4 personas). Fue el mejor post de la semana del 9/11.
 
 | Archivo | Id de Drive | Peso | Publicado |
@@ -80,6 +82,17 @@ Resultado del primero (al 14/11): 40 impresiones, 3 reacciones, 1 compartido, 20
 | Pin pong | 120mDSUR_P2FAQQFIz-vnSgpF682rwuQ_ | 35 MB | |
 | Descargas | 1ljy1YtAZI_9cU1DO6DTjzvqm4J3znjEX | 28 MB | |
 | Plantilla | 1dlQxYJQp7F5YEcbW_Q62UTxQEzgRzXFn | 23 MB | |
+
+Carpeta "Producción septiembre" (`1VcWZn0jAh3qzQ6K5EW7VtcOIIy3phP-L`, subidos el 8 y 9/10/2026, compartida el 16/11/2026):
+
+| Archivo | Id de Drive | Peso | Publicado |
+|---|---|---|---|
+| Estaca solar | 1YfHTBsvbN8gsIdgzJX7uaNwp8VwNI58X | 33 MB (26 s) | 2026-11-19 11:00 (6af85760e5a113497a81b57e) |
+| Depósito | 1c7f3MArEL3MADhv6EJ8tKvmid3z3f9Px | 25 MB | |
+| TENARUZ- versión corta | 1EVXQy-VcSz3pA9OoGayhoorNrcOXzsYv | 24 MB | |
+| TENARUZ- versión larga | 1PPxtdsCJjv0O0FxbS_E4DtPDvYyObcc7 | 101 MB | **No usar**: es el mismo video que la corta (Nicolás, 16/11) |
+| Plantilla | 17ufvaQCqFTIY2-WM8u0saYtOXL_HVxHb | 20 MB | (otro archivo que el "Plantilla" de la otra carpeta: distinto peso) |
+| Pared oficina | 1PMhcLsIIitWgGUBMEdnzvtAckVNFFEHJ | 23 MB | |
 
 ## Fotos de producto por SKU (carpeta 1F5i03qSXerH_Tu96_MIc8ITXot9XBLV2, revisadas el 10/11/2026)
 
@@ -213,8 +226,10 @@ muy bajo (2 a 7 personas por post): sin que el equipo comparta desde sus perfile
 ## Notas de la semana del 16/11
 
 - Martes 17/11 ya estaba ocupado por el carrusel del Teatro San Martín (armado el 13/11).
-- Jueves: foto de producto Tenaruz (mini spot COB 3 W) en vez de foto de obra, para cumplir 2 posts de
-  producto. La foto de obra "AER Julian Alvarez" (palier con jardín, deptos 101 y 104) sigue sin usar: luces
+- Jueves: se programó el 14/11 una foto de producto Tenaruz (mini spot COB 3 W); el 16/11 Nicolás pidió
+  priorizar video y el post pasó a ser el video "Estaca solar" (mismo id de Buffer). La pieza del mini spot
+  quedó en el repo para cuando no haya videos; su texto (datos verificados de la ficha) arranca con
+  "Hueco de 28 mm. Antes de cortar el cielorraso, conviene saber exactamente qué va adentro." La foto de obra "AER Julian Alvarez" (palier con jardín, deptos 101 y 104) sigue sin usar: luces
   que se ven: luminaria lineal negra aplicada al techo, línea de luz LED vertical junto a cada puerta y spots
   chicos entre las plantas. Tema propuesto: "Un palier, 3 luces".
 - Los textos de los videos se escribieron solo con el nombre del archivo y datos confirmados (no hay

@@ -57,8 +57,9 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   de cada producto y Nicolás confirmó que son correctas (6/11/2026). Son la fuente de datos para los
   posts de producto, junto con la descripción y el código de la lista mayorista vigente. Si una lámina
   y la lista no coinciden, gana la lista y se anota la diferencia en el resumen.
-- **Videos de Pana:** carpeta compartida de Google Drive `1liY7xWxTytcmyQZ-hR2rYvwPTUAtoN6L` (la arma el
-  equipo de Pana; acceso de editor desde el 9/11/2026). Ver la sección 7 bis.
+- **Videos de Pana:** dos carpetas compartidas de Google Drive, las dos se usan (Nicolás, 16/11/2026):
+  "videos de Pana" `1liY7xWxTytcmyQZ-hR2rYvwPTUAtoN6L` (acceso de editor desde el 9/11/2026) y
+  "Producción septiembre" `1VcWZn0jAh3qzQ6K5EW7VtcOIIy3phP-L` (compartida el 16/11/2026). Ver la sección 7 bis.
 - **Kit visual:** `linkedin/kit/` (`html_kit.py`, logos, tipografía Archivo, fotos y piezas de ejemplo).
 
 ## 2. Calendario
@@ -68,23 +69,27 @@ Si Nicolás pide un cambio de criterio, se actualiza acá.
   publicar dos veces por día en una página de empresa le resta alcance a cada post (lo recomendado
   son 3 a 5 por semana con 24 h de diferencia) y la franja de 9 a 12 es la que mejor rinde en LinkedIn.
   Historial: 9:00 y 18:00 hasta el 27/10; 8:00 y 15:30 hasta el 6/11.
-- **Mezcla semanal desde la semana del 16/11/2026 (pedido de Nicolás, 11/11/2026): la mayoría, videos.**
-  · **3 videos** (lunes, miércoles y viernes) mientras haya videos sin usar en la carpeta de la
-    sección 7 bis. **Cada video se publica una sola vez**: antes de elegir, mirar la tabla "Videos" de
-    `temas.md` y descartar los que ya tienen fecha. Si quedan 1 o 2, se usan esos y el resto se completa.
-  · Los otros 2 días (martes y jueves), y los días de video que no se puedan cubrir, en este orden:
+- **Mezcla semanal: video primero, siempre (Nicolás, 16/11/2026: "la idea es que uses todos los videos de
+  ambas carpetas, prioriza siempre video antes que texto").**
+  · **Todos los días que se puedan van con video**, mientras haya videos sin usar en cualquiera de las dos
+    carpetas de la sección 7 bis (hasta 5 por semana). **Cada video se publica una sola vez**: antes de
+    elegir, mirar la tabla "Videos" de `temas.md` y descartar los que ya tienen fecha.
+  · Lo que pida Nicolás para un día puntual (como el carrusel del Teatro San Martín) se respeta.
+  · Solo cuando no quedan videos sin usar, los días que falten se cubren en este orden:
     1. **Foto real** de una obra de cliente o de un producto Tenaruz (carpetas de la sección 1), sin
        repetir fotos ya usadas (columna "Publicado" de las tablas de `temas.md`).
     2. **Carrusel informativo de productos Tenaruz** (familia o producto puntual, ver sección 4).
     3. Carrusel técnico o infografía (solo si no queda nada de lo anterior).
   · Al menos 1 post por semana tiene que ser de producto Tenaruz (puede ser un video donde se vea stock
     o producto, una foto o un carrusel).
+  · (Hasta el 15/11 la regla era 3 videos por semana, lunes, miércoles y viernes.)
   · Por qué: el primer video ("Acompáñanos al depósito", 9/11) tuvo la tasa de interacción más alta de
     la página (26 %, 2 reacciones y 1 compartido con muy poco alcance) y los estudios de páginas de
     empresa ponen al video entre los formatos de más interacción. Revisar cada sábado con la sección 8:
-    si los videos quedan abajo dos semanas seguidas, volver a 1 o 2 por semana y avisarle a Nicolás.
-  · **Avisar en el resumen cuántos videos sin usar quedan.** Si quedan menos de 3, pedirle al equipo
-    más videos en "Datos que necesito" (al ritmo de 3 por semana se gastan rápido).
+    si los videos quedan abajo dos semanas seguidas, avisarle a Nicolás en el resumen (no cambiar la
+    mezcla sin que él lo diga).
+  · **Avisar en el resumen cuántos videos sin usar quedan.** Si no alcanzan para la semana siguiente
+    completa (menos de 5), pedirle al equipo más videos en "Datos que necesito".
 - Antes de cargar, revisar la cola (`list_posts` con status `scheduled`). Si quedan posts de la
   semana siguiente ya programados, completar solo los huecos y no pasar de 5.
 - **Si la semana siguiente ya tiene sus 5 posts programados, no armar nada:** terminar con un
@@ -243,8 +248,11 @@ iguales, demasiado texto y ninguna imagen. Para que parezca de diseño:
 
 ## 7 bis. Videos (pedido de Nicolás, 9/11/2026)
 
-- **De dónde salen:** carpeta de Drive "videos de Pana" `1liY7xWxTytcmyQZ-hR2rYvwPTUAtoN6L`. Se lista con
-  `search_files` y `parentId`. Son videos hechos por el equipo para LinkedIn (.mov de 20 a 40 MB). Se pueden
+- **De dónde salen:** carpetas de Drive "videos de Pana" `1liY7xWxTytcmyQZ-hR2rYvwPTUAtoN6L` y
+  "Producción septiembre" `1VcWZn0jAh3qzQ6K5EW7VtcOIIy3phP-L`. Se listan con `search_files` y `parentId`
+  (paginar con `pageToken`) y hay que revisar las dos cada sábado por si el equipo sumó videos.
+  "TENARUZ- versión larga" y "TENARUZ- versión corta" son el mismo video: se publica **solo la corta**
+  (Nicolás, 16/11/2026). Son videos hechos por el equipo para LinkedIn (.mov de 20 a 40 MB). Se pueden
   publicar tal cual; no hace falta tapar nada que el equipo haya filmado a propósito.
 - **Cómo se suben a Buffer:** el conector de Drive no baja archivos de más de 10 MB y este entorno no llega a
   los servidores de descarga de Drive, así que los videos **no pasan por el repo**. Buffer los toma directo
