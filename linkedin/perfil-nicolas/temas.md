@@ -4,9 +4,9 @@
 
 | Fecha sugerida | Tema | Formato | Id Buffer | Fuente | Estado |
 |---|---|---|---|---|---|
-| 2026-11-17 09:00 | Planillas: pedirle a la IA la fórmula de Excel describiendo el resultado (vencimiento de facturas con =A2+B2 y SI/HOY, cómo probarla) | Texto | 6af862aae86a5789a6ac4f06 | — (rehecho el 16/11; antes: Claude Fable 5.2) | Borrador |
-| 2026-11-18 09:00 | Lo hice yo: de un chat a una tarea que se repite sola (la página de LinkedIn de Pana; reglas en un documento, errores corregidos) | Texto | 6af862abe86a5789a6ac4f23 | Este repo (linkedin/INSTRUCCIONES.md, temas.md e historial) | Borrador |
-| 2026-11-19 09:00 | Plantilla para guardar: el pedido para responder un mail difícil (proveedor atrasado) y cómo revisarlo | Texto | 6af862abe5a113497a860acb | — (rehecho el 16/11; antes: pedido en 5 partes con ejemplo del rubro) | Borrador |
+| 2026-11-17 09:00 | Planillas: pedirle a la IA la fórmula de Excel describiendo el resultado (vencimiento de facturas con =A2+B2 y SI/HOY, cómo probarla) | Carrusel PDF, 7 láminas (01_formulas_excel_con_ia) | 6af862aae86a5789a6ac4f06 | — (rehecho el 16/11; antes: Claude Fable 5.2) | Borrador |
+| 2026-11-18 09:00 | Lo hice yo: de un chat a una tarea que se repite sola (la página de LinkedIn de Pana; reglas en un documento, errores corregidos) | Carrusel PDF, 7 láminas (02_de_un_chat_a_una_tarea) | 6af862abe86a5789a6ac4f23 | Este repo (linkedin/INSTRUCCIONES.md, temas.md e historial) | Borrador |
+| 2026-11-19 09:00 | Plantilla para guardar: el pedido para responder un mail difícil (proveedor atrasado) y cómo revisarlo | Carrusel PDF, 7 láminas (03_mail_dificil_con_ia) | 6af862abe5a113497a860acb | — (rehecho el 16/11; antes: pedido en 5 partes con ejemplo del rubro) | Borrador |
 
 ## Casos reales de IA en Pana ya contados
 
@@ -15,6 +15,8 @@
 - 2026-11-18: la página de LinkedIn de Pana se arma sola (tarea de los sábados), con los errores corregidos y el paso de 10 a 5 posts por semana. Quedan sin contar: relevamiento de precios, presentación comercial y plan de expansión, flyers y estados de WhatsApp, lista de prospectos.
 
 ## Notas
+
+- 2026-11-16 (tarde): Nicolás pidió que todo sea carrusel PDF, lindo de ver, sin tecnicismos, que frene el scroll y haga interactuar. Se creó `kit_nicolas.py` y los 3 borradores pasaron a carrusel con texto corto. Portadas usadas: buscador tachado (Excel), lista de semanas (automatizar), mail a medio escribir (mails).
 
 - 2026-11-16: Nicolás pidió enfocar el perfil en gente de oficina (Excel, Gmail, planillas, automatizar y acelerar trabajo) con ejemplos generales, buscando que los posts se compartan. Se rehicieron los 3 borradores de la semana del 16/11; los textos viejos están en `descartados/2026-11-16_borradores_viejos.md`.
 

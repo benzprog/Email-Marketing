@@ -47,8 +47,9 @@ Mezcla semanal:
    difícil, resumir un hilo o una reunión, armar un reporte, revisar un contrato o una planilla), por qué
    funciona y cómo revisar lo que devuelve. Cerrar con "Guardalo".
 
-Cada 2 semanas, uno de los tres puede ser un **carrusel PDF** de 5 a 7 láminas (`linkedin/kit/html_kit.py`),
-estética neutra, firmado "Nicolás Benítez", sin logo de Pana. Rinde para paso a paso y "5 pedidos para…".
+**Formato: los 3 posts son carruseles PDF** (pedido de Nicolás, 16/11/2026: "captar la atención del que
+scrollea, atacar su punto de dolor y que interactúe; sin tecnicismos, fácil para todos, lindo de ver").
+Ver la sección 5 bis.
 
 ### Para que los posts circulen (sin prometer viralidad)
 
@@ -86,11 +87,39 @@ estética neutra, firmado "Nicolás Benítez", sin logo de Pana. Rinde para paso
 - **Rioplatense, cercano y concreto** (vos, "probá", "fijate"; primera persona en los casos reales). Como
   alguien que trabaja en una pyme y usa IA todos los días, no como un gurú.
 - Prohibido: "revolución", "cambia todo", "el futuro es hoy", listas de 10 herramientas, promesas.
-- Primeras dos líneas = gancho (lo que se ve antes de "…ver más"). 800 a 1300 caracteres.
+- Primeras dos líneas = gancho (lo que se ve antes de "…ver más"). 400 a 700 caracteres con carrusel
+  (800 a 1300 solo si alguna vez va un post de texto).
   Párrafos cortos, viñetas con "·", sin emojis o uno como mucho, 3 hashtags al final.
 - Cierre con una pregunta concreta para que comenten.
 - **Ojo con los links automáticos de Buffer** ("palabra.palabra" pegada, por ejemplo "Claude.ai" o
   "1.er"): escribir "Claude" o "claude punto ai" y "primer". Revisar `metadata.annotations` después de crear.
+
+## 5 bis. Carruseles (formato de todos los posts desde el 16/11/2026)
+
+- Se arman con `linkedin/perfil-nicolas/kit_nicolas.py` (no con el kit de Pana). Ejemplo completo y aprobado
+  como punto de partida: `semana-2026-11-16/carruseles.py`. Estética propia, sin logo de Pana, firmado
+  "Nicolás Benítez" en el pie de cada lámina.
+- **7 láminas** (entre 6 y 8), 1080 x 1350:
+  1. Portada oscura: el **dolor del lector** en letra gigante, con una palabra en el color de acento, y una
+     maqueta que reconozca en un segundo (un buscador, un mail a medio escribir, una planilla, una lista).
+  2. "Te suena": el problema dicho en una frase.
+  3 a 6. La solución, una idea por lámina: el ejemplo, **el pedido para copiar** (burbuja de chat), lo que
+     devuelve, las claves o chequeos (lista numerada de 3 o 4), un cuidado.
+  7. Cierre oscuro: una pregunta para comentar + "Guardalo".
+- **Sin tecnicismos:** "pedido" (no "prompt"), "tarea programada" (no "agente" ni "workflow"), "planilla",
+  "mail". Si hace falta una palabra técnica, se explica en la misma lámina. Frases cortas, como se habla.
+- Poco texto: como mucho unas 35 palabras por lámina y cuerpo de 30 px o más (se lee en el celular).
+- Alternar láminas oscuras y claras. Un color de acento por tema (`TEMAS` del kit: verde planillas, naranja
+  mails, violeta automatizar, amarillo documentos); se puede sumar otro tema con su color.
+- Variar la portada y las maquetas de semana a semana: que no sean siempre las mismas tres.
+- **Mirar todas las láminas antes de subir** (`python3 carruseles.py png` y revisar los PNG): nada cortado,
+  nada superpuesto, y que el script no avise "desborda".
+- Subir a `linkedin/perfil-nicolas/semana-AAAA-MM-DD/` solo el PDF, la portada JPG y el script. En Buffer:
+  `assets: [{document: {url, title, thumbnailUrl}}]` con los links de raw.githubusercontent
+  (`.../benzprog/Email-Marketing/main/linkedin/perfil-nicolas/semana-.../archivo.pdf`). Confirmar
+  `metadata.type: "carousel"`.
+- **Texto del post con carrusel: corto, 400 a 700 caracteres.** Gancho en las dos primeras líneas, 3 viñetas
+  de lo que hay adentro, la pregunta y 3 hashtags. El contenido va en las láminas, no repetido en el texto.
 
 ## 6. Qué no hacer
 
@@ -107,8 +136,8 @@ estética neutra, firmado "Nicolás Benítez", sin logo de Pana. Rinde para paso
 3. Elegir los 3 temas de la sección 3 (dolores de oficina, sin repetir los de `temas.md`). Mirar si hay una
    novedad de IA para el trabajo de oficina y, si se usa, verificarla en la fuente oficial. Probar o revisar
    cada fórmula y cada paso antes de escribirlo.
-4. Escribir los 3 textos (y el carrusel si toca), revisarlos contra las secciones 4 y 5.
-5. Si hay carrusel: subir PDF y portada a `linkedin/perfil-nicolas/semana-AAAA-MM-DD/`, commit y push.
+4. Armar los 3 carruseles (sección 5 bis) y sus textos cortos; revisarlos contra las secciones 4, 5 y 5 bis.
+5. Subir PDF, portada y script a `linkedin/perfil-nicolas/semana-AAAA-MM-DD/`, commit y push.
 6. Crear los 3 borradores en Buffer y confirmar que no haya links automáticos falsos.
 7. Anotar la semana en `temas.md` (fecha sugerida, tema, formato, id del borrador, fuente) y hacer push.
 8. Mandar el aviso a Nicolás: los 3 borradores con día, tema y la primera línea de cada uno, qué
