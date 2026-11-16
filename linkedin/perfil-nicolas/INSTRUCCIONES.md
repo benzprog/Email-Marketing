@@ -40,7 +40,11 @@ Mezcla semanal:
    para copiar, lo que devuelve (fórmula, pasos) y cómo comprobarlo. Si la semana trae una novedad de IA
    verificada que cambie el trabajo de oficina (una función nueva de Claude, de Excel, de Gmail o de Sheets),
    puede ocupar este día con el mismo enfoque práctico: qué hace, cómo se usa y cuál es el límite.
-2. **Miércoles · Lo hice yo (caso real).** Algo que Nicolás hizo de verdad con IA, contado en primera persona,
+2. **Miércoles · Automatizar una tarea repetida.** Un ejemplo general que le sirva a cualquier oficina (un
+   recordatorio automático a clientes con pago atrasado, un reporte que se arma solo, un resumen diario de
+   mails): qué necesitás, el pedido para copiar y cómo probarlo. Nicolás prefiere esto al caso propio
+   (16/11/2026); el caso real de Pana queda como opción ocasional:
+   **Lo hice yo (caso real).** Algo que Nicolás hizo de verdad con IA, contado en primera persona,
    con la lección que sirve a cualquier oficina. Material verificable en este repo y en su historial (ver la
    lista de casos en `temas.md`). No inventar números, tiempos ni anécdotas; no dar datos internos de Pana.
 3. **Jueves · Plantilla para guardar.** Un pedido (prompt) listo para copiar para una tarea de oficina (un mail
@@ -99,7 +103,8 @@ Ver la sección 5 bis.
 - Se arman con `linkedin/perfil-nicolas/kit_nicolas.py` (no con el kit de Pana). Ejemplo completo y aprobado
   como punto de partida: `semana-2026-11-16/carruseles.py`. Estética propia, sin logo de Pana, firmado
   "Nicolás Benítez" en el pie de cada lámina.
-- **7 láminas** (entre 6 y 8), 1080 x 1350:
+- **6 láminas** (5 a 7), 1080 x 1350. **Corto: que se lea y se entienda rápido** (Nicolás, 16/11/2026):
+  títulos de pocas palabras, listas de 3 ítems, una línea por ítem. Ante la duda, sacar texto.
   1. Portada oscura: el **dolor del lector** en letra gigante, con una palabra en el color de acento, y una
      maqueta que reconozca en un segundo (un buscador, un mail a medio escribir, una planilla, una lista).
   2. "Te suena": el problema dicho en una frase.

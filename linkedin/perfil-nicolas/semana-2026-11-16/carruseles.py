@@ -42,41 +42,36 @@ excel = [
 ]
 render(excel, f"{OUT}/01_formulas_excel_con_ia", png=PNG)
 
-# ---------- 2. De un chat a una tarea que se repite sola ----------
+# ---------- 2. Recordatorio automático a clientes con pago atrasado ----------
 T = TEMAS["auto"]
-N = 7
-sem = ('<div class="sem"><div>Semana 1 <span class="pill">a mano</span></div><div>Semana 2 <span class="pill">a mano</span></div>'
-       '<div class="ok">Semana 3 <span class="pill">se hizo sola</span></div></div>')
+N = 6
+sem = ('<div class="sem"><div>Recordatorio a cliente 1 <span class="pill">a mano</span></div>'
+       '<div>Recordatorio a cliente 2 <span class="pill">a mano</span></div>'
+       '<div class="ok">Todos los demás <span class="pill">salen solos</span></div></div>')
 auto = [
-    portada(T, 'Esa tarea de todas las semanas puede <span class="ac">hacerse sola.</span>',
-            "Así pasé un trabajo de un chat con IA a una tarea programada.", sem),
-    paso(T, 2, N, "LA DIFERENCIA", 'Un chat te ahorra minutos.<br><span class="ac">Una tarea programada te saca de encima lo repetido.</span>',
-         '<div class="baj">La IA puede hacer el mismo trabajo cada semana, sin que se lo pidas de nuevo.</div>', chico=True),
-    paso(T, 3, N, "MI CASO", "La página de LinkedIn de mi empresa", lista([
-        ("Lee las reglas que escribí", "Tono, temas que no van, palabras que no se usan."),
-        ("Busca temas y verifica los datos", ""),
-        ("Diseña las piezas y las deja programadas", ""),
-        ("Mide cómo les fue a las anteriores", ""),
-    ]) + '<div class="baj">Todos los sábados, sola.</div>', oscuro=True, chico=True),
-    paso(T, 4, N, "NO SALIÓ BIEN DE ENTRADA", "3 cosas que tuve que corregir", lista([
-        ("Imágenes con el texto borroso", "Hubo que rehacerlas de otra forma."),
-        ("Un dato comercial que no era cierto", "Lo corregí y quedó como regla escrita."),
-        ("Frases lindas que nadie dice", "Ahora hay una lista de palabras prohibidas."),
+    portada(T, '¿Seguís reclamando pagos <span class="ac">mail por mail?</span>',
+            "Que el recordatorio salga solo. Te muestro cómo.", sem),
+    paso(T, 2, N, "LO QUE NECESITÁS", "Una planilla con 4 columnas",
+         hoja("ABCD", [["Cliente", "Mail", "Vence", "Pagó"], ["Cliente 1", "mail 1", "05/11", '<span class="mal">No</span>'],
+                       ["Cliente 2", "mail 2", "10/11", '<span class="bien">Sí</span>'], ["Cliente 3", "mail 3", "12/11", '<span class="mal">No</span>']],
+              ["1.3fr", "1.1fr", "1fr", "0.8fr"])
+         + '<div class="baj">Con eso alcanza.</div>', chico=True),
+    paso(T, 3, N, "", "", chat('Tengo una <mark>planilla de Google</mark> con cliente, mail, fecha de vencimiento y si pagó. Quiero que '
+         '<mark>cada mañana se mande solo</mark> un mail de recordatorio a los que están vencidos y no pagaron. '
+         '<mark>Armame el paso a paso. No sé programar.</mark>'), oscuro=True),
+    paso(T, 4, N, "QUÉ PASA DESPUÉS", "3 pasos, una sola vez", lista([
+        ("La IA te da las instrucciones", "Y un texto listo para pegar."),
+        ("Lo pegás en tu planilla", "Te dice dónde, clic por clic."),
+        ("Cada mañana, el mail sale solo", "Desde tu propio Gmail."),
     ]), chico=True),
-    paso(T, 5, N, "LA RECETA", "Sirve para cualquier tarea de oficina", lista([
-        ("Escribí las reglas una sola vez", "En un documento, no en cada chat."),
-        ("Cada error que corregís va a ese documento", "Así no se repite la semana siguiente."),
-        ("Revisá antes de que salga con tu nombre", "La IA hace el trabajo. El criterio es tuyo."),
+    paso(T, 5, N, "ANTES DE ACTIVARLO", "Probalo con vos", lista([
+        ("Poné tu mail como cliente de prueba", ""),
+        ("Leé el recordatorio como si te llegara", ""),
+        ("Marcá “Sí” apenas alguien paga", ""),
     ]), oscuro=True, chico=True),
-    paso(T, 6, N, "POR DÓNDE EMPEZAR", "Tareas que se prestan", lista([
-        ("El reporte de todos los lunes", ""),
-        ("El resumen semanal de ventas", ""),
-        ("El control de pagos y vencimientos", ""),
-        ("El resumen de los mails pendientes", ""),
-    ]), chico=True),
-    cierre(T, 7, N, '¿Qué tarea de todas las semanas te gustaría que se hiciera <span class="ac">sola?</span>'),
+    cierre(T, 6, N, '¿Qué tarea repetís <span class="ac">todas las semanas?</span>', "Contala y vemos cómo hacer que salga sola."),
 ]
-render(auto, f"{OUT}/02_de_un_chat_a_una_tarea", png=PNG)
+render(auto, f"{OUT}/02_recordatorio_de_pagos_automatico", png=PNG)
 
 # ---------- 3. El mail que no sabés cómo contestar ----------
 T = TEMAS["mail"]
