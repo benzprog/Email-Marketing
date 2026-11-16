@@ -87,8 +87,8 @@ Ver la sección 5 bis.
 - **Rioplatense, cercano y concreto** (vos, "probá", "fijate"; primera persona en los casos reales). Como
   alguien que trabaja en una pyme y usa IA todos los días, no como un gurú.
 - Prohibido: "revolución", "cambia todo", "el futuro es hoy", listas de 10 herramientas, promesas.
-- Primeras dos líneas = gancho (lo que se ve antes de "…ver más"). 400 a 700 caracteres con carrusel
-  (800 a 1300 solo si alguna vez va un post de texto).
+- Con carrusel, el texto es una sola línea (ver 5 bis) y el gancho es la portada. Solo si alguna vez va un
+  post de texto: primeras dos líneas = gancho, 800 a 1300 caracteres.
   Párrafos cortos, viñetas con "·", sin emojis o uno como mucho, 3 hashtags al final.
 - Cierre con una pregunta concreta para que comenten.
 - **Ojo con los links automáticos de Buffer** ("palabra.palabra" pegada, por ejemplo "Claude.ai" o
@@ -118,8 +118,10 @@ Ver la sección 5 bis.
   `assets: [{document: {url, title, thumbnailUrl}}]` con los links de raw.githubusercontent
   (`.../benzprog/Email-Marketing/main/linkedin/perfil-nicolas/semana-.../archivo.pdf`). Confirmar
   `metadata.type: "carousel"`.
-- **Texto del post con carrusel: corto, 400 a 700 caracteres.** Gancho en las dos primeras líneas, 3 viñetas
-  de lo que hay adentro, la pregunta y 3 hashtags. El contenido va en las láminas, no repetido en el texto.
+- **Texto del post: una sola línea** (pedido de Nicolás, 16/11/2026: el carrusel tiene que ser lo primero
+  que se ve). En LinkedIn el texto siempre va arriba de la imagen y no se puede invertir, así que el texto
+  es una pregunta corta (menos de 100 caracteres) y, en otra línea, los 3 hashtags. Nada más: el gancho es
+  la portada y todo el contenido va en las láminas.
 
 ## 6. Qué no hacer
 
@@ -136,7 +138,7 @@ Ver la sección 5 bis.
 3. Elegir los 3 temas de la sección 3 (dolores de oficina, sin repetir los de `temas.md`). Mirar si hay una
    novedad de IA para el trabajo de oficina y, si se usa, verificarla en la fuente oficial. Probar o revisar
    cada fórmula y cada paso antes de escribirlo.
-4. Armar los 3 carruseles (sección 5 bis) y sus textos cortos; revisarlos contra las secciones 4, 5 y 5 bis.
+4. Armar los 3 carruseles (sección 5 bis) y su texto de una línea; revisarlos contra las secciones 4, 5 y 5 bis.
 5. Subir PDF, portada y script a `linkedin/perfil-nicolas/semana-AAAA-MM-DD/`, commit y push.
 6. Crear los 3 borradores en Buffer y confirmar que no haya links automáticos falsos.
 7. Anotar la semana en `temas.md` (fecha sugerida, tema, formato, id del borrador, fuente) y hacer push.
