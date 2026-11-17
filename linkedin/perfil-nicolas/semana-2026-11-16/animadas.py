@@ -107,167 +107,214 @@ def caja(idt, txt, top, left=16, right=16, fondo="#1c2230", extra=""):
             f'font-size:20px;{extra}">{txt}</div>')
 
 # =====================================================================================
-# 03 · 4 tareas de tu tienda online que podés pasarle a la IA
+# Desde acá, cada pieza tiene su propia composición (pedido de Nicolás, 17/11/2026: "no parezcan una
+# plantilla reusada"). Fondo, paleta, tipografía y estructura cambian en cada una.
 # =====================================================================================
+KITF = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(AQUI))), "linkedin", "kit", "fonts")
+ARCHIVO = "".join(f'@font-face{{font-family:Archivo;src:url("file://{KITF}/Archivo-{w}.ttf");font-weight:{w}}}' for w in (500, 600, 700, 800))
+CARRO = ('<svg viewBox="0 0 48 40" width="{w}" height="{h}"><path d="M3 5h7l6 22h22l5-15H13" fill="none" stroke="{c}" stroke-width="4.5" '
+         'stroke-linecap="round" stroke-linejoin="round"/><circle cx="19" cy="34" r="3.8" fill="{c}"/><circle cx="35" cy="34" r="3.8" fill="{c}"/></svg>')
+BOLSA = ('<svg viewBox="0 0 30 36" width="{w}" height="{h}"><path d="M9 11V8a6 6 0 0 1 12 0v3" fill="none" stroke="{c}" stroke-width="3"/>'
+         '<rect x="3" y="11" width="24" height="23" rx="4" fill="{c}"/></svg>')
+
+# -------------------------------------------------------------------------------------
+# 03 · CREMA + VIOLETA · lista editorial de 4 filas con "el pedido" de cada tarea
+# -------------------------------------------------------------------------------------
 if "03" in QUE:
-    DESC = "Lámpara colgante de aluminio negro, 30 cm. Ideal para cocina o comedor."
-    RESP = "¡Sí! Enviamos a todo el país. Te llega en 3 a 5 días hábiles."
-    chips = "".join(f'<span id="ch{k}" style="display:inline-block;margin:0 6px 8px 0;padding:6px 12px;border-radius:10px;background:#2a3142;'
-                    f'font-size:19px;font-weight:700">{t}</span>' for k, t in enumerate(["Aluminio", "Negro", "30 cm", "Colgante"]))
-    v1 = (f'<div style="position:absolute;left:16px;right:16px;top:16px">{chips}</div>'
-          f'<div id="fl1" style="position:absolute;left:0;right:0;top:100px;text-align:center;font-size:28px;font-weight:900;color:{C[0]}">↓</div>'
-          + caja("d1", "", 140, extra="min-height:76px;line-height:1.3"))
-    v2 = (caja("q2", "¿Hacen envíos al interior?", 16, right=120, fondo="#2b3245", extra="border-radius:18px 18px 18px 4px")
-          + caja("a2", "", 92, left=80, fondo="#163828", extra="border-color:#1f5a3c;border-radius:18px 18px 4px 18px;line-height:1.3;min-height:60px"))
-    QUEJAS = [("Demora en el envío", 100), ("Talle más chico", 62), ("Embalaje roto", 34)]
-    v3 = "".join(f'<div id="rv{k}" style="position:absolute;top:{14 + 6 * k}px;left:{24 + 10 * k}px;width:150px;height:44px;border-radius:10px;'
-                 f'background:#232a3a;border:1px solid #39425a;font-size:16px;padding:6px 10px;color:#aab1c0">★★☆☆☆ ···</div>' for k in range(4))
-    v3 += (f'<div id="ar3" class="mini" style="left:200px;top:24px;font-size:28px;color:{C[2]}">→</div>'
-           f'<div class="mini" id="tq3" style="left:240px;top:28px;font-size:19px;color:#aab1c0">las que más<br>se repiten</div>')
-    for k, (t, w) in enumerate(QUEJAS):
-        v3 += (f'<div class="mini" style="left:16px;top:{96 + 44 * k}px;font-size:19px">{t}</div>'
-               f'<div style="position:absolute;left:210px;right:16px;top:{100 + 44 * k}px;height:18px;border-radius:9px;background:#1f2533">'
-               f'<div id="qj{k}" data-w="{w}" style="height:100%;width:0;border-radius:9px;background:{C[2]}"></div></div>')
-    ASUNTOS = ["Tu carrito te está esperando", "Últimas 24 h de envío gratis", "Volvió lo que buscabas"]
-    v4 = "".join(f'<div id="as{k}" style="position:absolute;left:16px;right:16px;top:{16 + 62 * k}px;height:52px;border-radius:12px;background:#fff;'
-                 f'color:#1f2430;display:flex;align-items:center;gap:12px;padding:0 14px;font-size:20px;font-weight:700">'
-                 f'<span style="flex:none">{SOBRE.format(w=28, h=21, c=C[3])}</span><span id="at{k}"></span></div>' for k in range(3))
-    tarjetas = [
-        tarjeta(1, "Descripciones", v1, "Pasale los datos: <b>“Escribí la descripción para mi tienda.”</b>", C[0]),
-        tarjeta(2, "Preguntas de clientes", v2, "Pasale tus condiciones y pedile <b>respuestas para las de siempre</b>.", C[1]),
-        tarjeta(3, "Quejas en las reseñas", v3, "Pegá tus reseñas: <b>“¿Cuáles son las 3 quejas que más se repiten?”</b>", C[2]),
-        tarjeta(4, "Asuntos de mails", v4, "<b>“Dame 10 asuntos para este mail.”</b> Probá los que más te gusten.", C[3]),
+    V = "#6d28d9"; TINTA = "#17131f"
+    css = ARCHIVO + f"""
+    #pz {{ padding:0 !important; background:#f3eee4 !important; color:{TINTA}; font-family:Inter,sans-serif; }}
+    .tag {{ position:absolute; left:72px; top:62px; font:800 22px Inter; letter-spacing:.14em; color:{V}; background:#e9e0ff; padding:10px 18px; border-radius:99px; }}
+    .t3 {{ position:absolute; left:72px; top:124px; font:800 86px/0.98 Archivo; letter-spacing:-0.035em; }}
+    .t3 .mk {{ background:linear-gradient({V},{V}) no-repeat 0 88%/var(--m,0%) 34%; padding:0 6px; color:{TINTA}; }}
+    .s3 {{ position:absolute; left:72px; top:330px; font:600 30px Inter; color:#5b5566; }}
+    .s3 b {{ color:{TINTA}; }}
+    .fila {{ position:absolute; left:72px; right:72px; height:196px; border-top:2px solid #ddd3c2; display:flex; align-items:center; gap:28px; }}
+    .fila .num {{ font:800 92px Archivo; letter-spacing:-0.04em; color:transparent; -webkit-text-stroke:2.5px #b9add0; width:120px; flex:none; }}
+    .fila.on .num {{ color:{V}; -webkit-text-stroke:0; }}
+    .fila .tx {{ flex:1; }}
+    .fila h4 {{ font:800 36px Archivo; letter-spacing:-0.02em; }}
+    .fila .pd {{ margin-top:10px; font:600 23px/1.3 Inter; color:#5b5566; }}
+    .fila.on .pd {{ color:{V}; }}
+    .fila .mv {{ position:relative; width:300px; height:150px; flex:none; border-radius:20px; background:#fff; box-shadow:0 12px 30px rgba(40,20,80,.12); overflow:hidden; }}
+    .pie3 {{ position:absolute; left:72px; right:72px; bottom:44px; display:flex; justify-content:space-between; align-items:center; font:700 25px Inter; }}
+    .pie3 .yo {{ display:flex; align-items:center; gap:14px; }}
+    .pie3 .yo i {{ width:48px; height:48px; border-radius:50%; background:{V}; color:#fff; font:800 18px Inter; font-style:normal; display:flex; align-items:center; justify-content:center; }}
+    .pie3 span.r {{ color:#5b5566; font-weight:600; }}
+    .chip {{ display:inline-block; margin:0 6px 6px 0; padding:5px 10px; border-radius:8px; background:#efe9ff; color:{V}; font:700 17px Inter; }}
+    .bb {{ position:absolute; border-radius:14px; padding:8px 11px; font:600 17px/1.28 Inter; }}
+    """
+    filas = [
+        ("Descripciones de producto", "“Con estos datos, escribí la descripción para mi tienda.”"),
+        ("Respuestas a clientes", "“Con mis condiciones de envío, respondé esta pregunta.”"),
+        ("Quejas en las reseñas", "“¿Cuáles son las 3 quejas que más se repiten?”"),
+        ("Asuntos para tus mails", "“Dame 10 asuntos para este mail de promo.”"),
     ]
-    html = pieza('4 tareas de tu tienda online<br><em>que podés pasarle a la IA</em>',
-                 "Pegá el pedido en ChatGPT o Claude. Son gratis.", tarjetas, "<b>Siempre revisá</b> antes de publicar.")
+    mv = [
+        '<div style="position:absolute;left:14px;top:12px;right:14px">' + "".join(f'<span class="chip" id="c3{k}">{t}</span>' for k, t in enumerate(["Aluminio", "Negro", "30 cm"]))
+        + '</div><div id="d3" style="position:absolute;left:14px;right:14px;top:58px;font:600 17px/1.3 Inter;color:#17131f"></div>',
+        '<div class="bb" id="q3" style="left:12px;top:12px;background:#efeaf5;border-radius:14px 14px 14px 4px">¿Envían al interior?</div>'
+        '<div class="bb" id="a3" style="right:12px;top:62px;left:52px;background:#6d28d9;color:#fff;border-radius:14px 14px 4px 14px"></div>',
+        "".join(f'<div style="position:absolute;left:14px;top:{16 + 44 * k}px;font:700 16px Inter;color:#5b5566">{t}</div>'
+                f'<div style="position:absolute;left:14px;right:14px;top:{36 + 44 * k}px;height:10px;border-radius:5px;background:#efe9ff">'
+                f'<div id="g3{k}" data-w="{w}" style="height:100%;width:0;border-radius:5px;background:#6d28d9"></div></div>'
+                for k, (t, w) in enumerate([("Demora en el envío", 100), ("Talle más chico", 60), ("Embalaje roto", 32)])),
+        "".join(f'<div id="s3{k}" style="position:absolute;left:12px;right:12px;top:{12 + 44 * k}px;height:36px;border-radius:9px;background:#f6f3fb;'
+                f'display:flex;align-items:center;gap:8px;padding:0 10px;font:700 16px Inter;color:#17131f;white-space:nowrap;overflow:hidden">'
+                f'<span style="flex:none">{SOBRE.format(w=20, h=15, c=V)}</span><span id="st{k}"></span></div>' for k in range(3)),
+    ]
+    cuerpo = "".join(f'<div class="fila" id="fi{k}" style="top:{400 + 196 * k}px"><div class="num">0{k + 1}</div>'
+                     f'<div class="tx"><h4>{t}</h4><div class="pd">{p}</div></div><div class="mv">{mv[k]}</div></div>'
+                     for k, (t, p) in enumerate(filas))
+    html = (f'<style>{css}</style><div id="pz"><div class="tag">IA PARA TU TIENDA ONLINE</div>'
+            f'<div class="t3">4 tareas que podés<br>pasarle a la IA <span class="mk" id="mk">hoy</span></div>'
+            f'<div class="s3">Copiá el pedido y pegalo en <b>ChatGPT o Claude</b>. Son gratis.</div>{cuerpo}'
+            f'<div class="pie3"><div class="yo"><i>NB</i>Nicolás Benítez</div><span class="r">Siempre revisá antes de publicar.</span></div></div>')
+    DESC = "Lámpara colgante de aluminio negro, 30 cm. Ideal para la cocina."
+    RESP = "¡Sí! Enviamos a todo el país en 3 a 5 días hábiles."
+    AS = ["Tu carrito te está esperando", "Últimas 24 h de envío gratis", "Volvió lo que buscabas"]
     js = JS_UTIL + f"""
-    const DESC = {DESC!r}, RESP = {RESP!r}, AS = {ASUNTOS!r};
+    const DESC={DESC!r}, RESP={RESP!r}, AS={AS!r};
     function frame(t) {{
-      const out = 1 - seg(t, .93, 1); fadeVis(out);
-      for (let k = 0; k < 4; k++) pop('ch'+k, seg(t, .03 + .05*k, .08 + .05*k));
-      set('fl1', {{opacity: seg(t, .26, .3), transform:`translateY(${{Math.sin(t*40)*3}}px)`}});
-      set('d1', {{opacity: seg(t, .3, .33)}}); $('d1').textContent = typed(DESC, seg(t, .32, .7));
-      pop('q2', seg(t, .04, .12));
-      set('a2', {{opacity: seg(t, .22, .26)}}); $('a2').textContent = typed(RESP, seg(t, .26, .6));
-      for (let k = 0; k < 4; k++) set('rv'+k, {{opacity: seg(t, .03 + .05*k, .08 + .05*k)}});
-      set('ar3', {{opacity: seg(t, .26, .3)}}); set('tq3', {{opacity: seg(t, .26, .3)}});
-      for (let k = 0; k < 3; k++) {{ const e = $('qj'+k); e.style.width = e.dataset.w * ease(seg(t, .32 + .08*k, .5 + .08*k)) + '%'; }}
-      for (let k = 0; k < 3; k++) {{ set('as'+k, {{opacity: seg(t, .05 + .2*k, .08 + .2*k)}}); $('at'+k).textContent = typed(AS[k], seg(t, .08 + .2*k, .22 + .2*k)); }}
-      set('as1', {{outline: t > .75 ? '3px solid {C[3]}' : 'none'}});
+      const out = 1 - seg(t, .95, 1);
+      $('mk').style.setProperty('--m', 100*ease(seg(t, .02, .1)) + '%');
+      const W = .2;                                     // cada fila tiene su turno
+      for (let k = 0; k < 4; k++) {{
+        const a = .1 + W*k, on = t >= a && t < a + W;
+        $('fi'+k).classList.toggle('on', on);
+        set('fi'+k, {{opacity: (t < a ? .45 : 1) * out}});
+      }}
+      for (let k = 0; k < 3; k++) pop('c3'+k, seg(t, .1 + .03*k, .13 + .03*k));
+      $('d3').textContent = typed(DESC, seg(t, .2, .3));
+      pop('q3', seg(t, .3, .34)); set('a3', {{opacity: seg(t, .36, .38)}}); $('a3').textContent = typed(RESP, seg(t, .38, .5)) || ' ';
+      for (let k = 0; k < 3; k++) {{ const e = $('g3'+k); e.style.width = e.dataset.w * ease(seg(t, .52 + .04*k, .62 + .04*k)) + '%'; }}
+      for (let k = 0; k < 3; k++) {{ set('s3'+k, {{opacity: seg(t, .7 + .06*k, .72 + .06*k)}}); $('st'+k).textContent = typed(AS[k], seg(t, .72 + .06*k, .76 + .06*k)); }}
     }}
     """
-    render_anim(html, js, f"{OUT}/03_ia_tareas_tienda_online", portada_t=0.86)
+    render_anim(html, js, f"{OUT}/03_ia_tareas_tienda_online_v2", segundos=8, portada_t=0.9)
 
-# =====================================================================================
-# 04 · ¿Te conviene hacer un 20 % de descuento?
-# =====================================================================================
+# -------------------------------------------------------------------------------------
+# 04 · AMARILLO + NEGRO · una sola cuenta gigante (sin tarjetas)
+# -------------------------------------------------------------------------------------
 if "04" in QUE:
-    def precio(idp, costo_id, gan_id, top, lbl):
-        return (f'<div class="mini" style="left:16px;top:{top}px;font-size:19px;color:#aab1c0">{lbl}</div>'
-                f'<div id="{idp}" style="position:absolute;left:16px;top:{top + 28}px;width:381px;height:50px;border-radius:12px;overflow:hidden;display:flex">'
-                f'<div id="{costo_id}" style="width:60%;background:#3a4258;display:flex;align-items:center;justify-content:center;font-size:19px;font-weight:800">Costo $6.000</div>'
-                f'<div id="{gan_id}" style="flex:1;background:{C[1]};color:#0d0f14;display:flex;align-items:center;justify-content:center;font-size:19px;font-weight:800;white-space:nowrap">Ganás $4.000</div></div>')
-    v1 = (precio("pr1", "co1", "ga1", 16, "Precio $10.000")
-          + f'<div id="r1" style="position:absolute;left:0;right:0;bottom:16px;text-align:center;font-size:38px;font-weight:800;color:{C[0]}">Ganás $4.000</div>')
-    v2 = (f'<div class="mini" style="left:16px;top:16px;font-size:19px;color:#aab1c0" id="l2">Precio $10.000</div>'
-          f'<div style="position:absolute;left:16px;top:44px;width:381px;height:50px;border-radius:12px;overflow:hidden;display:flex;background:#1a1f2b">'
-          f'<div style="width:228.6px;flex:none;background:#3a4258;display:flex;align-items:center;justify-content:center;font-size:19px;font-weight:800">Costo $6.000</div>'
-          f'<div id="g2" style="width:152.4px;flex:none;background:{C[1]};color:#0d0f14;display:flex;align-items:center;justify-content:center;font-size:19px;font-weight:800;overflow:hidden;white-space:nowrap">Ganás $4.000</div></div>'
-          f'<div id="t2" class="mini" style="left:16px;right:16px;top:110px;text-align:center;font-size:21px;color:#aab1c0">El costo no baja: <b style="color:#fff">sigue en $6.000</b></div>'
-          f'<div id="r2" style="position:absolute;left:0;right:0;bottom:16px;text-align:center;font-size:38px;font-weight:800;color:{C[1]}">Ganás $2.000</div>')
-    v3 = "".join(f'<div class="mini" style="left:16px;top:{22 + 64 * k}px;font-size:19px;color:#aab1c0">{l}</div>'
-                 f'<div id="b3{k}" style="position:absolute;left:175px;top:{18 + 64 * k}px;height:38px;width:0;border-radius:10px;background:{c};'
-                 f'color:#0d0f14;font-size:19px;font-weight:800;display:flex;align-items:center;padding-left:12px;white-space:nowrap;overflow:hidden">{v}</div>'
-                 for k, (l, v, c) in enumerate([("Sin descuento", "$4.000", C[1]), ("Con 20 % off", "$2.000", C[2])]))
-    v3 += f'<div id="r3" style="position:absolute;left:0;right:0;bottom:16px;text-align:center;font-size:38px;font-weight:800;color:{C[2]}">−50 % de ganancia</div>'
-    bolsa = '<i style="display:inline-block;width:22px;height:27px;margin:0 3px 6px;border-radius:4px 4px 7px 7px;background:{c}"></i>'
-    v4 = (f'<div class="mini" style="left:16px;top:16px;font-size:19px;color:#aab1c0">Sin descuento: 10 ventas = $40.000</div>'
-          f'<div style="position:absolute;left:16px;top:44px">' + "".join(f'<span id="ba{k}">{bolsa.format(c=C[1])}</span>' for k in range(10)) + '</div>'
-          f'<div class="mini" style="left:16px;top:92px;font-size:19px;color:#aab1c0">Con 20 % off: para los mismos $40.000</div>'
-          f'<div style="position:absolute;left:16px;right:16px;top:120px">' + "".join(f'<span id="bb{k}">{bolsa.format(c=C[3])}</span>' for k in range(20)) + '</div>'
-          f'<div id="r4" style="position:absolute;left:0;right:0;bottom:12px;text-align:center;font-size:38px;font-weight:800;color:{C[3]}">20 ventas</div>')
-    tarjetas = [
-        tarjeta(1, "Tu ganancia hoy", v1, "Vendés a $10.000 y te cuesta $6.000: <b>ganás $4.000</b>.", C[0]),
-        tarjeta(2, "Con 20 % menos", v2, "El precio baja $2.000, pero <b>el costo sigue igual</b>.", C[1]),
-        tarjeta(3, "Ganás la mitad", v3, "Un 20 % de descuento te sacó <b>la mitad de la ganancia</b>.", C[2]),
-        tarjeta(4, "Vendé el doble", v4, "Para ganar lo mismo, <b>necesitás el doble de ventas</b>.", C[3]),
-    ]
-    html = pieza('¿Te conviene hacer<br>un <em>20 % de descuento?</em>', "Hacé esta cuenta antes de lanzar la promo.",
-                 tarjetas, "<b>Tip:</b> pedile a la IA que haga esta cuenta con tus números.")
-    js = JS_UTIL + """
-    function frame(t) {
-      const out = 1 - seg(t, .93, 1); fadeVis(out);
-      // 1
-      const a = ease(seg(t, .04, .25));
-      set('pr1', {width: 381*a + 'px'}); pop('r1', seg(t, .3, .4));
-      // 2 · la ganancia se achica a la mitad
-      const g = ease(seg(t, .2, .45));
-      $('l2').textContent = g > .5 ? 'Precio $8.000 (20 % off)' : 'Precio $10.000';
-      set('g2', {width: (152.4 - 76.2*g) + 'px'}); $('g2').textContent = g > .5 ? '$2.000' : 'Ganás $4.000';
-      set('t2', {opacity: seg(t, .46, .52)}); pop('r2', seg(t, .5, .6));
-      // 3
-      set('b30', {width: 216*ease(seg(t, .08, .26)) + 'px'}); set('b31', {width: 108*ease(seg(t, .3, .46)) + 'px'});
-      pop('r3', seg(t, .5, .6));
-      // 4
-      for (let k = 0; k < 10; k++) pop('ba'+k, seg(t, .04 + .015*k, .07 + .015*k));
-      for (let k = 0; k < 20; k++) pop('bb'+k, seg(t, .28 + .015*k, .31 + .015*k));
-      pop('r4', seg(t, .62, .72));
-    }
+    AM = "#ffd43b"; NG = "#111111"; RJ = "#e8340c"
+    css = ARCHIVO + f"""
+    #pz {{ padding:0 !important; background:{AM} !important; color:{NG}; font-family:Inter,sans-serif; }}
+    .big {{ position:absolute; left:62px; top:46px; font:800 196px/0.9 Archivo; letter-spacing:-0.06em; white-space:nowrap; }}
+    .big .st {{ position:relative; }}
+    .sub {{ position:absolute; left:70px; top:262px; font:700 40px/1.15 Inter; letter-spacing:-0.02em; }}
+    .lab {{ position:absolute; font:800 28px Inter; }}
+    .barra {{ position:absolute; left:70px; top:470px; height:130px; display:flex; border-radius:18px; overflow:hidden; border:4px solid {NG}; }}
+    .barra div {{ height:100%; display:flex; align-items:center; justify-content:center; font:800 30px Inter; white-space:nowrap; overflow:hidden; }}
+    .menos {{ position:absolute; font:800 120px Archivo; letter-spacing:-0.05em; color:{RJ}; }}
+    .regla {{ position:absolute; left:70px; right:70px; top:760px; height:4px; background:{NG}; }}
+    .fila4 {{ position:absolute; left:70px; right:70px; display:flex; flex-wrap:wrap; gap:8px; }}
+    .cap {{ position:absolute; left:70px; font:700 26px Inter; }}
+    .final {{ position:absolute; left:70px; right:70px; top:1120px; font:800 64px/1 Archivo; letter-spacing:-0.035em; }}
+    .final em {{ font-style:normal; background:{NG}; color:{AM}; padding:0 14px; border-radius:10px; }}
+    .pie4 {{ position:absolute; left:70px; right:70px; bottom:42px; display:flex; justify-content:space-between; font:700 24px Inter; }}
     """
-    render_anim(html, js, f"{OUT}/04_descuento_conviene", portada_t=0.86)
-
-# =====================================================================================
-# 05 · Si te abandonan el carrito, revisá esto
-# =====================================================================================
-if "05" in QUE:
-    v1 = ('<div style="position:absolute;left:16px;right:16px;top:16px;border-radius:14px;background:#fff;color:#1f2430;padding:12px 16px;font-size:20px;font-weight:600">'
-          '<div style="display:flex;justify-content:space-between"><span>Productos</span><b>$20.000</b></div>'
-          '<div id="en1" style="display:flex;justify-content:space-between;margin-top:6px;color:#c6321c"><span>Envío</span><b>$5.000</b></div>'
-          '<div style="display:flex;justify-content:space-between;margin-top:6px;border-top:1px solid #e5e7eb;padding-top:6px"><span>Total</span><b id="tt1">$20.000</b></div></div>'
-          f'<div id="wo1" style="position:absolute;left:0;right:0;bottom:18px;text-align:center;font-size:34px;font-weight:900;color:{C[3]}">¿¡Y esto!?</div>'
-          f'<div id="ok1" style="position:absolute;left:0;right:0;bottom:22px;text-align:center;font-size:24px;font-weight:800;color:{C[1]}">Mostralo desde el principio ✓</div>')
-    PAGOS = ["Tarjeta de crédito", "Tarjeta de débito", "Transferencia", "Billetera virtual", "Cuotas"]
-    v2 = "".join(f'<div id="pg{k}" style="position:absolute;left:16px;right:16px;top:{12 + 42 * k}px;height:36px;border-radius:10px;background:#1c2230;'
-                 f'border:1px solid #303850;display:flex;align-items:center;gap:10px;padding:0 12px;font-size:19px;font-weight:700">'
-                 f'<span style="width:20px;height:20px;border-radius:50%;background:{C[1]};color:#0d0f14;font-size:14px;display:flex;align-items:center;justify-content:center">✓</span>{p}</div>'
-                 for k, p in enumerate(PAGOS))
-    v3 = ('<div style="position:absolute;left:16px;right:16px;top:16px;border-radius:14px;background:#fff;color:#1f2430;padding:12px 16px;font-size:19px;font-weight:600">'
-          '<div id="cr3" style="border:1px solid #d1d5db;border-radius:8px;padding:8px 10px;margin-bottom:8px">Crear usuario y contraseña</div>'
-          '<div id="in3" style="border-radius:8px;padding:9px 10px;text-align:center;font-weight:800;color:#fff;background:#9aa3b2">Comprar como invitado</div></div>'
-          + CURSOR.format(id="cu5"))
-    v4 = (f'<div id="pa4" style="position:absolute;left:0;right:0;top:30px;display:flex;justify-content:center;gap:10px"></div>'
-          f'<div id="r4" style="position:absolute;left:0;right:0;bottom:16px;text-align:center;font-size:34px;font-weight:800;color:{C[3]}">De 6 pasos a 3</div>'
-          f'<div id="t4" class="mini" style="left:0;right:0;top:110px;text-align:center;font-size:20px;color:#aab1c0">Datos, envío y pago. Nada más.</div>')
-    tarjetas = [
-        tarjeta(1, "Envío a la vista", v1, "Si el costo aparece al final, <b>la sorpresa espanta</b>.", C[0]),
-        tarjeta(2, "Más formas de pago", v2, "Tarjetas, transferencia, billeteras <b>y cuotas</b>.", C[1]),
-        tarjeta(3, "Compra sin cuenta", v3, "Pedir usuario frena la compra. <b>Dejá comprar como invitado</b>.", C[2]),
-        tarjeta(4, "Menos pasos", v4, "Pedí solo lo necesario. <b>Cada paso de más es una excusa</b> para irse.", C[3]),
-    ]
-    html = pieza('Si te abandonan el carrito,<br><em>revisá estas 4 cosas</em>', "El cliente ya quería comprar. No le pongas trabas.",
-                 tarjetas, "<b>¿Cuál de las 4 te falta en tu tienda?</b>")
+    html = (f'<style>{css}</style><div id="pz">'
+            f'<div class="big" id="big">¿20 % off?</div>'
+            f'<div class="sub">Antes de lanzar la promo,<br>hacé esta cuenta.</div>'
+            f'<div class="lab" style="left:70px;top:420px" id="pl">Precio $10.000</div>'
+            f'<div class="barra" id="ba"><div id="co" style="width:546px;background:{NG};color:{AM}">Costo $6.000</div>'
+            f'<div id="ga" style="width:364px;background:#fff;color:{NG}">Ganás $4.000</div></div>'
+            f'<div class="lab" style="left:70px;top:620px;font-weight:600" id="cn">El costo no baja con el descuento.</div>'
+            f'<div class="menos" id="me" style="left:690px;top:590px">−50 %<div style="font:800 28px Inter;letter-spacing:0;color:#111;margin-top:-6px;text-align:right">de tu ganancia</div></div>'
+            f'<div class="regla"></div>'
+            f'<div class="cap" style="top:790px">Para ganar $40.000:</div>'
+            f'<div class="cap" style="top:850px;font-weight:600">Sin descuento · 10 ventas</div>'
+            f'<div class="fila4" style="top:892px">' + "".join(f'<span id="x{k}">{BOLSA.format(w=36, h=44, c=NG)}</span>' for k in range(10)) + '</div>'
+            f'<div class="cap" style="top:968px;font-weight:600">Con 20 % off · 20 ventas</div>'
+            f'<div class="fila4" style="top:1010px">' + "".join(f'<span id="y{k}">{BOLSA.format(w=36, h=44, c=RJ)}</span>' for k in range(20)) + '</div>'
+            f'<div class="final" id="fi">Tenés que vender <em>el doble</em>.</div>'
+            f'<div class="pie4"><span>Nicolás Benítez</span><span style="font-weight:600">Ejemplo con un margen del 40 %</span></div></div>')
     js = JS_UTIL + f"""
     function frame(t) {{
-      const out = 1 - seg(t, .93, 1); fadeVis(out);
-      // 1 · el envío aparece de golpe al final, después se corrige
-      const sor = t > .2 && t < .55;
-      set('en1', {{opacity: t > .2 ? 1 : 0, color: t < .55 ? '#c6321c' : '#1f2430'}});
-      $('tt1').textContent = t > .2 ? '$25.000' : '$20.000';
-      set('wo1', {{opacity: sor ? 1 : 0, transform:`rotate(${{sor ? Math.sin(t*90)*3 : 0}}deg)`}});
-      set('ok1', {{opacity: seg(t, .58, .64)}});
-      // 2
-      for (let k = 0; k < 5; k++) set('pg'+k, {{opacity: seg(t, .06 + .09*k, .12 + .09*k), transform:`translateX(${{(1-ease(seg(t, .06 + .09*k, .14 + .09*k)))*-30}}px)`}});
-      // 3 · tachar crear cuenta, tocar invitado
-      const tach = t > .3;
-      set('cr3', {{textDecoration: tach ? 'line-through' : 'none', color: tach ? '#9aa3b2' : '#1f2430'}});
-      const on = t > .5; set('in3', {{background: on ? '{C[2]}' : '#9aa3b2', color: on ? '#0d0f14' : '#fff'}});
-      const m = ease(seg(t, .32, .48)); set('cu5', {{left: mix(330, 300, m) + 'px', top: mix(170, 100, m) + 'px', opacity: out,
-          transform:`scale(${{t > .48 && t < .52 ? .82 : 1}})`}});
-      // 4 · seis pasos que se reducen a tres
-      const n = t < .4 ? 6 : 3;
-      $('pa4').innerHTML = Array.from({{length:n}}, (_, i) => `<span style="width:44px;height:44px;border-radius:50%;background:${{n===3?'{C[3]}':'#3a4258'}};`+
-        `color:${{n===3?'#0d0f14':'#fff'}};font-size:21px;font-weight:800;display:flex;align-items:center;justify-content:center">${{i+1}}</span>`).join('');
-      set('t4', {{opacity: seg(t, .44, .5)}}); pop('r4', seg(t, .5, .6));
+      const out = 1 - seg(t, .95, 1);
+      set('pz', {{opacity: 1}});
+      document.querySelectorAll('#pz > *').forEach(e => e.style.opacity = out);
+      const b = ease(seg(t, .03, .12)); set('big', {{transform:`translateY(${{(1-b)*-30}}px)`, opacity: b*out}});
+      // la barra: precio 10.000 -> 8.000 (se achica solo la ganancia)
+      const d = ease(seg(t, .2, .36));
+      set('ga', {{width: (364 - 182*d) + 'px', background: d > .5 ? '{RJ}' : '#fff', color: d > .5 ? '#fff' : '{NG}'}});
+      $('ga').textContent = d > .5 ? '$2.000' : 'Ganás $4.000';
+      $('pl').textContent = d > .5 ? 'Precio con 20 % off: $8.000' : 'Precio $10.000';
+      set('cn', {{opacity: seg(t, .36, .42) * out}});
+      pop('me', seg(t, .4, .48)); set('me', {{opacity: ease(seg(t, .4, .48)) * out}});
+      for (let k = 0; k < 10; k++) {{ const x = seg(t, .5 + .01*k, .53 + .01*k); set('x'+k, {{opacity: x*out, transform:`translateY(${{(1-ease(x))*-20}}px)`}}); }}
+      for (let k = 0; k < 20; k++) {{ const x = seg(t, .62 + .01*k, .65 + .01*k); set('y'+k, {{opacity: x*out, transform:`translateY(${{(1-ease(x))*-20}}px)`}}); }}
+      const f = ease(seg(t, .84, .9)); set('fi', {{opacity: f*out, transform:`translateY(${{(1-f)*20}}px)`}});
     }}
     """
-    render_anim(html, js, f"{OUT}/05_carrito_abandonado", portada_t=0.86)
+    render_anim(html, js, f"{OUT}/04_descuento_conviene_v2", segundos=7, portada_t=0.93)
+
+# -------------------------------------------------------------------------------------
+# 05 · VIOLETA PROFUNDO + NARANJA · el recorrido del carrito, con 4 trabas que se destraban
+# -------------------------------------------------------------------------------------
+if "05" in QUE:
+    NA = "#ff7a1a"; VE = "#2ee59d"; RO = "#ff4d6d"
+    css = f"""
+    #pz {{ padding:0 !important; background:linear-gradient(170deg,#24103f 0%,#120822 70%) !important; color:#fff; font-family:Inter,sans-serif; }}
+    .t5 {{ position:absolute; left:72px; top:66px; font:800 74px/1.02 'Inter Display',Inter; letter-spacing:-0.04em; }}
+    .t5 em {{ font-style:normal; color:{NA}; }}
+    .s5 {{ position:absolute; left:72px; top:250px; font:600 28px Inter; color:#c9b8e6; }}
+    .via {{ position:absolute; left:128px; top:360px; width:6px; height:800px; background:repeating-linear-gradient(#5a3d85 0 16px, transparent 16px 30px); border-radius:3px; }}
+    .via i {{ position:absolute; left:0; top:0; width:6px; background:{NA}; border-radius:3px; }}
+    .pt {{ position:absolute; left:112px; width:38px; height:38px; border-radius:50%; background:#2b1a48; border:4px solid #5a3d85; }}
+    .tr {{ position:absolute; left:200px; right:64px; height:150px; border-radius:24px; background:rgba(255,255,255,.06); border:2px solid rgba(255,255,255,.12);
+          padding:22px 28px; overflow:hidden; }}
+    .tr .mal, .tr .bien {{ position:absolute; left:28px; right:28px; top:22px; }}
+    .tr .k {{ font:800 20px Inter; letter-spacing:.12em; }}
+    .tr .x {{ margin-top:8px; font:700 34px/1.15 Inter; letter-spacing:-0.02em; }}
+    .tr .mal .k {{ color:{RO}; }} .tr .bien .k {{ color:{VE}; }}
+    .tr .mal .x {{ text-decoration-thickness:4px; text-decoration-color:{RO}; }}
+    .carro {{ position:absolute; left:90px; width:84px; height:70px; display:flex; align-items:center; justify-content:center;
+             background:{NA}; border-radius:20px; box-shadow:0 10px 30px rgba(255,122,26,.45); z-index:3; }}
+    .fin {{ position:absolute; left:200px; top:1176px; font:800 34px Inter; color:{VE}; }}
+    .pie5 {{ position:absolute; left:72px; right:72px; bottom:40px; display:flex; justify-content:space-between; font:700 24px Inter; color:#c9b8e6; }}
+    .pie5 b {{ color:#fff; }}
+    """
+    TRABAS = [("El envío aparece recién al pagar", "Mostralo desde el producto"),
+              ("Un solo medio de pago", "Tarjeta, transferencia, billetera y cuotas"),
+              ("Te obliga a crear una cuenta", "Dejá comprar como invitado"),
+              ("Un formulario de 6 pasos", "Datos, envío y pago. Listo.")]
+    tops = [370 + 190 * k for k in range(4)]
+    tr = "".join(f'<div class="pt" id="pt{k}" style="top:{tp + 56}px"></div>'
+                 f'<div class="tr" id="tr{k}" style="top:{tp}px"><div class="mal" id="ml{k}"><div class="k">✕ TRABA</div><div class="x">{a}</div></div>'
+                 f'<div class="bien" id="bn{k}"><div class="k">✓ SOLUCIÓN</div><div class="x">{b}</div></div></div>'
+                 for k, (tp, (a, b)) in enumerate(zip(tops, TRABAS)))
+    html = (f'<style>{css}</style><div id="pz"><div class="t5">Llegó hasta el carrito.<br><em>¿Por qué no pagó?</em></div>'
+            f'<div class="s5">4 trabas que espantan al cliente en el último paso.</div>'
+            f'<div class="via"><i id="vi"></i></div>{tr}'
+            f'<div class="carro" id="ca">{CARRO.format(w=52, h=44, c="#1a0b2e")}</div>'
+            f'<div class="fin" id="fn">✓ Compra hecha</div>'
+            f'<div class="pie5"><span><b>Nicolás Benítez</b></span><span>¿Cuál te falta revisar en tu tienda?</span></div></div>')
+    js = JS_UTIL + f"""
+    const TOPS = {tops!r};
+    function frame(t) {{
+      const out = 1 - seg(t, .95, 1);
+      document.querySelectorAll('#pz > *').forEach(e => e.style.opacity = out);
+      // el carrito baja por el camino y frena en cada traba (paradas de .16)
+      let y = 300, prog = 0;
+      for (let k = 0; k < 4; k++) {{
+        const a = .06 + .2*k;                           // llega a la traba k
+        const ida = ease(seg(t, a - .06, a));
+        if (t >= a - .06) y = mix(k ? TOPS[k-1] + 40 : 300, TOPS[k] + 40, ida);
+        const fixed = t > a + .07;
+        set('ml'+k, {{opacity: t < a ? .5 : (fixed ? 0 : 1), textDecoration: t > a + .03 && !fixed ? 'line-through' : 'none'}});
+        $('ml'+k).querySelector('.x').style.textDecorationLine = t > a + .03 && !fixed ? 'line-through' : 'none';
+        const fb = ease(seg(t, a + .07, a + .11));
+        set('bn'+k, {{opacity: fb, transform:`translateY(${{(1-fb)*24}}px)`}});
+        set('tr'+k, {{borderColor: fixed ? 'rgba(46,229,157,.6)' : (t >= a ? 'rgba(255,77,109,.7)' : 'rgba(255,255,255,.12)'),
+                       background: fixed ? 'rgba(46,229,157,.08)' : 'rgba(255,255,255,.06)'}});
+        set('pt'+k, {{background: fixed ? '{VE}' : '#2b1a48', borderColor: fixed ? '{VE}' : '#5a3d85'}});
+      }}
+      const ult = ease(seg(t, .84, .9)); if (t > .84) y = mix(TOPS[3] + 40, 1150, ult);
+      set('ca', {{top: y + 'px', transform:`rotate(${{Math.sin(t*120)*(t%.2 < .06 ? 4 : 0)}}deg)`}});
+      $('vi').style.height = cl((y - 340) / 800) * 800 + 'px';
+      set('fn', {{opacity: seg(t, .88, .92) * out}});
+    }}
+    """
+    render_anim(html, js, f"{OUT}/05_carrito_abandonado_v2", segundos=8, portada_t=0.92)
