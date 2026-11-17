@@ -24,23 +24,23 @@ html, body { width:1080px; height:1350px; background:#0d0f14; }
 body { font-family:'Inter',sans-serif; color:#fff; -webkit-font-smoothing:antialiased; }
 #pz { position:relative; width:1080px; height:1350px; overflow:hidden; padding:58px 56px 0;
       background:radial-gradient(1200px 600px at 50% -10%, #1a2030 0%, #0d0f14 60%); }
-.tit { font-family:'Inter Display','Inter',sans-serif; font-size:62px; line-height:1.05; font-weight:800; letter-spacing:-0.035em; text-align:center; }
+.tit { font-family:'Inter Display','Inter',sans-serif; font-size:56px; line-height:1.05; font-weight:800; letter-spacing:-0.035em; text-align:center; }
 .tit em { font-style:normal; color:var(--ac0); }
-.baj { margin-top:16px; text-align:center; font-size:29px; font-weight:600; color:#8fd3ff; }
-.grilla { margin-top:40px; display:grid; grid-template-columns:1fr 1fr; gap:26px; }
-.card { position:relative; height:470px; border-radius:30px; border:3px solid var(--c); background:#141821;
+.baj { margin-top:12px; text-align:center; font-size:28px; font-weight:600; color:#8fd3ff; }
+.grilla { margin-top:30px; display:grid; grid-template-columns:1fr 1fr; gap:26px; }
+.card { position:relative; height:468px; border-radius:30px; border:3px solid var(--c); background:#141821;
         padding:26px 26px 22px; display:flex; flex-direction:column; }
 .card .cab { display:flex; align-items:center; gap:16px; }
 .card .n { width:46px; height:46px; flex:none; border-radius:50%; background:var(--c); color:#0d0f14; font-size:25px; font-weight:800;
            display:flex; align-items:center; justify-content:center; }
-.card h3 { font-size:33px; line-height:1.08; font-weight:800; letter-spacing:-0.02em; }
+.card h3 { font-size:30px; line-height:1.08; font-weight:800; letter-spacing:-0.02em; }
 .card .vis { position:relative; flex:1; margin:16px 0 14px; border-radius:18px; background:#0e1118; border:1px solid #232937; overflow:hidden; }
 .card .pie { font-size:24px; line-height:1.3; font-weight:600; color:#cfd5e2; }
 .card .pie b { color:var(--c); font-weight:800; }
-.nota { position:absolute; left:56px; right:56px; bottom:44px; display:flex; justify-content:space-between; align-items:center; }
+.nota { position:absolute; left:56px; right:56px; bottom:34px; gap:24px; display:flex; justify-content:space-between; align-items:center; }
 .nota span { font-size:25px; font-weight:600; color:#aab1c0; }
 .nota span b { color:#fff; }
-.firma { font-size:25px; font-weight:800; padding:12px 24px; border-radius:16px; border:3px solid var(--ac0); color:#fff; background:#141821; }
+.firma { white-space:nowrap; flex:none; font-size:25px; font-weight:800; padding:12px 24px; border-radius:16px; border:3px solid var(--ac0); color:#fff; background:#141821; }
 /* piezas chicas reutilizables */
 .mini { position:absolute; font-size:21px; font-weight:600; }
 .tabla { position:absolute; left:16px; right:16px; top:16px; display:grid; grid-template-columns:1.3fr 1fr .8fr; border-radius:12px; overflow:hidden;
