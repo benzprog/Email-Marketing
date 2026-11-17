@@ -31,7 +31,10 @@ criterio, se actualiza acá. Es un trabajo aparte de la página de Pana (`linked
 - **Nicho: ecommerce e IA aplicada a negocios**, con info de valor: métricas y cuentas que un dueño de tienda
   online puede hacer hoy, decisiones (promos, envío, checkout) y tareas que se le pueden pasar a la IA.
 - Ejemplos con números simples y la cuenta a la vista. Sin porcentajes "del mercado" que no estén verificados.
-- Texto del post: una pregunta de una línea + 3 hashtags.
+- **Texto del post: breve, con explicación** (Nicolás, 17/11/2026; reemplaza la regla de una sola línea).
+  450 a 600 caracteres: una primera línea que plantee el dato o el problema, 3 o 4 viñetas con "·" que expliquen
+  lo que muestra la pieza (con los números de la cuenta, si hay), una línea de cierre con la idea práctica, la
+  pregunta para comentar y 3 hashtags. Ejemplos: los borradores del 18, 19 y 20/11.
 - **Variedad obligatoria (Nicolás, 17/11/2026: "parecen una plantilla reusada 3 veces").** Cada pieza de la semana
   tiene su propia composición: cambia el fondo (oscuro, crema, color fuerte), la paleta, la tipografía (Inter
   Display, Archivo) y la estructura (grilla de tarjetas, lista editorial numerada, una sola cuenta gigante,
