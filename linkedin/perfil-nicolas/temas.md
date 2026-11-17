@@ -6,9 +6,9 @@
 |---|---|---|---|---|---|
 | 2026-11-17 10:17 | Planillas: pedirle a la IA la fórmula de Excel (vencimiento de facturas) | Carrusel PDF, 7 láminas (01_formulas_excel_con_ia) | 6af862aae86a5789a6ac4f06 | — | Publicado (Nicolás) |
 | 2026-11-17 10:52 | Ecommerce: 4 datos que tenés que mirar si vendés online (conversión, ticket promedio, carritos abandonados, costo por cliente nuevo; ejemplos con cuentas) | Infografía animada, video 6 s (02_ecommerce_4_datos) | 6af862abe86a5789a6ac4f23 | Cálculos propios de ejemplo | Programado a pedido de Nicolás |
-| 2026-11-18 09:00 | IA en la tienda online: descripciones, preguntas de clientes, quejas en reseñas, asuntos de mails | Infografía animada, video 6 s (03_ia_tareas_tienda_online) | 6afc5b0a686bdd2a3c141ff2 | — | Borrador |
-| 2026-11-19 09:00 | ¿Te conviene un 20 % de descuento? Con margen de 40 %, ganás la mitad y necesitás el doble de ventas | Infografía animada, video 6 s (04_descuento_conviene) | 6af862abe5a113497a860acb | Cálculo propio ($10.000, costo $6.000) | Borrador (reemplaza al carrusel del mail difícil) |
-| 2026-11-20 09:00 | Carrito abandonado: envío a la vista, más formas de pago, compra sin cuenta, menos pasos | Infografía animada, video 6 s (05_carrito_abandonado) | 6afc5b0bddb326928b5df81c | Buenas prácticas generales de checkout (sin porcentajes) | Borrador |
+| 2026-11-18 09:00 | IA en la tienda online: descripciones, preguntas de clientes, quejas en reseñas, asuntos de mails | Infografía animada, video 6 s (03_ia_tareas_tienda_online_v2, lista editorial crema y violeta, 8 s) | 6afc5b0a686bdd2a3c141ff2 | — | Borrador |
+| 2026-11-19 09:00 | ¿Te conviene un 20 % de descuento? Con margen de 40 %, ganás la mitad y necesitás el doble de ventas | Infografía animada, video 6 s (04_descuento_conviene_v2, amarillo y negro, 7 s) | 6af862abe5a113497a860acb | Cálculo propio ($10.000, costo $6.000) | Borrador (reemplaza al carrusel del mail difícil) |
+| 2026-11-20 09:00 | Carrito abandonado: envío a la vista, más formas de pago, compra sin cuenta, menos pasos | Infografía animada, video 6 s (05_carrito_abandonado_v2, recorrido del carrito violeta y naranja, 8 s) | 6afc5b0bddb326928b5df81c | Buenas prácticas generales de checkout (sin porcentajes) | Borrador |
 
 ## Casos reales de IA en Pana ya contados
 

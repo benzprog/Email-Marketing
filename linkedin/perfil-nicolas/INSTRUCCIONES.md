@@ -32,6 +32,13 @@ criterio, se actualiza acá. Es un trabajo aparte de la página de Pana (`linked
   online puede hacer hoy, decisiones (promos, envío, checkout) y tareas que se le pueden pasar a la IA.
 - Ejemplos con números simples y la cuenta a la vista. Sin porcentajes "del mercado" que no estén verificados.
 - Texto del post: una pregunta de una línea + 3 hashtags.
+- **Variedad obligatoria (Nicolás, 17/11/2026: "parecen una plantilla reusada 3 veces").** Cada pieza de la semana
+  tiene su propia composición: cambia el fondo (oscuro, crema, color fuerte), la paleta, la tipografía (Inter
+  Display, Archivo) y la estructura (grilla de tarjetas, lista editorial numerada, una sola cuenta gigante,
+  recorrido o línea de tiempo, comparación antes/después, ranking). Nunca dos piezas seguidas con la misma
+  estructura ni los mismos colores. Referencias en `semana-2026-11-16/animadas.py`: "02" grilla oscura,
+  "03" lista crema y violeta, "04" amarillo y negro con la cuenta gigante, "05" recorrido del carrito violeta
+  y naranja. Antes de subir, poner las 3 portadas una al lado de la otra y comprobar que no se parecen.
 - Lo que no le gustó: tutoriales demasiado básicos ("reclamá un pago con IA") y pasos con código para gente
   que nunca usó IA. Lo que le gustó: datos concretos de negocio, bien explicados y lindos de ver.
 
