@@ -21,6 +21,20 @@ criterio, se actualiza acá. Es un trabajo aparte de la página de Pana (`linked
 - **3 posts por semana: martes, miércoles y jueves a las 9:00** (`-03:00`) de la semana siguiente.
   Separados de la página de Pana (11:00) para que no compitan entre sí.
 
+## 0. Lo último que pidió Nicolás (17/11/2026) · manda sobre lo que sigue
+
+- **Formato: infografía animada** (no carrusel). Una pieza de 1080 x 1350 con título arriba y 4 tarjetas en grilla
+  de 2 x 2 que se mueven en bucle de 6 s (números que se cargan, barras, íconos, un chat que se escribe). Se arma
+  con `kit_animado.py`; ejemplo aprobado: `semana-2026-11-16/animadas.py` (pieza "02", 4 datos de ecommerce).
+  Sale como **video MP4** en Buffer (`assets: [{video: {url, metadata: {title}}}]`, raw.githubusercontent) y
+  se confirma `durationMs` 6000. El GIF queda en el repo de respaldo.
+- **Nicho: ecommerce e IA aplicada a negocios**, con info de valor: métricas y cuentas que un dueño de tienda
+  online puede hacer hoy, decisiones (promos, envío, checkout) y tareas que se le pueden pasar a la IA.
+- Ejemplos con números simples y la cuenta a la vista. Sin porcentajes "del mercado" que no estén verificados.
+- Texto del post: una pregunta de una línea + 3 hashtags.
+- Lo que no le gustó: tutoriales demasiado básicos ("reclamá un pago con IA") y pasos con código para gente
+  que nunca usó IA. Lo que le gustó: datos concretos de negocio, bien explicados y lindos de ver.
+
 ## 3. Tema: IA para el trabajo de oficina de todos los días (pedido de Nicolás, 16/11/2026)
 
 **Público:** la mayoría de la gente que usa LinkedIn: gente de oficina que trabaja con Excel o Google
