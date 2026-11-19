@@ -6,9 +6,30 @@
 |---|---|---|---|---|---|
 | 2026-11-17 10:17 | Planillas: pedirle a la IA la fórmula de Excel (vencimiento de facturas) | Carrusel PDF, 7 láminas (01_formulas_excel_con_ia) | 6af862aae86a5789a6ac4f06 | — | Publicado (Nicolás) |
 | 2026-11-17 10:52 | Ecommerce: 4 datos que tenés que mirar si vendés online (conversión, ticket promedio, carritos abandonados, costo por cliente nuevo; ejemplos con cuentas) | Infografía animada, video 6 s (02_ecommerce_4_datos) | 6af862abe86a5789a6ac4f23 | Cálculos propios de ejemplo | Programado a pedido de Nicolás |
-| 2026-11-18 09:00 | IA en la tienda online: descripciones, preguntas de clientes, quejas en reseñas, asuntos de mails | Infografía animada, video 6 s (03_ia_tareas_tienda_online_v2, lista editorial crema y violeta, 8 s) | 6afc5b0a686bdd2a3c141ff2 | — | Borrador |
-| 2026-11-19 09:00 | ¿Te conviene un 20 % de descuento? Con margen de 40 %, ganás la mitad y necesitás el doble de ventas | Infografía animada, video 6 s (04_descuento_conviene_v2, amarillo y negro, 7 s) | 6af862abe5a113497a860acb | Cálculo propio ($10.000, costo $6.000) | Borrador (reemplaza al carrusel del mail difícil) |
-| 2026-11-20 09:00 | Carrito abandonado: envío a la vista, más formas de pago, compra sin cuenta, menos pasos | Infografía animada, video 6 s (05_carrito_abandonado_v2, recorrido del carrito violeta y naranja, 8 s) | 6afc5b0bddb326928b5df81c | Buenas prácticas generales de checkout (sin porcentajes) | Borrador |
+| 2026-11-18 13:07 | IA en la tienda online: descripciones, preguntas de clientes, quejas en reseñas, asuntos de mails | Infografía animada, video 6 s (03_ia_tareas_tienda_online_v2, lista editorial crema y violeta, 8 s) | 6afc5b0a686bdd2a3c141ff2 | — | Borrador |
+| 2026-11-20 09:00 | ¿Te conviene un 20 % de descuento? Con margen de 40 %, ganás la mitad y necesitás el doble de ventas | Infografía animada, video 6 s (04_descuento_conviene_v2, amarillo y negro, 7 s) | 6af862abe5a113497a860acb | Cálculo propio ($10.000, costo $6.000) | Borrador (reemplaza al carrusel del mail difícil) |
+| 2026-11-18 13:08 | Carrito abandonado: envío a la vista, más formas de pago, compra sin cuenta, menos pasos | Infografía animada, video 6 s (05_carrito_abandonado_v2, recorrido del carrito violeta y naranja, 8 s) | 6afc5b0bddb326928b5df81c | Buenas prácticas generales de checkout (sin porcentajes) | Borrador |
+
+## Banco de 16 (armado el 17/11, cargado como borradores el 19/11 · 4 por semana, martes a viernes 9:00)
+
+| Fecha sugerida | Pieza | Tema | Id Buffer | Estado |
+|---|---|---|---|---|
+| 2026-11-24 09:00 | banco/05 | 5 pedidos a la IA para tu tienda | 6afefa3dfd08883b646ab8d0 | Borrador |
+| 2026-11-25 09:00 | banco/03 | Vendiste a $20.000: cuánto te queda (cascada de costos) | 6afefa3dfd08883b646ab93b | Borrador |
+| 2026-11-26 09:00 | banco/09 | Punto de pedido de stock (5 × 10 + 20 = 70) | 6afefa3eabf4ba608b74e9e1 | Borrador |
+| 2026-11-27 09:00 | banco/14 | Reseñas: cómo conseguir más | 6afefa3e03dff68ab45b599a | Borrador |
+| 2026-12-01 09:00 | banco/01 | Markup vs margen (50 % sobre el costo = 33 % del precio) | 6afefa57b3b455c2f56f06c5 | Borrador |
+| 2026-12-02 09:00 | banco/10 | 4 respuestas rápidas en WhatsApp Business | 6afefa58fd08883b646ac235 | Borrador |
+| 2026-12-03 09:00 | banco/07 | Fotos de producto: 4 reglas | 6afefa59443a2a9f2fc1aea3 | Borrador |
+| 2026-12-04 09:00 | banco/16 | ROAS: ¿ganaste? (ROAS mínimo = 1 ÷ margen) | 6afefa59443a2a9f2fc1afff | Borrador |
+| 2026-12-08 09:00 | banco/12 | 4 errores al usar IA en tu negocio | 6afefa7dabf4ba608b7505bc | Borrador |
+| 2026-12-09 09:00 | banco/13 | Precio desde el margen (costo ÷ (1 − margen)) | 6afefa7db3b455c2f56f1a62 | Borrador |
+| 2026-12-10 09:00 | banco/08 | Envío gratis desde un monto | 6afefa7e03dff68ab45b7758 | Borrador |
+| 2026-12-11 09:00 | banco/11 | 3 mails automáticos | 6afefa7f03dff68ab45b777e | Borrador |
+| 2026-12-15 09:00 | banco/02 | Punto de equilibrio (150 ventas) | 6afefa7fb3b455c2f56f1b04 | Borrador |
+| 2026-12-16 09:00 | banco/15 | Descripción antes y después de la IA | 6afefa80abf4ba608b7506b1 | Borrador |
+| 2026-12-17 09:00 | banco/04 | Un cliente que vuelve vale más | 6afefa80b3b455c2f56f1b69 | Borrador |
+| 2026-12-18 09:00 | banco/06 | Subí tu planilla de ventas y preguntale | 6afefa81fd08883b646ad3f3 | Borrador |
 
 ## Casos reales de IA en Pana ya contados
 

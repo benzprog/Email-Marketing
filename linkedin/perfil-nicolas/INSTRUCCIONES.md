@@ -18,6 +18,8 @@ criterio, se actualiza acá. Es un trabajo aparte de la página de Pana (`linked
 
 ## 2. Calendario
 
+- **Desde el 24/11/2026: 4 posts por semana, martes a viernes a las 9:00** (acordado con Nicolás el 18/11; nunca dos el mismo día). Hasta el 18/12 están cubiertos con el banco de 16 (`banco/`, ver la tabla en `temas.md`): la tarea de los sábados no arma posts nuevos para esas semanas, solo revisa que los borradores sigan y suma piezas nuevas al banco para enero.
+
 - **3 posts por semana: martes, miércoles y jueves a las 9:00** (`-03:00`) de la semana siguiente.
   Separados de la página de Pana (11:00) para que no compitan entre sí.
 
