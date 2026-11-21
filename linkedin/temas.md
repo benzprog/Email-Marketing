@@ -39,6 +39,11 @@ Sirve para no repetir temas. Cada semana se agrega al final.
 | 2026-11-18 | 11:00 | Video "Producto nuevo": 5 datos de la ficha que hay que pedir de un producto nuevo | Video | 6af8575f918fe79d2e7b5893 |
 | 2026-11-19 | 11:00 | Video "Estaca solar" (producto Tenaruz: estaca solar sin instalación y estaca de aluminio GU10). Reemplazó el 16/11 a la imagen del mini spot, a pedido de Nicolás (video primero) | Video | 6af85760e5a113497a81b57e |
 | 2026-11-20 | 11:00 | Video "¿Y todo esto?": qué conviene saber antes de la primera compra (marcas, bulto cerrado, fichas) | Video | 6af85766918fe79d2e7b5a52 |
+| 2026-11-23 | 11:00 | Video "TENARUZ- versión corta": la línea Tenaruz completa por familias (producto) | Video | 6b0191ccd864a01105442ca1 |
+| 2026-11-24 | 11:00 | Video "Descargas": cerrar el pedido de iluminación antes de fin de año, 4 cosas para que salga completo | Video | 6b0191d78bd84d5966e9fe05 |
+| 2026-11-25 | 11:00 | Video "Casa de iluminación": 3 datos de la ficha para el mostrador (dimerizable, tensión, casquillo) | Video | 6b0191ed846b0ee907097736 |
+| 2026-11-26 | 11:00 | Video "Pared oficina": EN 12464-1:2021 pide luz mínima en paredes y techo, no solo en el escritorio | Video | 6b0191f3d5eabfb8cc2e2bdf |
+| 2026-11-27 | 11:00 | Video "Depósito": pregunta abierta, ¿stock, precio o tiempo de entrega? | Video | 6b0191f88bd84d5966ea0695 |
 
 ## Rotación de productos Tenaruz
 
@@ -46,7 +51,7 @@ Familias de la lista mayorista de noviembre de 2026. Marcar la fecha cuando salg
 
 | Familia | Productos | Foto / ficha en Drive | Publicado |
 |---|---|---|---|
-| Dicroicas GU10 7 W | 3000/4000/6000 K y 3000 K dimerizable | Sí / Sí | Carrusel de márgenes (pendiente de aprobación) |
+| Dicroicas GU10 7 W | 3000/4000/6000 K y 3000 K dimerizable | Sí / Sí | Carrusel de márgenes (pendiente de aprobación); mencionada en el video del 2026-11-25 (no dimerizable vs. versión dimerizable) |
 | Minidicroicas MR11 GU10 3 W | 3000 K y 2700 K dimerizable (foto nueva: 3000/4000/6000 K DIM, confirmar modelos) | Sí, 3 temperaturas / Sí | |
 | Dicroicas MR16 12 V | 5 W (3000/4000/6000 K) y 7 W | Sí / Sí | Carrusel de márgenes (pendiente de aprobación) |
 | AR70 y AR111 GU10 | AR70 7 W dimerizable, AR111 15 W (y dimerizable) | Sí / Sí | |
@@ -63,13 +68,14 @@ Familias de la lista mayorista de noviembre de 2026. Marcar la fecha cuando salg
 | Reflectores 12 V | 10, 30 y 50 W | Sí / Sí | |
 | Spots cabezal y plafones 12 V | Cabezal 2,5–3 W, plafón Ø60, paneles Ø70 y Ø83, minispot 1 W | Sí / Sí | |
 | Fuentes switching slim 12 V y 24 V | De 1 A a 16,6 A | Sí / Sí | Ejemplo de fuente en el post del 29/10 |
+| Línea completa (resumen por familias) | Todas las anteriores | — | 2026-11-23 (video "TENARUZ- versión corta"; sin datos técnicos) |
 
 ## Videos (carpetas de Drive "videos de Pana" y "Producción septiembre")
 
 Regla desde el 16/11/2026: video todos los días que se pueda, hasta usar todos los de las dos carpetas.
 Ninguno tiene descripción todavía; la tarea no puede verlos. Cada video se usa una sola vez.
-Después de la semana del 16/11 quedan 8 sin usar (sin contar la versión larga de TENARUZ): alcanzan para
-la semana del 23/11 (5) y 3 días de la del 30/11.
+Después de la semana del 23/11 quedan 3 sin usar ("Pin pong" y los dos "Plantilla"): no alcanzan para la
+semana del 30/11 completa. Revisado el 21/11: no hay videos nuevos ni documento con descripción en ninguna carpeta.
 Resultado del primero (al 14/11): 40 impresiones, 3 reacciones, 1 compartido, 20 % de interacción, 11 reproducciones (4 personas). Fue el mejor post de la semana del 9/11.
 
 | Archivo | Id de Drive | Peso | Publicado |
@@ -78,9 +84,9 @@ Resultado del primero (al 14/11): 40 impresiones, 3 reacciones, 1 compartido, 20
 | Depósito2 | 1IFmxo0FrFHRVifGnPtqGEdx27JaGtlPf | 34 MB (23 s) | 2026-11-16 11:00 (6af85747c5b364e062eee140) |
 | ¿Y todo esto? | 1pkjvvUUcomxq_t618-OCXOcfjmNGq2pP | 34 MB (27 s) | 2026-11-20 11:00 (6af85766918fe79d2e7b5a52) |
 | Producto nuevo | 1yMGUfEwItT_RqJEyPUIW0wradeeovzmY | 27 MB (19 s) | 2026-11-18 11:00 (6af8575f918fe79d2e7b5893) |
-| Casa de iluminación | 1y7avuXdjLmr5bO9jss0TLPjBApnj89th | 23 MB | |
+| Casa de iluminación | 1y7avuXdjLmr5bO9jss0TLPjBApnj89th | 23 MB (17 s) | 2026-11-25 11:00 (6b0191ed846b0ee907097736) |
 | Pin pong | 120mDSUR_P2FAQQFIz-vnSgpF682rwuQ_ | 35 MB | |
-| Descargas | 1ljy1YtAZI_9cU1DO6DTjzvqm4J3znjEX | 28 MB | |
+| Descargas | 1ljy1YtAZI_9cU1DO6DTjzvqm4J3znjEX | 28 MB (18 s) | 2026-11-24 11:00 (6b0191d78bd84d5966e9fe05) |
 | Plantilla | 1dlQxYJQp7F5YEcbW_Q62UTxQEzgRzXFn | 23 MB | |
 
 Carpeta "Producción septiembre" (`1VcWZn0jAh3qzQ6K5EW7VtcOIIy3phP-L`, subidos el 8 y 9/10/2026, compartida el 16/11/2026):
@@ -88,11 +94,11 @@ Carpeta "Producción septiembre" (`1VcWZn0jAh3qzQ6K5EW7VtcOIIy3phP-L`, subidos e
 | Archivo | Id de Drive | Peso | Publicado |
 |---|---|---|---|
 | Estaca solar | 1YfHTBsvbN8gsIdgzJX7uaNwp8VwNI58X | 33 MB (26 s) | 2026-11-19 11:00 (6af85760e5a113497a81b57e) |
-| Depósito | 1c7f3MArEL3MADhv6EJ8tKvmid3z3f9Px | 25 MB | |
-| TENARUZ- versión corta | 1EVXQy-VcSz3pA9OoGayhoorNrcOXzsYv | 24 MB | |
+| Depósito | 1c7f3MArEL3MADhv6EJ8tKvmid3z3f9Px | 25 MB (17 s) | 2026-11-27 11:00 (6b0191f88bd84d5966ea0695) |
+| TENARUZ- versión corta | 1EVXQy-VcSz3pA9OoGayhoorNrcOXzsYv | 24 MB (17 s) | 2026-11-23 11:00 (6b0191ccd864a01105442ca1) |
 | TENARUZ- versión larga | 1PPxtdsCJjv0O0FxbS_E4DtPDvYyObcc7 | 101 MB | **No usar**: es el mismo video que la corta (Nicolás, 16/11) |
 | Plantilla | 17ufvaQCqFTIY2-WM8u0saYtOXL_HVxHb | 20 MB | (otro archivo que el "Plantilla" de la otra carpeta: distinto peso) |
-| Pared oficina | 1PMhcLsIIitWgGUBMEdnzvtAckVNFFEHJ | 23 MB | |
+| Pared oficina | 1PMhcLsIIitWgGUBMEdnzvtAckVNFFEHJ | 23 MB (22 s) | 2026-11-26 11:00 (6b0191f3d5eabfb8cc2e2bdf) |
 
 ## Fotos de producto por SKU (carpeta 1F5i03qSXerH_Tu96_MIc8ITXot9XBLV2, revisadas el 10/11/2026)
 
@@ -167,6 +173,14 @@ Datos al 7/11/2026 para los posts hasta el 6/11, actualizados al 14/11/2026 para
 | 2026-11-11 | Producto Tenaruz: apliques de exterior GU10 | Carrusel PDF | 22 | 2 | 0 | 0 | 0 |
 | 2026-11-12 | Obra de un cliente: hall, 4 luces | Foto | 38 | 4 | 0 | 0 | 0 |
 | 2026-11-13 | Código IK | Infografía | 17 | 7 | 0 | 0 | 0 |
+| 2026-11-16 | Video "Depósito2" (salió el 17/11 13:54; además figura una copia "via network" del 16/11 14:02, id 6afc3ec14c9681b8f426ae1b, con 0 impresiones) | Video | 3 | 1 | 0 | 0 | 0 |
+| 2026-11-17 | Obra de Pana: Teatro San Martín | Carrusel PDF | 9 | 1 | 0 | 0 | 0 |
+| 2026-11-18 | Video "Producto nuevo" (4 reproducciones, 3 personas) | Video | 8 | 3 | 0 | 0 | 0 |
+| 2026-11-19 | Video "Estaca solar" (1 reproducción) | Video | 2 | 1 | 0 | 0 | 0 |
+| 2026-11-20 | Video "¿Y todo esto?" (1 reproducción) | Video | 2 | 1 | 0 | 0 | 0 |
+
+Actualización al 21/11 de la semana del 9/11: video del depósito 46 impresiones, 6 personas, 3 reacciones, 1 compartido,
+14 reproducciones; foto del hall 43; carrusel de corriente de arranque 29 (1 reacción); apliques 25; código IK 23; UGR 21.
 
 Lectura al 7/11: la semana del 2/11 tuvo un solo día bueno, el lunes 2/11 (66 y 106 impresiones, 54 y 80
 personas); del martes al viernes casi todos los posts quedaron en 1 persona de alcance. Los dos posts
@@ -181,6 +195,12 @@ Lectura al 14/11: en la semana del 9/11 ganaron el video del depósito (40 impre
 infografía IK en 17. El post de producto (apliques, 22) rindió parecido al promedio, así que la semana del 16/11
 lleva 2 de producto (video "Producto nuevo" y mini spot). Se mantiene la mezcla de 3 videos. Alcance sigue
 muy bajo (2 a 7 personas por post): sin que el equipo comparta desde sus perfiles, la página casi no llega a nadie.
+
+Lectura al 21/11: la semana del 16/11 fue la más baja desde octubre (2 a 9 impresiones por post, 1 a 3 personas).
+El mejor fue el carrusel del Teatro San Martín (9) y, entre los videos, "Producto nuevo" (8 impresiones, 3 personas,
+4 reproducciones, la única interacción de la semana). Los videos no quedaron abajo dos semanas seguidas (el 9/11 el
+video fue el mejor), así que se mantiene la mezcla. Toda la página cayó, no un formato: sin que el equipo comparta
+desde sus perfiles, el alcance es mínimo. Los números de los últimos días todavía pueden subir.
 
 ### Qué dicen los estudios (consultado el 5/11/2026)
 
@@ -235,6 +255,17 @@ muy bajo (2 a 7 personas por post): sin que el equipo comparta desde sus perfile
 - Los textos de los videos se escribieron solo con el nombre del archivo y datos confirmados (no hay
   descripción de los videos en la carpeta).
 
+## Notas de la semana del 23/11
+
+- Semana de 5 videos (regla de INSTRUCCIONES del 16/11: video todos los días mientras queden). El prompt de la tarea
+  programada todavía dice "3 videos (lunes, miércoles y viernes)": se siguió la regla más nueva de Nicolás.
+- Producto Tenaruz: lunes (línea completa) y miércoles (dicroicas GU10, MR16 y G4 en el mostrador).
+- Pared oficina: verificado en CIBSE Journal (enero 2022) y Sonel que la EN 12464-1:2021 pide iluminancia en paredes y
+  techo y que, si se sube la del plano de trabajo, se suben paredes y techo los mismos escalones. No se publicaron
+  valores en lux porque no se pudo confirmar en una fuente los de oficinas generales.
+- Textos de video escritos solo con el nombre del archivo y datos confirmados.
+- Cuando no queden videos: la foto "AER Julian Alvarez" y la pieza del mini spot COB 3 W siguen listas.
+
 ## Prospectos (rotación de zonas)
 
 | Fecha | Zona | Planilla en Drive |
@@ -242,7 +273,9 @@ muy bajo (2 a 7 personas por post): sin que el equipo comparta desde sus perfile
 | 2026-11-07 | CABA (20 empresas) | Prospectos LinkedIn 2026-11-07 |
 | 2026-11-14 | GBA norte (20 empresas: Vicente López, San Isidro, San Fernando, Tigre, Escobar, Pilar, San Martín, Malvinas Argentinas, José C. Paz, San Miguel) | Prospectos LinkedIn 2026-11-14 |
 
-Próxima zona: GBA oeste.
+| 2026-11-21 | GBA oeste (20 empresas: La Matanza, Morón, Ituzaingó, Hurlingham, Tres de Febrero, Merlo, Moreno, General Rodríguez) | Prospectos LinkedIn 2026-11-21 |
+
+Próxima zona: GBA sur.
 
 ## Banco de ideas (no publicadas todavía)
 
