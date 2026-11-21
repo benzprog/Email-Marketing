@@ -16,7 +16,8 @@
 |---|---|---|---|---|
 | 2026-11-24 09:00 | banco/05 | 5 pedidos a la IA para tu tienda | 6afefa3dfd08883b646ab8d0 | Borrador |
 | 2026-11-25 09:00 | banco/03 | Vendiste a $20.000: cuánto te queda (cascada de costos) | 6afefa3dfd08883b646ab93b | Borrador |
-| 2026-11-26 09:00 | banco/09 | Punto de pedido de stock (5 × 10 + 20 = 70) | 6afefa3eabf4ba608b74e9e1 | Borrador |
+| 2026-11-26 09:00 | banco/09 | Punto de pedido de stock (5 × 10 + 20 = 70) | 6afefa3eabf4ba608b74e9e1 | Publicado el 19/11 (Buffer: enviado 19/11 13:46 UTC) |
+| 2026-11-26 09:00 | semana-2026-11-23/06 | Meses de stock: stock ÷ ventas por mes (30 ÷ 15 = 2; 40 ÷ 2 = 20; 40 × $25.000 = $1.000.000 parados). Ranking de barras, bordó y lima, 8 s | 6b019c33846b0ee9070e2545 | Borrador (cubre el hueco del 09; fuente: cálculo propio de ejemplo) |
 | 2026-11-27 09:00 | banco/14 | Reseñas: cómo conseguir más | 6afefa3e03dff68ab45b599a | Borrador |
 | 2026-12-01 09:00 | banco/01 | Markup vs margen (50 % sobre el costo = 33 % del precio) | 6afefa57b3b455c2f56f06c5 | Borrador |
 | 2026-12-02 09:00 | banco/10 | 4 respuestas rápidas en WhatsApp Business | 6afefa58fd08883b646ac235 | Borrador |
@@ -38,6 +39,8 @@
 - (El caso de la página de LinkedIn de Pana se armó para el 18/11 pero no salió: Nicolás prefirió un ejemplo general. Sigue disponible.) Sin contar: relevamiento de precios, presentación comercial y plan de expansión, flyers y estados de WhatsApp, lista de prospectos.
 
 ## Notas
+
+- 2026-11-21 (tarea del sábado): el pedido de la tarea programada (3 posts martes a jueves: novedad de IA, caso de Pana, valor práctico) choca con este registro y con INSTRUCCIONES (desde el 24/11, 4 por semana con el banco, nunca dos el mismo día). Martes 24, miércoles 25 y viernes 27 ya tienen borrador del banco; el jueves 26 quedó libre porque el banco/09 se publicó el 19/11. Se armó solo la pieza del jueves (06, meses de stock). No se cargó novedad de IA ni caso de Pana para no duplicar días: queda a decisión de Nicolás si quiere cambiar alguno del banco por eso.
 
 - 2026-11-17: Nicolás eligió el formato **infografía animada** (ejemplos que mandó: "4 usos de Monte Carlo en Data Science" y "9 conceptos de probabilidad", GIF con tarjetas en grilla que se mueven) y el nicho **ecommerce + IA aplicada a negocios**. Rechazó la versión "reclamar un pago con IA" ("malísimo") y aprobó "4 datos si vendés online" ("mucho mejor"). Sin usar todavía: los carruseles 02 (recordatorio automático de pagos) y 03 (mail difícil).
 
